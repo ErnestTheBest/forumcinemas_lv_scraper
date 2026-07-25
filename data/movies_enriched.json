@@ -18,57 +18,12 @@
     "imdbRating": null
   },
   {
-    "title": "Moana",
-    "releaseYear": 2026,
-    "genres": "Adventure, Comedy, Action, Family",
-    "imdbId": "tt27419466",
-    "imdbUrl": "https://www.imdb.com/title/tt27419466/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304819/title/moana/",
-    "imdbRating": null
-  },
-  {
-    "title": "Toy Story 5",
-    "releaseYear": 2026,
-    "genres": "Adventure, Comedy, Animation, Family",
-    "imdbId": "tt29355505",
-    "imdbUrl": "https://www.imdb.com/title/tt29355505/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/",
-    "imdbRating": null
-  },
-  {
     "title": "The Invite",
     "releaseYear": 2026,
     "genres": "Comedy, Drama",
     "imdbId": "tt14173636",
     "imdbUrl": "https://www.imdb.com/title/tt14173636/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/",
-    "imdbRating": null
-  },
-  {
-    "title": "The Eyes of Others",
-    "releaseYear": 2026,
-    "genres": "Thriller, Drama, Romance",
-    "imdbId": "tt34625288",
-    "imdbUrl": "https://www.imdb.com/title/tt34625288/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304865/title/the_eyes_of_others/",
-    "imdbRating": null
-  },
-  {
-    "title": "Virginia Woolf's Night & Day",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama, Romance",
-    "imdbId": "tt27802226",
-    "imdbUrl": "https://www.imdb.com/title/tt27802226/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/",
-    "imdbRating": null
-  },
-  {
-    "title": "Supergirl",
-    "releaseYear": 2026,
-    "genres": "Adventure, Action, Sci Fi",
-    "imdbId": "tt8814476",
-    "imdbUrl": "https://www.imdb.com/title/tt8814476/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304676/title/supergirl/",
     "imdbRating": null
   },
   {
@@ -81,12 +36,21 @@
     "imdbRating": null
   },
   {
-    "title": "Backrooms: Everything Must Go",
+    "title": "Toy Story 5",
     "releaseYear": 2026,
-    "genres": "Horror, Sci Fi",
-    "imdbId": "tt26657236",
-    "imdbUrl": "https://www.imdb.com/title/tt26657236/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/",
+    "genres": "Adventure, Comedy, Animation, Family",
+    "imdbId": "tt29355505",
+    "imdbUrl": "https://www.imdb.com/title/tt29355505/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/",
+    "imdbRating": null
+  },
+  {
+    "title": "Moana",
+    "releaseYear": 2026,
+    "genres": "Adventure, Comedy, Action, Family",
+    "imdbId": "tt27419466",
+    "imdbUrl": "https://www.imdb.com/title/tt27419466/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304819/title/moana/",
     "imdbRating": null
   },
   {
@@ -99,12 +63,21 @@
     "imdbRating": null
   },
   {
-    "title": "Evil Dead Burn",
+    "title": "Backrooms: Everything Must Go",
     "releaseYear": 2026,
-    "genres": "Thriller, Horror",
-    "imdbId": "tt31170389",
-    "imdbUrl": "https://www.imdb.com/title/tt31170389/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/",
+    "genres": "Horror, Sci Fi",
+    "imdbId": "tt26657236",
+    "imdbUrl": "https://www.imdb.com/title/tt26657236/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/",
+    "imdbRating": null
+  },
+  {
+    "title": "Virginia Woolf's Night & Day",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama, Romance",
+    "imdbId": "tt27802226",
+    "imdbUrl": "https://www.imdb.com/title/tt27802226/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/",
     "imdbRating": null
   },
   {
@@ -117,30 +90,12 @@
     "imdbRating": null
   },
   {
-    "title": "Legally Blonde (2001)",
+    "title": "Evil Dead Burn",
     "releaseYear": 2026,
-    "genres": "Comedy",
-    "imdbId": "tt0250494",
-    "imdbUrl": "https://www.imdb.com/title/tt0250494/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304470/title/legally_blonde_2001/",
-    "imdbRating": null
-  },
-  {
-    "title": "Project Hail Mary",
-    "releaseYear": 2026,
-    "genres": "Adventure, Mystery, Sci Fi",
-    "imdbId": "tt12042730",
-    "imdbUrl": "https://www.imdb.com/title/tt12042730/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/",
-    "imdbRating": null
-  },
-  {
-    "title": "Disclosure Day",
-    "releaseYear": 2026,
-    "genres": "Thriller, Drama, Sci Fi",
-    "imdbId": "tt15047880",
-    "imdbUrl": "https://www.imdb.com/title/tt15047880/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/",
+    "genres": "Thriller, Horror",
+    "imdbId": "tt31170389",
+    "imdbUrl": "https://www.imdb.com/title/tt31170389/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/",
     "imdbRating": null
   },
   {
@@ -159,6 +114,24 @@
     "imdbId": "tt0083658",
     "imdbUrl": "https://www.imdb.com/title/tt0083658/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/301878/title/blade_runner_the_final_cut_1982/",
+    "imdbRating": null
+  },
+  {
+    "title": "Disclosure Day",
+    "releaseYear": 2026,
+    "genres": "Thriller, Drama, Sci Fi",
+    "imdbId": "tt15047880",
+    "imdbUrl": "https://www.imdb.com/title/tt15047880/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/",
+    "imdbRating": null
+  },
+  {
+    "title": "Project Hail Mary",
+    "releaseYear": 2026,
+    "genres": "Adventure, Mystery, Sci Fi",
+    "imdbId": "tt12042730",
+    "imdbUrl": "https://www.imdb.com/title/tt12042730/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/",
     "imdbRating": null
   },
   {
@@ -216,6 +189,24 @@
     "imdbRating": null
   },
   {
+    "title": "The Eyes of Others",
+    "releaseYear": 2026,
+    "genres": "Thriller, Drama, Romance",
+    "imdbId": "tt34625288",
+    "imdbUrl": "https://www.imdb.com/title/tt34625288/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304865/title/the_eyes_of_others/",
+    "imdbRating": null
+  },
+  {
+    "title": "Supergirl",
+    "releaseYear": 2026,
+    "genres": "Adventure, Action, Sci Fi",
+    "imdbId": "tt8814476",
+    "imdbUrl": "https://www.imdb.com/title/tt8814476/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304676/title/supergirl/",
+    "imdbRating": null
+  },
+  {
     "title": "In the Hand of Dante",
     "releaseYear": 2026,
     "genres": "Thriller, Drama, Crime, Mystery",
@@ -240,6 +231,15 @@
     "imdbId": "tt22084616",
     "imdbUrl": "https://www.imdb.com/title/tt22084616/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/",
+    "imdbRating": null
+  },
+  {
+    "title": "Legally Blonde (2001)",
+    "releaseYear": 2026,
+    "genres": "Comedy",
+    "imdbId": "tt0250494",
+    "imdbUrl": "https://www.imdb.com/title/tt0250494/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304470/title/legally_blonde_2001/",
     "imdbRating": null
   },
   {
@@ -393,6 +393,15 @@
     "imdbId": "tt43657647",
     "imdbUrl": "https://www.imdb.com/title/tt43657647/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304875/title/katseye_wild_hearts/",
+    "imdbRating": null
+  },
+  {
+    "title": "The End of Oak Street",
+    "releaseYear": 2026,
+    "genres": "Thriller, Adventure, Mystery, Sci Fi",
+    "imdbId": "tt27165187",
+    "imdbUrl": "https://www.imdb.com/title/tt27165187/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304869/title/the_end_of_oak_street/",
     "imdbRating": null
   },
   {
