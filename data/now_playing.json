@@ -1,63 +1,23 @@
 [
   {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
-  },
-  {
-    "title": "Minions & Monsters",
-    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
+    "title": "Moana",
+    "url": "https://www.forumcinemas.lv/eng/event/304819/title/moana/"
   },
   {
     "title": "The Invite",
     "url": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/"
   },
   {
-    "title": "Michael",
-    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
-  },
-  {
     "title": "Toy Story 5",
     "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
   },
   {
-    "title": "Moana",
-    "url": "https://www.forumcinemas.lv/eng/event/304819/title/moana/"
+    "title": "Minions & Monsters",
+    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
   },
   {
-    "title": "Obsession",
-    "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
-  },
-  {
-    "title": "Backrooms: Everything Must Go",
-    "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
-  },
-  {
-    "title": "Virginia Woolf's Night & Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/"
-  },
-  {
-    "title": "The Devil Wears Prada 2",
-    "url": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/"
-  },
-  {
-    "title": "Evil Dead Burn",
-    "url": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/"
-  },
-  {
-    "title": "Scary Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304741/title/scary_movie/"
-  },
-  {
-    "title": "Blade Runner: The Final Cut (1982)",
-    "url": "https://www.forumcinemas.lv/eng/event/301878/title/blade_runner_the_final_cut_1982/"
-  },
-  {
-    "title": "Disclosure Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/"
-  },
-  {
-    "title": "Project Hail Mary",
-    "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
   },
   {
     "title": "The Super Mario Galaxy Movie",
@@ -72,12 +32,40 @@
     "url": "https://www.forumcinemas.lv/eng/event/304776/title/the_magic_faraway_tree/"
   },
   {
+    "title": "Obsession",
+    "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
+  },
+  {
+    "title": "The Devil Wears Prada 2",
+    "url": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/"
+  },
+  {
+    "title": "Virginia Woolf's Night & Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/"
+  },
+  {
+    "title": "Michael",
+    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
+  },
+  {
+    "title": "Disclosure Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/"
+  },
+  {
+    "title": "Backrooms: Everything Must Go",
+    "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
+  },
+  {
     "title": "Amadeus: Director’s Cut (1984)",
     "url": "https://www.forumcinemas.lv/eng/event/304825/title/amadeus_directors_cut_1984/"
   },
   {
     "title": "Clueless (1995)",
     "url": "https://www.forumcinemas.lv/eng/event/304739/title/clueless_1995/"
+  },
+  {
+    "title": "Evil Dead Burn",
+    "url": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/"
   },
   {
     "title": "Hungry",
@@ -92,6 +80,10 @@
     "url": "https://www.forumcinemas.lv/eng/event/304676/title/supergirl/"
   },
   {
+    "title": "Scary Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304741/title/scary_movie/"
+  },
+  {
     "title": "In the Hand of Dante",
     "url": "https://www.forumcinemas.lv/eng/event/304823/title/in_the_hand_of_dante/"
   },
@@ -104,12 +96,20 @@
     "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
   },
   {
+    "title": "Blade Runner: The Final Cut (1982)",
+    "url": "https://www.forumcinemas.lv/eng/event/301878/title/blade_runner_the_final_cut_1982/"
+  },
+  {
     "title": "Legally Blonde (2001)",
     "url": "https://www.forumcinemas.lv/eng/event/304470/title/legally_blonde_2001/"
   },
   {
     "title": "Colony",
     "url": "https://www.forumcinemas.lv/eng/event/304864/title/colony/"
+  },
+  {
+    "title": "Project Hail Mary",
+    "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
   },
   {
     "title": "GoodFellas (1990)",
