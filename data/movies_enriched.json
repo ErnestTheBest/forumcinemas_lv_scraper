@@ -1,56 +1,11 @@
 [
   {
-    "title": "The Eyes of Others",
+    "title": "Moana",
     "releaseYear": 2026,
-    "genres": "Thriller, Drama, Romance",
-    "imdbId": "tt34625288",
-    "imdbUrl": "https://www.imdb.com/title/tt34625288/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304865/title/the_eyes_of_others/",
-    "imdbRating": null
-  },
-  {
-    "title": "Virginia Woolf's Night & Day",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama, Romance",
-    "imdbId": "tt27802226",
-    "imdbUrl": "https://www.imdb.com/title/tt27802226/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/",
-    "imdbRating": null
-  },
-  {
-    "title": "Toy Story 5",
-    "releaseYear": 2026,
-    "genres": "Adventure, Comedy, Animation, Family",
-    "imdbId": "tt29355505",
-    "imdbUrl": "https://www.imdb.com/title/tt29355505/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/",
-    "imdbRating": null
-  },
-  {
-    "title": "Evil Dead Burn",
-    "releaseYear": 2026,
-    "genres": "Thriller, Horror",
-    "imdbId": "tt31170389",
-    "imdbUrl": "https://www.imdb.com/title/tt31170389/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/",
-    "imdbRating": null
-  },
-  {
-    "title": "Michael",
-    "releaseYear": 2026,
-    "genres": "Drama, Biography, Music",
-    "imdbId": "tt11378946",
-    "imdbUrl": "https://www.imdb.com/title/tt11378946/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303990/title/michael/",
-    "imdbRating": null
-  },
-  {
-    "title": "The Odyssey",
-    "releaseYear": 2026,
-    "genres": "Adventure, Drama, Action, Historical",
-    "imdbId": "tt33764258",
-    "imdbUrl": "https://www.imdb.com/title/tt33764258/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/",
+    "genres": "Adventure, Comedy, Action, Family",
+    "imdbId": "tt27419466",
+    "imdbUrl": "https://www.imdb.com/title/tt27419466/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304819/title/moana/",
     "imdbRating": null
   },
   {
@@ -63,48 +18,21 @@
     "imdbRating": null
   },
   {
-    "title": "Moana",
+    "title": "Toy Story 5",
     "releaseYear": 2026,
-    "genres": "Adventure, Comedy, Action, Family",
-    "imdbId": "tt27419466",
-    "imdbUrl": "https://www.imdb.com/title/tt27419466/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304819/title/moana/",
+    "genres": "Adventure, Comedy, Animation, Family",
+    "imdbId": "tt29355505",
+    "imdbUrl": "https://www.imdb.com/title/tt29355505/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/",
     "imdbRating": null
   },
   {
-    "title": "Supergirl",
+    "title": "The Odyssey",
     "releaseYear": 2026,
-    "genres": "Adventure, Action, Sci Fi",
-    "imdbId": "tt8814476",
-    "imdbUrl": "https://www.imdb.com/title/tt8814476/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304676/title/supergirl/",
-    "imdbRating": null
-  },
-  {
-    "title": "The Devil Wears Prada 2",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama",
-    "imdbId": "tt33612209",
-    "imdbUrl": "https://www.imdb.com/title/tt33612209/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/",
-    "imdbRating": null
-  },
-  {
-    "title": "Obsession",
-    "releaseYear": 2026,
-    "genres": "Thriller, Horror",
-    "imdbId": "tt37287335",
-    "imdbUrl": "https://www.imdb.com/title/tt37287335/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/",
-    "imdbRating": null
-  },
-  {
-    "title": "Scary Movie",
-    "releaseYear": 2026,
-    "genres": "Comedy, Horror",
-    "imdbId": "tt32093575",
-    "imdbUrl": "https://www.imdb.com/title/tt32093575/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304741/title/scary_movie/",
+    "genres": "Adventure, Drama, Action, Historical",
+    "imdbId": "tt33764258",
+    "imdbUrl": "https://www.imdb.com/title/tt33764258/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/",
     "imdbRating": null
   },
   {
@@ -126,21 +54,57 @@
     "imdbRating": null
   },
   {
-    "title": "In the Hand of Dante",
+    "title": "The Devil Wears Prada 2",
     "releaseYear": 2026,
-    "genres": "Thriller, Drama, Crime, Mystery",
-    "imdbId": "tt1333644",
-    "imdbUrl": "https://www.imdb.com/title/tt1333644/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304823/title/in_the_hand_of_dante/",
+    "genres": "Comedy, Drama",
+    "imdbId": "tt33612209",
+    "imdbUrl": "https://www.imdb.com/title/tt33612209/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/",
     "imdbRating": null
   },
   {
-    "title": "Disclosure Day",
+    "title": "Obsession",
     "releaseYear": 2026,
-    "genres": "Thriller, Drama, Sci Fi",
-    "imdbId": "tt15047880",
-    "imdbUrl": "https://www.imdb.com/title/tt15047880/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/",
+    "genres": "Thriller, Horror",
+    "imdbId": "tt37287335",
+    "imdbUrl": "https://www.imdb.com/title/tt37287335/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/",
+    "imdbRating": null
+  },
+  {
+    "title": "Michael",
+    "releaseYear": 2026,
+    "genres": "Drama, Biography, Music",
+    "imdbId": "tt11378946",
+    "imdbUrl": "https://www.imdb.com/title/tt11378946/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303990/title/michael/",
+    "imdbRating": null
+  },
+  {
+    "title": "Virginia Woolf's Night & Day",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama, Romance",
+    "imdbId": "tt27802226",
+    "imdbUrl": "https://www.imdb.com/title/tt27802226/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/",
+    "imdbRating": null
+  },
+  {
+    "title": "Scary Movie",
+    "releaseYear": 2026,
+    "genres": "Comedy, Horror",
+    "imdbId": "tt32093575",
+    "imdbUrl": "https://www.imdb.com/title/tt32093575/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304741/title/scary_movie/",
+    "imdbRating": null
+  },
+  {
+    "title": "Evil Dead Burn",
+    "releaseYear": 2026,
+    "genres": "Thriller, Horror",
+    "imdbId": "tt31170389",
+    "imdbUrl": "https://www.imdb.com/title/tt31170389/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/",
     "imdbRating": null
   },
   {
@@ -168,6 +132,15 @@
     "imdbId": "tt0083658",
     "imdbUrl": "https://www.imdb.com/title/tt0083658/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/301878/title/blade_runner_the_final_cut_1982/",
+    "imdbRating": null
+  },
+  {
+    "title": "Disclosure Day",
+    "releaseYear": 2026,
+    "genres": "Thriller, Drama, Sci Fi",
+    "imdbId": "tt15047880",
+    "imdbUrl": "https://www.imdb.com/title/tt15047880/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/",
     "imdbRating": null
   },
   {
@@ -204,6 +177,33 @@
     "imdbId": "tt12042730",
     "imdbUrl": "https://www.imdb.com/title/tt12042730/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/",
+    "imdbRating": null
+  },
+  {
+    "title": "Supergirl",
+    "releaseYear": 2026,
+    "genres": "Adventure, Action, Sci Fi",
+    "imdbId": "tt8814476",
+    "imdbUrl": "https://www.imdb.com/title/tt8814476/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304676/title/supergirl/",
+    "imdbRating": null
+  },
+  {
+    "title": "The Last Whale Singer",
+    "releaseYear": 2026,
+    "genres": "Animation, Family",
+    "imdbId": "tt13518550",
+    "imdbUrl": "https://www.imdb.com/title/tt13518550/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/",
+    "imdbRating": null
+  },
+  {
+    "title": "Mi Amor",
+    "releaseYear": 2026,
+    "genres": "Thriller",
+    "imdbId": "tt35675616",
+    "imdbUrl": "https://www.imdb.com/title/tt35675616/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304874/title/mi_amor/",
     "imdbRating": null
   },
   {
