@@ -2,11 +2,15 @@ require('dotenv').config();
 const fs = require('fs').promises;
 const path = require('path');
 const { scrapeNowPlaying, scrapeMovieDetails, generateReport } = require('./scraper');
-const { fetchImdbDetails } = require('./imdbPlaywright');
+const { fetchImdbDetails } = require('./omdb');
 
 async function main() {
     try {
         console.log('🚀 Starting ForumCinemas Movie Reporter');
+
+        if (!process.env.OMDB_API_KEY) {
+            throw new Error('OMDB_API_KEY is not configured');
+        }
         
         // Step 1: Get list of movies currently playing
         console.log('📽️  Fetching now playing movies...');
@@ -28,12 +32,12 @@ async function main() {
                 const movieDetails = await scrapeMovieDetails(link.url, link.url);
                 
                 if (movieDetails.imdbId) {
-                    console.log(`  🎭 Fetching IMDb details for ${movieDetails.imdbId}...`);
+                    console.log(`  🎭 Fetching OMDb details for ${movieDetails.imdbId}...`);
                     const imdbData = await fetchImdbDetails(movieDetails.imdbId);
                     movieDetails.imdbRating = imdbData.rating ?? null;
                     if (imdbData.year) {
                         movieDetails.releaseYear = imdbData.year;
-                        console.log(`    📅 Updated release year to ${imdbData.year} from IMDb`);
+                        console.log(`    📅 Updated release year to ${imdbData.year} from OMDb`);
                     }
                     if (imdbData.genres && imdbData.genres.length) {
                         movieDetails.genres = imdbData.genres.join(', ');

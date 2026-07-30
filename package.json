@@ -10,8 +10,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "playwright": "^1.55.0"
+    "dotenv": "^16.3.1"
   },
   "keywords": ["movies", "cinema", "imdb", "scraping"],
   "author": "",

@@ -1,6 +1,6 @@
 # ForumCinemas Movie Reporter 🎬
 
-A Dockerized Node.js app that scrapes ForumCinemas for currently playing movies and generates a beautiful HTML report with IMDb rating, year, and genres fetched directly from IMDb using Playwright.
+A Dockerized Node.js app that scrapes ForumCinemas for currently playing movies and generates a beautiful HTML report with rating, year, and genres fetched from OMDb by IMDb ID.
 
 ## 📋 Table of Contents
 - [Features](#features)
@@ -17,7 +17,7 @@ A Dockerized Node.js app that scrapes ForumCinemas for currently playing movies 
 ## Features
 
 - **Scrapes ForumCinemas** for currently playing movies
-- **Fetches IMDb rating, year, and genres** via Playwright directly from IMDb
+- **Fetches rating, year, and genres** from OMDb by IMDb ID
 - **Generates beautiful HTML report** with sortable columns
 - **Clickable movie titles** linking to ForumCinemas pages
 - **Docker support** for easy, reproducible runs
@@ -25,6 +25,7 @@ A Dockerized Node.js app that scrapes ForumCinemas for currently playing movies 
 ## Prerequisites
 
 - **Docker Desktop** (or any Docker runtime)
+- **OMDb API key**
 
 ## Quick Start (Docker)
 
@@ -36,7 +37,12 @@ If you have Docker installed, this is the simplest way to run the application:
    cd forumcinemas_films
    ```
 
-2. **Run with Docker:**
+2. **Create `.env` from `.env.example` and set your OMDb key:**
+   ```env
+   OMDB_API_KEY=your_omdb_api_key
+   ```
+
+3. **Run with Docker:**
    ```bash
    docker-compose up --build
    ```
@@ -44,7 +50,7 @@ If you have Docker installed, this is the simplest way to run the application:
 That's it! The application will:
 - Install all dependencies automatically
 - Scrape ForumCinemas for current movies
-- Fetch IMDb rating, year, and genres using Playwright
+- Fetch rating, year, and genres from OMDb
 - Generate a beautiful HTML report
 - Exit when complete
 
@@ -52,7 +58,7 @@ That's it! The application will:
 - ✅ **No local Node.js installation required**
 - ✅ **No dependency conflicts**
 - ✅ **Works on any machine with Docker**
-- ✅ **Consistent environment with Playwright browsers preinstalled**
+- ✅ **No browser automation required**
 
 <!-- Local installation instructions removed: Docker-only workflow -->
 
@@ -73,7 +79,7 @@ docker-compose down
 
 1. **Scrapes ForumCinemas** now-playing page for movie links
 2. **Extracts movie details** (title, tentative year, genres, IMDb link)
-3. **Fetches IMDb rating, year, and genres** using Playwright
+3. **Fetches rating, year, and genres** from OMDb using the IMDb ID
 4. **Generates HTML report** with all data in a sortable table
 
 ## Output Files
@@ -96,30 +102,20 @@ The generated HTML report includes:
 
 The script provides detailed logging:
 - `📅 Scraped release year: XXXX` - Year inferred from ForumCinemas page
-- `📅 Updated release year to XXXX from IMDb` - Year corrected using IMDb
-- `🎭 Fetching IMDb details for ttXXXXXXX...` - Playwright fetching on IMDb
+- `📅 Updated release year to XXXX from OMDb` - Year corrected using OMDb
+- `🎭 Fetching OMDb details for ttXXXXXXX...` - OMDb lookup by IMDb ID
 - `⚠️ No release year found from scraping` - When no year could be extracted
 
 ## Troubleshooting
 
 ### Docker Issues
 - **Make sure Docker Desktop is running**
-- **Run with the provided Playwright image** (`mcr.microsoft.com/playwright:v1.55.0-jammy`)
 - **Rebuild after updates**: `docker-compose up --build`
-
-### Playwright Version Mismatch
-- If you see a message asking to update the Docker image (e.g., Playwright updated locally), align versions:
-  - Update `docker-compose.yml` image tag to the required version
-  - Re-run `docker-compose up --build`
-- Optional: if encountering headless shell issues, set legacy headless mode:
-  ```yaml
-  environment:
-    - PW_USE_LEGACY_HEADLESS=1
-  ```
 
 ### General Issues
 - **Check the console output** for detailed error messages
-- **Ensure network access** (needs ForumCinemas + IMDb)
+- **Ensure network access** (needs ForumCinemas + OMDb)
+- **Set `OMDB_API_KEY`** in `.env` locally and as a GitHub Actions repository secret in CI
 - **Ensure write permissions** in the project directory
 
 ## License
