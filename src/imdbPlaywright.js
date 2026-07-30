@@ -80,7 +80,7 @@ async function fetchImdbDetails(imdbId, opts = {}) {
 
     if (!parsed || (!parsed.rating && !(parsed.genres && parsed.genres.length))) {
       const ratingText = await page
-        .locator('[data-testid="hero-rating-bar__aggregate-rating__score"] span')
+        .locator('[data-testid="hero-rating-bar__aggregate-rating__score"]')
         .first()
         .textContent()
         .catch(() => null);
