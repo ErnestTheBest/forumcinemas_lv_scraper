@@ -1,111 +1,92 @@
 name: Run Movie Reporter
 
 on:
-  # Run manually
   workflow_dispatch:
-  # Run daily at 6 AM UTC
   schedule:
-    - cron: '0 6 * * *'
-  # Run on push to main branch
+    - cron: "0 6 * * *"
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   scrape-movies:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      actions: read
-    
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-        cache: 'npm'
-        
-    - name: Install dependencies
-      run: npm ci
-      
-    - name: Create data directory
-      run: mkdir -p data
-      
-    - name: Run movie reporter
-      run: npm start
-      env:
-        NODE_ENV: production
-        OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
-        
-    - name: Check for generated files
-      run: |
-        echo "Generated files:"
-        ls -la data/
-        if [ -f "index.html" ]; then
-          echo "✅ Report generated successfully"
-        else
-          echo "❌ Report generation failed"
-          exit 1
-        fi
-        
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add data/ index.html
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "🤖 Auto-update movie data and report [skip ci]"
-          git push
-        fi
-        
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: movie-report
-        path: |
-          data/
-          index.html
-        retention-days: 30
 
-  # Optional: Create a release with the report
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Go
+        uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
+
+      - name: Test
+        run: go test ./...
+
+      - name: Generate report
+        run: go run .
+        env:
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
+          WORKERS: 6
+
+      - name: Verify output
+        run: test -s data/now_playing.json && test -s data/movies_enriched.json && test -s index.html
+
+      - name: Commit report
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ index.html
+          if ! git diff --staged --quiet; then
+            git commit -m "Update movie report [skip ci]"
+            git push
+          fi
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: movie-report
+          path: |
+            data/
+            index.html
+          retention-days: 30
+
   create-release:
     needs: scrape-movies
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
     permissions:
       contents: write
-      actions: read
-    
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: Download artifacts
-      uses: actions/download-artifact@v4
-      with:
-        name: movie-report
-        
-    - name: Create Release
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: "v$(date +'%Y.%m.%d')"
-        name: "Movie Report $(date +'%Y-%m-%d')"
-        body: |
-          📽️ Automated movie report from ForumCinemas
-          
-          Generated on: $(date)
-          Movies found: $(node -p "require('./data/movies_enriched.json').length")
-          
-          Check the attached files for the complete report.
-        files: |
-          data/movies_enriched.json
-          data/now_playing.json
-          index.html
-        draft: false
-        prerelease: false
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Download report
+        uses: actions/download-artifact@v4
+        with:
+          name: movie-report
+
+      - name: Prepare release metadata
+        id: metadata
+        run: |
+          echo "tag=v$(date -u +'%Y.%m.%d')-${GITHUB_RUN_NUMBER}" >> "$GITHUB_OUTPUT"
+          echo "date=$(date -u +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "movies=$(jq 'length' data/movies_enriched.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.metadata.outputs.tag }}
+          name: Movie Report ${{ steps.metadata.outputs.date }}
+          body: |
+            Automated movie report from Forum Cinemas.
+
+            Movies found: ${{ steps.metadata.outputs.movies }}
+          files: |
+            data/movies_enriched.json
+            data/now_playing.json
+            index.html

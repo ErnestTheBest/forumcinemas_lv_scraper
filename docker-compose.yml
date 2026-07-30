@@ -1,13 +1,10 @@
-# docker-compose.yml
 services:
   forumcinemas-reporter:
-    image: node:20-bookworm-slim
-    working_dir: /app
+    build: .
+    env_file: .env
+    environment:
+      WORKERS: 6
+      DATA_DIR: /app/data
+      REPORT_PATH: /app/index.html
     volumes:
       - .:/app
-      - /app/node_modules
-    command: >
-      sh -c "
-        npm install && 
-        npm start
-      "
