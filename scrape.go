@@ -26,6 +26,7 @@ type httpClient interface {
 type omdbResponse struct {
 	Response   string `json:"Response"`
 	Error      string `json:"Error"`
+	Title      string `json:"Title"`
 	Year       string `json:"Year"`
 	Genre      string `json:"Genre"`
 	IMDbRating string `json:"imdbRating"`
@@ -126,6 +127,9 @@ func enrichFromOMDb(ctx context.Context, client httpClient, item *movie, apiKey 
 		return fmt.Errorf("OMDb: %s", response.Error)
 	}
 
+	if response.Title != "" && response.Title != "N/A" {
+		item.OMDbTitle = strings.TrimSpace(response.Title)
+	}
 	if year := firstYear(response.Year); year != nil {
 		item.ReleaseYear = year
 	}

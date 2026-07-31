@@ -1,150 +1,117 @@
 [
   {
     "title": "Spider-Man: Brand New Day",
+    "omdbTitle": "Spider-Man: Brand New Day",
     "releaseYear": 2026,
     "genres": "Action, Adventure, Fantasy",
     "imdbId": "tt22084616",
     "imdbUrl": "https://www.imdb.com/title/tt22084616/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304071/spider-man_brand_new_day?theatreAreaID=1011#section-shows",
     "imdbRating": null
-  },
-  {
-    "title": "The Odyssey",
-    "releaseYear": 2026,
-    "genres": "Adventure, Drama, Fantasy",
-    "imdbId": "tt33764258",
-    "imdbUrl": "https://www.imdb.com/title/tt33764258/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/",
-    "imdbRating": 8.3
-  },
-  {
-    "title": "Minions \u0026 Monsters",
-    "releaseYear": 2026,
-    "genres": "Animation, Adventure, Comedy",
-    "imdbId": "tt32890033",
-    "imdbUrl": "https://www.imdb.com/title/tt32890033/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/",
-    "imdbRating": 6.6
-  },
-  {
-    "title": "Moana",
-    "releaseYear": 2026,
-    "genres": "Action, Adventure, Comedy",
-    "imdbId": "tt27419466",
-    "imdbUrl": "https://www.imdb.com/title/tt27419466/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304819/title/moana/",
-    "imdbRating": null
-  },
-  {
-    "title": "Obsession",
-    "releaseYear": 2026,
-    "genres": "Horror, Romance, Thriller",
-    "imdbId": "tt37287335",
-    "imdbUrl": "https://www.imdb.com/title/tt37287335/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/",
-    "imdbRating": 8
-  },
-  {
-    "title": "Toy Story 5",
-    "releaseYear": 2026,
-    "genres": "Animation, Adventure, Comedy",
-    "imdbId": "tt29355505",
-    "imdbUrl": "https://www.imdb.com/title/tt29355505/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/",
-    "imdbRating": 7.5
-  },
-  {
-    "title": "The Invite",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama, Romance",
-    "imdbId": "tt14173636",
-    "imdbUrl": "https://www.imdb.com/title/tt14173636/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/",
-    "imdbRating": 7.8
-  },
-  {
-    "title": "Michael",
-    "releaseYear": 2026,
-    "genres": "Biography, Drama, History",
-    "imdbId": "tt11378946",
-    "imdbUrl": "https://www.imdb.com/title/tt11378946/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303990/title/michael/",
-    "imdbRating": 7.5
-  },
-  {
-    "title": "Virginia Woolf's Night \u0026 Day",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama, Romance",
-    "imdbId": "tt27802226",
-    "imdbUrl": "https://www.imdb.com/title/tt27802226/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/",
-    "imdbRating": null
-  },
-  {
-    "title": "Evil Dead Burn",
-    "releaseYear": 2026,
-    "genres": "Fantasy, Horror, Mystery",
-    "imdbId": "tt31170389",
-    "imdbUrl": "https://www.imdb.com/title/tt31170389/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/",
-    "imdbRating": null
-  },
-  {
-    "title": "The Devil Wears Prada 2",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama",
-    "imdbId": "tt33612209",
-    "imdbUrl": "https://www.imdb.com/title/tt33612209/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/",
-    "imdbRating": 6.5
-  },
-  {
-    "title": "Backrooms: Everything Must Go",
-    "releaseYear": 2026,
-    "genres": "Horror, Sci-Fi, Thriller",
-    "imdbId": "tt26657236",
-    "imdbUrl": "https://www.imdb.com/title/tt26657236/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/",
-    "imdbRating": 7
-  },
-  {
-    "title": "Disclosure Day",
-    "releaseYear": 2026,
-    "genres": "Action, Drama, Mystery",
-    "imdbId": "tt15047880",
-    "imdbUrl": "https://www.imdb.com/title/tt15047880/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/",
-    "imdbRating": 6.7
-  },
-  {
-    "title": "Project Hail Mary",
-    "releaseYear": 2026,
-    "genres": "Adventure, Comedy, Drama",
-    "imdbId": "tt12042730",
-    "imdbUrl": "https://www.imdb.com/title/tt12042730/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/",
-    "imdbRating": 8.2
-  },
-  {
-    "title": "Supergirl",
-    "releaseYear": 2026,
-    "genres": "Action, Adventure, Drama",
-    "imdbId": "tt8814476",
-    "imdbUrl": "https://www.imdb.com/title/tt8814476/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304676/title/supergirl/",
-    "imdbRating": 6.1
   },
   {
     "title": "The Last Whale Singer",
+    "omdbTitle": "The Last Whale Singer",
     "releaseYear": 2026,
     "genres": "Animation, Family",
     "imdbId": "tt13518550",
     "imdbUrl": "https://www.imdb.com/title/tt13518550/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304166/the_last_whale_singer?theatreAreaID=1011#section-shows",
     "imdbRating": null
   },
   {
+    "title": "The Odyssey",
+    "omdbTitle": "The Odyssey",
+    "releaseYear": 2026,
+    "genres": "Adventure, Drama, Fantasy",
+    "imdbId": "tt33764258",
+    "imdbUrl": "https://www.imdb.com/title/tt33764258/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303993/the_odyssey?theatreAreaID=1011#section-shows",
+    "imdbRating": 8.3
+  },
+  {
+    "title": "Minions \u0026 Monsters",
+    "omdbTitle": "Minions \u0026 Monsters",
+    "releaseYear": 2026,
+    "genres": "Animation, Adventure, Comedy",
+    "imdbId": "tt32890033",
+    "imdbUrl": "https://www.imdb.com/title/tt32890033/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303948/minions_and_monsters?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.6
+  },
+  {
+    "title": "Toy Story 5",
+    "omdbTitle": "Toy Story 5",
+    "releaseYear": 2026,
+    "genres": "Animation, Adventure, Comedy",
+    "imdbId": "tt29355505",
+    "imdbUrl": "https://www.imdb.com/title/tt29355505/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304031/toy_story_5?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.5
+  },
+  {
+    "title": "Moana",
+    "omdbTitle": "Moana",
+    "releaseYear": 2026,
+    "genres": "Action, Adventure, Comedy",
+    "imdbId": "tt27419466",
+    "imdbUrl": "https://www.imdb.com/title/tt27419466/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304819/title/moana/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304037/moana?theatreAreaID=1011#section-shows",
+    "imdbRating": null
+  },
+  {
+    "title": "The Devil Wears Prada 2",
+    "omdbTitle": "The Devil Wears Prada 2",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama",
+    "imdbId": "tt33612209",
+    "imdbUrl": "https://www.imdb.com/title/tt33612209/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304032/the_devil_wears_prada_2?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.5
+  },
+  {
+    "title": "The Invite",
+    "omdbTitle": "The Invite",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama, Romance",
+    "imdbId": "tt14173636",
+    "imdbUrl": "https://www.imdb.com/title/tt14173636/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304144/the_invite?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.8
+  },
+  {
+    "title": "Michael",
+    "omdbTitle": "Michael",
+    "releaseYear": 2026,
+    "genres": "Biography, Drama, History",
+    "imdbId": "tt11378946",
+    "imdbUrl": "https://www.imdb.com/title/tt11378946/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303990/title/michael/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303659/michael?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.5
+  },
+  {
+    "title": "Obsession",
+    "omdbTitle": "Obsession",
+    "releaseYear": 2026,
+    "genres": "Horror, Romance, Thriller",
+    "imdbId": "tt37287335",
+    "imdbUrl": "https://www.imdb.com/title/tt37287335/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304149/obsession?theatreAreaID=1011#section-shows",
+    "imdbRating": 8
+  },
+  {
     "title": "Mi Amor",
+    "omdbTitle": "Mi Amor",
     "releaseYear": 2025,
     "genres": "Thriller",
     "imdbId": "tt35675616",
@@ -154,6 +121,7 @@
   },
   {
     "title": "GoodFellas (1990)",
+    "omdbTitle": "GoodFellas",
     "releaseYear": 1990,
     "genres": "Biography, Crime, Drama",
     "imdbId": "tt0099685",
@@ -162,7 +130,51 @@
     "imdbRating": 8.7
   },
   {
+    "title": "Disclosure Day",
+    "omdbTitle": "Disclosure Day",
+    "releaseYear": 2026,
+    "genres": "Action, Drama, Mystery",
+    "imdbId": "tt15047880",
+    "imdbUrl": "https://www.imdb.com/title/tt15047880/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304053/disclosure_day?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.7
+  },
+  {
+    "title": "Backrooms: Everything Must Go",
+    "omdbTitle": "Backrooms",
+    "releaseYear": 2026,
+    "genres": "Horror, Sci-Fi, Thriller",
+    "imdbId": "tt26657236",
+    "imdbUrl": "https://www.imdb.com/title/tt26657236/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/",
+    "imdbRating": 7
+  },
+  {
+    "title": "Evil Dead Burn",
+    "omdbTitle": "Evil Dead Burn",
+    "releaseYear": 2026,
+    "genres": "Fantasy, Horror, Mystery",
+    "imdbId": "tt31170389",
+    "imdbUrl": "https://www.imdb.com/title/tt31170389/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304154/evil_dead_burn?theatreAreaID=1011#section-shows",
+    "imdbRating": null
+  },
+  {
+    "title": "Virginia Woolf's Night \u0026 Day",
+    "omdbTitle": "Virginia Woolf's Night \u0026 Day",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama, Romance",
+    "imdbId": "tt27802226",
+    "imdbUrl": "https://www.imdb.com/title/tt27802226/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304168/virginia_woolfs_night_and_day?theatreAreaID=1011#section-shows",
+    "imdbRating": null
+  },
+  {
     "title": "Howl’s Moving Castle (2004)",
+    "omdbTitle": "Howl's Moving Castle",
     "releaseYear": 2004,
     "genres": "Animation, Adventure, Family",
     "imdbId": "tt0347149",
@@ -172,6 +184,7 @@
   },
   {
     "title": "La La Land (2016)",
+    "omdbTitle": "La La Land",
     "releaseYear": 2016,
     "genres": "Comedy, Drama, Music",
     "imdbId": "tt3783958",
@@ -181,6 +194,7 @@
   },
   {
     "title": "A Good Year (2006)",
+    "omdbTitle": "A Good Year",
     "releaseYear": 2006,
     "genres": "Comedy, Drama, Romance",
     "imdbId": "tt0401445",
@@ -189,7 +203,19 @@
     "imdbRating": 6.9
   },
   {
+    "title": "Project Hail Mary",
+    "omdbTitle": "Project Hail Mary",
+    "releaseYear": 2026,
+    "genres": "Adventure, Comedy, Drama",
+    "imdbId": "tt12042730",
+    "imdbUrl": "https://www.imdb.com/title/tt12042730/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304020/project_hail_mary?theatreAreaID=1011#section-shows",
+    "imdbRating": 8.2
+  },
+  {
     "title": "Nausicaä of the Valley of the Wind (1984)",
+    "omdbTitle": "Nausicaä of the Valley of the Wind",
     "releaseYear": 1984,
     "genres": "Animation, Adventure, Sci-Fi",
     "imdbId": "tt0087544",
@@ -199,6 +225,7 @@
   },
   {
     "title": "Chocolat (2000)",
+    "omdbTitle": "Chocolat",
     "releaseYear": 2000,
     "genres": "Drama, Romance",
     "imdbId": "tt0241303",
@@ -208,6 +235,7 @@
   },
   {
     "title": "A Fistful of Dollars (1964)",
+    "omdbTitle": "A Fistful of Dollars",
     "releaseYear": 1967,
     "genres": "Drama, Western",
     "imdbId": "tt0058461",
@@ -217,6 +245,7 @@
   },
   {
     "title": "The Grand Budapest Hotel (2014)",
+    "omdbTitle": "The Grand Budapest Hotel",
     "releaseYear": 2014,
     "genres": "Comedy, Drama",
     "imdbId": "tt2278388",
@@ -226,15 +255,18 @@
   },
   {
     "title": "Hungry",
+    "omdbTitle": "Hungry",
     "releaseYear": 2026,
     "genres": "Horror, Thriller",
     "imdbId": "tt34494076",
     "imdbUrl": "https://www.imdb.com/title/tt34494076/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304828/title/hungry/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304153/hungry?theatreAreaID=1011#section-shows",
     "imdbRating": null
   },
   {
     "title": "Scary Movie",
+    "omdbTitle": "Scary Movie",
     "releaseYear": 2026,
     "genres": "Comedy, Horror",
     "imdbId": "tt32093575",
@@ -244,6 +276,7 @@
   },
   {
     "title": "The Darjeeling Limited (2007)",
+    "omdbTitle": "The Darjeeling Limited",
     "releaseYear": 2007,
     "genres": "Adventure, Comedy, Drama",
     "imdbId": "tt0838221",
@@ -253,15 +286,18 @@
   },
   {
     "title": "Paw Patrol: The Dino Movie",
+    "omdbTitle": "PAW Patrol: The Dino Movie",
     "releaseYear": 2026,
     "genres": "Animation, Action, Adventure",
     "imdbId": "tt29356163",
     "imdbUrl": "https://www.imdb.com/title/tt29356163/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304012/paw_patrol_the_dino_movie?theatreAreaID=1011#section-shows",
     "imdbRating": null
   },
   {
     "title": "Princess Mononoke (1997)",
+    "omdbTitle": "Princess Mononoke",
     "releaseYear": 1997,
     "genres": "Animation, Adventure, Fantasy",
     "imdbId": "tt0119698",
@@ -271,6 +307,7 @@
   },
   {
     "title": "For a Few Dollars More (1965)",
+    "omdbTitle": "For a Few Dollars More",
     "releaseYear": 1967,
     "genres": "Drama, Western",
     "imdbId": "tt0059578",
@@ -280,6 +317,7 @@
   },
   {
     "title": "Spirited Away (2001)",
+    "omdbTitle": "Spirited Away",
     "releaseYear": 2003,
     "genres": "Animation, Adventure, Family",
     "imdbId": "tt0245429",
@@ -289,6 +327,7 @@
   },
   {
     "title": "Eat Pray Love (2010)",
+    "omdbTitle": "Eat Pray Love",
     "releaseYear": 2010,
     "genres": "Biography, Comedy, Drama",
     "imdbId": "tt0879870",
@@ -298,6 +337,7 @@
   },
   {
     "title": "Blade Runner: The Final Cut (1982)",
+    "omdbTitle": "Blade Runner",
     "releaseYear": 1982,
     "genres": "Action, Drama, Sci-Fi",
     "imdbId": "tt0083658",
@@ -307,6 +347,7 @@
   },
   {
     "title": "Practical Magic (1998)",
+    "omdbTitle": "Practical Magic",
     "releaseYear": 1998,
     "genres": "Comedy, Drama, Fantasy",
     "imdbId": "tt0120791",
@@ -316,24 +357,29 @@
   },
   {
     "title": "One Night Only",
+    "omdbTitle": "One Night Only",
     "releaseYear": 2026,
     "genres": "Comedy, Drama, Romance",
     "imdbId": "tt37853455",
     "imdbUrl": "https://www.imdb.com/title/tt37853455/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304174/one_night_only?theatreAreaID=1011#section-shows",
     "imdbRating": null
   },
   {
     "title": "The End of Oak Street",
+    "omdbTitle": "The End of Oak Street",
     "releaseYear": 2026,
     "genres": "Action, Adventure, Mystery",
     "imdbId": "tt27165187",
     "imdbUrl": "https://www.imdb.com/title/tt27165187/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304869/title/the_end_of_oak_street/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304124/the_end_of_oak_street?theatreAreaID=1011#section-shows",
     "imdbRating": null
   },
   {
     "title": "The Good, the Bad and the Ugly (1966)",
+    "omdbTitle": "The Good, the Bad and the Ugly",
     "releaseYear": 1967,
     "genres": "Adventure, Drama, Western",
     "imdbId": "tt0060196",
@@ -343,6 +389,7 @@
   },
   {
     "title": "My Neighbour Totoro (1988)",
+    "omdbTitle": "My Neighbor Totoro",
     "releaseYear": 1988,
     "genres": "Animation, Adventure, Comedy",
     "imdbId": "tt0096283",
@@ -352,6 +399,7 @@
   },
   {
     "title": "Thelma \u0026 Louise (1991)",
+    "omdbTitle": "Thelma \u0026 Louise",
     "releaseYear": 1991,
     "genres": "Adventure, Crime, Drama",
     "imdbId": "tt0103074",
@@ -361,6 +409,7 @@
   },
   {
     "title": "NT LIVE: The Audience",
+    "omdbTitle": "The Audience",
     "releaseYear": 2013,
     "genres": "Biography, Drama",
     "imdbId": "tt3154822",
@@ -370,6 +419,7 @@
   },
   {
     "title": "PRUSAX Shows a Movie | Tenacious D in The Pick of Destiny (2006)",
+    "omdbTitle": "Tenacious D in the Pick of Destiny",
     "releaseYear": 2006,
     "genres": "Adventure, Comedy, Music",
     "imdbId": "tt0365830",
@@ -379,6 +429,7 @@
   },
   {
     "title": "The Terminator (1984)",
+    "omdbTitle": "The Terminator",
     "releaseYear": 1984,
     "genres": "Action, Adventure, Sci-Fi",
     "imdbId": "tt0088247",
@@ -388,15 +439,18 @@
   },
   {
     "title": "Spa Weekend",
+    "omdbTitle": "Spa Weekend",
     "releaseYear": 2026,
     "genres": "Comedy",
     "imdbId": "tt33305867",
     "imdbUrl": "https://www.imdb.com/title/tt33305867/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304156/spa_weekend?theatreAreaID=1011#section-shows",
     "imdbRating": null
   },
   {
     "title": "Terminator 2. Judgment Day *Extended* (1991)",
+    "omdbTitle": "Terminator 2: Judgment Day",
     "releaseYear": 1991,
     "genres": "Action, Adventure, Sci-Fi",
     "imdbId": "tt0103064",
@@ -406,6 +460,7 @@
   },
   {
     "title": "Trainspotting (1996)",
+    "omdbTitle": "Trainspotting",
     "releaseYear": 1996,
     "genres": "Crime, Drama",
     "imdbId": "tt0117951",
@@ -415,6 +470,7 @@
   },
   {
     "title": "Taxi Driver (1976)",
+    "omdbTitle": "Taxi Driver",
     "releaseYear": 1976,
     "genres": "Crime, Drama",
     "imdbId": "tt0075314",
@@ -424,15 +480,18 @@
   },
   {
     "title": "Ulya",
+    "omdbTitle": "The Invite",
     "releaseYear": 2026,
     "genres": "Comedy, Drama, Romance",
     "imdbId": "tt14173636",
     "imdbUrl": "https://www.imdb.com/title/tt14173636/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304170/ulya?theatreAreaID=1011#section-shows",
     "imdbRating": 7.8
   },
   {
     "title": "Lawrence of Arabia (1962)",
+    "omdbTitle": "Lawrence of Arabia",
     "releaseYear": 1962,
     "genres": "Adventure, Biography, Drama",
     "imdbId": "tt0056172",

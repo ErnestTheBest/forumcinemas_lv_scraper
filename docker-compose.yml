@@ -3,7 +3,7 @@ services:
     build: .
     env_file: .env
     environment:
-      WORKERS: 6
+      WORKERS: 2
       DATA_DIR: /app/data
       REPORT_PATH: /app/index.html
     volumes:

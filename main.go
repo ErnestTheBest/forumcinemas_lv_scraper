@@ -15,8 +15,10 @@ import (
 )
 
 const (
-	defaultWorkers = 6
-	nowPlayingURL  = "https://www.forumcinemas.lv/eng/movies/now-playing"
+	defaultWorkers      = 2
+	nowPlayingURL       = "https://www.forumcinemas.lv/eng/movies/now-playing"
+	apolloTheatreAreaID = "1011"
+	apolloMoviesURL     = "https://www.apollokino.lv/eng/movies?theatreAreaID=" + apolloTheatreAreaID
 )
 
 type movieLink struct {
@@ -26,11 +28,13 @@ type movieLink struct {
 
 type movie struct {
 	Title           string   `json:"title"`
+	OMDbTitle       string   `json:"omdbTitle,omitempty"`
 	ReleaseYear     *int     `json:"releaseYear"`
 	Genres          string   `json:"genres"`
 	IMDbID          string   `json:"imdbId"`
 	IMDbURL         string   `json:"imdbUrl"`
 	ForumCinemasURL string   `json:"forumcinemasUrl"`
+	ApolloKinoURL   string   `json:"apolloKinoUrl,omitempty"`
 	IMDbRating      *float64 `json:"imdbRating"`
 }
 
@@ -78,6 +82,16 @@ func run() error {
 	}
 
 	movies := enrichMovies(ctx, client, links, apiKey, workers)
+
+	log.Printf("Fetching Apollo Kino Akropole movies")
+	apolloMovies, apolloErr := scrapeApolloMovies(ctx, client, apolloMoviesURL)
+	if apolloErr != nil {
+		log.Printf("Apollo Kino unavailable; continuing without Apollo links: %v", apolloErr)
+	} else {
+		matched := attachApolloLinks(movies, apolloMovies)
+		log.Printf("Matched %d of %d Forum Cinemas movies with Apollo Kino Akropole", matched, len(movies))
+	}
+
 	if err := writeJSON(filepath.Join(dataDir, "movies_enriched.json"), movies); err != nil {
 		return err
 	}

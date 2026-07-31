@@ -29,7 +29,7 @@ var reportTemplate = template.Must(template.New("report").Funcs(template.FuncMap
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Forum Cinemas — Now Playing</title>
+<title>Riga Cinemas — Now Playing</title>
 <style>
 :root{
   color-scheme:light;
@@ -137,9 +137,25 @@ tbody tr{transition:background .18s ease}
 tbody tr:hover{background:#f8fcfa}
 tbody tr:last-child td{border-bottom:0}
 .movie-title{font-weight:720;letter-spacing:-.012em}
-.movie-title a{color:var(--ink);text-decoration:none}
-.movie-title a:hover{color:var(--green);text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:4px}
 .year,.genres{color:var(--muted)}
+.cinema-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:66px;
+  padding:6px 10px;
+  border-radius:9px;
+  font-size:12px;
+  font-weight:800;
+  text-decoration:none;
+  transition:transform .16s ease,box-shadow .16s ease;
+}
+.cinema-link::after{content:"↗";margin-left:5px;font-size:10px}
+.cinema-link:hover{transform:translateY(-1px)}
+.forum-link{background:#e5f7ed;color:#09633d}
+.forum-link:hover{box-shadow:0 5px 14px rgba(18,132,84,.16)}
+.apollo-link{background:#f1eafe;color:#5b2ca0}
+.apollo-link:hover{box-shadow:0 5px 14px rgba(91,44,160,.16)}
 .score{
   display:inline-flex;
   align-items:center;
@@ -179,11 +195,11 @@ tbody tr:last-child td{border-bottom:0}
 </head>
 <body>
 <main>
-<div class="eyebrow">Forum Cinemas · Riga</div>
+<div class="eyebrow">Riga cinemas · now playing</div>
 <header class="hero">
   <div>
     <h1>Pick your next <span class="accent">great movie.</span></h1>
-    <p class="lede">Everything playing right now, with IMDb scores at a glance.</p>
+    <p class="lede">Forum Cinemas listings, IMDb scores, and direct links to Forum and Apollo Akropole.</p>
   </div>
   <div class="count-card"><strong>{{len .Movies}}</strong><span>movies playing</span></div>
 </header>
@@ -194,10 +210,12 @@ tbody tr:last-child td{border-bottom:0}
 </div>
 <div class="table-wrap">
 <table id="movies">
-<thead><tr><th class="sortable">Title</th><th class="sortable">Year</th><th class="sortable">Rating</th><th>IMDb</th><th class="sortable">Genres</th></tr></thead>
+<thead><tr><th class="sortable">Title</th><th>Forum</th><th>Apollo</th><th class="sortable">Year</th><th class="sortable">Rating</th><th>IMDb</th><th class="sortable">Genres</th></tr></thead>
 <tbody>
 {{range .Movies}}<tr>
-  <td class="movie-title"><a href="{{.ForumCinemasURL}}" target="_blank" rel="noopener">{{.Title}}</a></td>
+  <td class="movie-title">{{.Title}}</td>
+  <td><a class="cinema-link forum-link" href="{{.ForumCinemasURL}}" target="_blank" rel="noopener">Forum</a></td>
+  <td>{{if .ApolloKinoURL}}<a class="cinema-link apollo-link" href="{{.ApolloKinoURL}}" target="_blank" rel="noopener">Apollo</a>{{else}}<span class="empty">—</span>{{end}}</td>
   <td class="year">{{year .ReleaseYear}}</td>
   <td>{{if .IMDbRating}}<span class="score">{{rating .IMDbRating}}</span>{{else}}<span class="empty">—</span>{{end}}</td>
   <td><a class="imdb" href="{{.IMDbURL}}" target="_blank" rel="noopener">IMDb</a></td>
