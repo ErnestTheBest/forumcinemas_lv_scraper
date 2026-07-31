@@ -2,13 +2,30 @@ name: Run Movie Reporter
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 6 * * *"
   push:
     branches: [main]
+    paths:
+      - "data/**"
+      - "report.go"
+      - "main.go"
+      - "go.mod"
+      - "go.sum"
+      - ".github/workflows/run-movie-reporter.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "report.go"
+      - "main.go"
+      - "go.mod"
+      - "go.sum"
+      - ".github/workflows/run-movie-reporter.yml"
+
+concurrency:
+  group: movie-report-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  scrape-movies:
+  build-report:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -26,22 +43,24 @@ jobs:
       - name: Test
         run: go test ./...
 
-      - name: Generate report
-        run: go run .
-        env:
-          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
-          WORKERS: 6
+      - name: Build report from committed data
+        run: go run . report
 
       - name: Verify output
-        run: test -s data/now_playing.json && test -s data/movies_enriched.json && test -s index.html
+        run: |
+          test -s data/now_playing.json
+          test -s data/movies_enriched.json
+          test -s index.html
+          grep -q 'class="cinema-link apollo-link"' index.html
 
       - name: Commit report
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/ index.html
+          git add index.html
           if ! git diff --staged --quiet; then
-            git commit -m "Update movie report [skip ci]"
+            git commit -m "Build movie report [skip ci]"
             git push
           fi
 
@@ -55,7 +74,7 @@ jobs:
           retention-days: 30
 
   create-release:
-    needs: scrape-movies
+    needs: build-report
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
     permissions:

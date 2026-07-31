@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Riga cinema scraper every day at 04:00 local time
+
+[Timer]
+OnCalendar=*-*-* 04:00:00
+Persistent=true
+AccuracySec=1min
+RandomizedDelaySec=0
+Unit=forumcinemas-scraper.service
+
+[Install]
+WantedBy=timers.target

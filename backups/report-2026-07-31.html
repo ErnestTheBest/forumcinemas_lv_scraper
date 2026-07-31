@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Riga Cinemas — Now Playing</title>
+<style>
+:root{
+  color-scheme:light;
+  --ink:#13231b;
+  --muted:#68766e;
+  --green:#128454;
+  --green-dark:#09633d;
+  --green-soft:#e5f7ed;
+  --line:#e7ece9;
+  --surface:#fff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--ink);
+  font:15px/1.5 Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at 82% 0%,rgba(122,214,161,.24),transparent 34rem),
+    linear-gradient(180deg,#eef9f2 0,#f7f8f6 31rem);
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  opacity:.3;
+  background-image:radial-gradient(#9fb7a8 .55px,transparent .55px);
+  background-size:12px 12px;
+  mask-image:linear-gradient(to bottom,black,transparent 42rem);
+}
+main{position:relative;width:min(1180px,calc(100% - 40px));margin:0 auto;padding:56px 0 72px}
+.eyebrow{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  margin-bottom:20px;
+  color:var(--green-dark);
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.eyebrow::before{content:"";width:8px;height:8px;border-radius:50%;background:#2fbd79;box-shadow:0 0 0 5px rgba(47,189,121,.12)}
+.hero{display:flex;align-items:end;justify-content:space-between;gap:32px;margin-bottom:34px}
+h1{max-width:760px;margin:0;font-size:clamp(40px,6.5vw,76px);line-height:.97;letter-spacing:-.065em;font-weight:760}
+.accent{color:var(--green)}
+.lede{max-width:580px;margin:19px 0 0;color:var(--muted);font-size:17px}
+.count-card{
+  flex:0 0 auto;
+  min-width:160px;
+  padding:20px 22px;
+  border:1px solid rgba(18,132,84,.14);
+  border-radius:22px;
+  background:rgba(255,255,255,.68);
+  box-shadow:0 18px 55px rgba(30,80,52,.08);
+  backdrop-filter:blur(12px);
+}
+.count-card strong{display:block;font-size:34px;line-height:1;font-weight:780;letter-spacing:-.04em}
+.count-card span{display:block;margin-top:8px;color:var(--muted);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.09em}
+.panel{
+  overflow:hidden;
+  border:1px solid rgba(30,61,44,.1);
+  border-radius:24px;
+  background:var(--surface);
+  box-shadow:0 26px 80px rgba(31,67,46,.11),0 2px 8px rgba(31,67,46,.04);
+}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 22px;border-bottom:1px solid var(--line)}
+.toolbar-title{font-size:13px;font-weight:750}
+.updated{margin-left:8px;color:var(--muted);font-weight:500}
+.search{position:relative;width:min(100%,300px)}
+.search::before{content:"⌕";position:absolute;left:14px;top:50%;translate:0 -53%;color:#75847b;font-size:22px;pointer-events:none}
+.search input{
+  width:100%;
+  height:42px;
+  padding:0 14px 0 41px;
+  border:1px solid #dfe7e2;
+  border-radius:13px;
+  outline:none;
+  background:#f8faf9;
+  color:var(--ink);
+  font:inherit;
+  transition:.2s ease;
+}
+.search input:focus{border-color:#76caa1;background:#fff;box-shadow:0 0 0 4px rgba(18,132,84,.09)}
+.table-wrap{overflow:auto}
+table{width:100%;border-collapse:collapse}
+th,td{padding:17px 20px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{
+  position:sticky;
+  top:0;
+  z-index:1;
+  background:#fbfcfb;
+  color:#77837c;
+  font-size:11px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+}
+th.sortable{cursor:pointer;user-select:none}
+th.sortable::after{content:"↕";margin-left:7px;color:#b5c0b9;font-size:12px}
+th[data-direction="asc"]::after{content:"↑";color:var(--green)}
+th[data-direction="desc"]::after{content:"↓";color:var(--green)}
+tbody tr{transition:background .18s ease}
+tbody tr:hover{background:#f8fcfa}
+tbody tr:last-child td{border-bottom:0}
+.movie-title{font-weight:720;letter-spacing:-.012em}
+.year,.genres{color:var(--muted)}
+.cinema-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:66px;
+  padding:6px 10px;
+  border-radius:9px;
+  font-size:12px;
+  font-weight:800;
+  text-decoration:none;
+  transition:transform .16s ease,box-shadow .16s ease;
+}
+.cinema-link::after{content:"↗";margin-left:5px;font-size:10px}
+.cinema-link:hover{transform:translateY(-1px)}
+.forum-link{background:#e5f7ed;color:#09633d}
+.forum-link:hover{box-shadow:0 5px 14px rgba(18,132,84,.16)}
+.apollo-link{background:#f1eafe;color:#5b2ca0}
+.apollo-link:hover{box-shadow:0 5px 14px rgba(91,44,160,.16)}
+.score{
+  display:inline-flex;
+  align-items:center;
+  min-width:43px;
+  justify-content:center;
+  padding:5px 9px;
+  border-radius:9px;
+  background:var(--green-soft);
+  color:var(--green-dark);
+  font-size:13px;
+  font-weight:820;
+  font-variant-numeric:tabular-nums;
+}
+.empty{color:#a8b2ac}
+.imdb{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  color:#30463a;
+  font-size:13px;
+  font-weight:750;
+  text-decoration:none;
+}
+.imdb::after{content:"↗";color:#91a098;font-size:11px;transition:transform .16s ease}
+.imdb:hover{color:var(--green)}
+.imdb:hover::after{transform:translate(2px,-2px)}
+.no-results{display:none;padding:42px;text-align:center;color:var(--muted)}
+@media(max-width:760px){
+  main{width:min(100% - 24px,1180px);padding:32px 0 48px}
+  .hero{align-items:start;flex-direction:column}
+  .count-card{min-width:0;width:100%}
+  .toolbar{align-items:stretch;flex-direction:column}
+  .search{width:100%;max-width:none}
+  th,td{padding:15px 16px}
+}
+</style>
+</head>
+<body>
+<main>
+<div class="eyebrow">Riga cinemas · now playing</div>
+<header class="hero">
+  <div>
+    <h1>Pick your next <span class="accent">great movie.</span></h1>
+    <p class="lede">Forum Cinemas listings, IMDb scores, and direct links to Forum and Apollo Akropole.</p>
+  </div>
+  <div class="count-card"><strong>48</strong><span>movies playing</span></div>
+</header>
+<section class="panel">
+<div class="toolbar">
+  <div class="toolbar-title">Now playing <span class="updated">Updated 31 Jul 2026</span></div>
+  <label class="search"><input id="search" type="search" placeholder="Search movies or genres…" autocomplete="off"></label>
+</div>
+<div class="table-wrap">
+<table id="movies">
+<thead><tr><th class="sortable">Title</th><th>Forum</th><th>Apollo</th><th class="sortable">Year</th><th class="sortable">Rating</th><th>IMDb</th><th class="sortable">Genres</th></tr></thead>
+<tbody>
+<tr>
+  <td class="movie-title">Spider-Man: Brand New Day</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304071/spider-man_brand_new_day?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt22084616/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Action, Adventure, Fantasy</td>
+</tr><tr>
+  <td class="movie-title">The Last Whale Singer</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304166/the_last_whale_singer?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt13518550/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Family</td>
+</tr><tr>
+  <td class="movie-title">The Odyssey</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/303993/the_odyssey?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">8.3</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt33764258/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Adventure, Drama, Fantasy</td>
+</tr><tr>
+  <td class="movie-title">Minions &amp; Monsters</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/303948/minions_and_monsters?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">6.6</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt32890033/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Adventure, Comedy</td>
+</tr><tr>
+  <td class="movie-title">Toy Story 5</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304031/toy_story_5?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">7.5</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt29355505/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Adventure, Comedy</td>
+</tr><tr>
+  <td class="movie-title">Moana</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304819/title/moana/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304037/moana?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt27419466/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Action, Adventure, Comedy</td>
+</tr><tr>
+  <td class="movie-title">The Devil Wears Prada 2</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304032/the_devil_wears_prada_2?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">6.5</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt33612209/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama</td>
+</tr><tr>
+  <td class="movie-title">The Invite</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304784/title/the_invite/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304144/the_invite?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">7.8</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt14173636/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama, Romance</td>
+</tr><tr>
+  <td class="movie-title">Michael</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/303990/title/michael/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/303659/michael?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">7.5</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt11378946/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Biography, Drama, History</td>
+</tr><tr>
+  <td class="movie-title">Obsession</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304809/title/obsession/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304149/obsession?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">8</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt37287335/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Horror, Romance, Thriller</td>
+</tr><tr>
+  <td class="movie-title">Mi Amor</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304874/title/mi_amor/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2025</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt35675616/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Thriller</td>
+</tr><tr>
+  <td class="movie-title">GoodFellas (1990)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304798/title/goodfellas_1990/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1990</td>
+  <td><span class="score">8.7</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0099685/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Biography, Crime, Drama</td>
+</tr><tr>
+  <td class="movie-title">Disclosure Day</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304677/title/disclosure_day/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304053/disclosure_day?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">6.7</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt15047880/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Action, Drama, Mystery</td>
+</tr><tr>
+  <td class="movie-title">Backrooms: Everything Must Go</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2026</td>
+  <td><span class="score">7</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt26657236/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Horror, Sci-Fi, Thriller</td>
+</tr><tr>
+  <td class="movie-title">Evil Dead Burn</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304154/evil_dead_burn?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt31170389/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Fantasy, Horror, Mystery</td>
+</tr><tr>
+  <td class="movie-title">Virginia Woolf&#39;s Night &amp; Day</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304168/virginia_woolfs_night_and_day?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt27802226/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama, Romance</td>
+</tr><tr>
+  <td class="movie-title">Howl’s Moving Castle (2004)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304611/title/howls_moving_castle_2004/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2004</td>
+  <td><span class="score">8.2</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0347149/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Adventure, Family</td>
+</tr><tr>
+  <td class="movie-title">La La Land (2016)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/302012/title/la_la_land_2016/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2016</td>
+  <td><span class="score">8</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt3783958/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama, Music</td>
+</tr><tr>
+  <td class="movie-title">A Good Year (2006)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/300408/title/a_good_year_2006/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2006</td>
+  <td><span class="score">6.9</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0401445/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama, Romance</td>
+</tr><tr>
+  <td class="movie-title">Project Hail Mary</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304020/project_hail_mary?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">8.2</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt12042730/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Adventure, Comedy, Drama</td>
+</tr><tr>
+  <td class="movie-title">Nausicaä of the Valley of the Wind (1984)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1984</td>
+  <td><span class="score">8</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0087544/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Adventure, Sci-Fi</td>
+</tr><tr>
+  <td class="movie-title">Chocolat (2000)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304863/title/chocolat_2000/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2000</td>
+  <td><span class="score">7.2</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0241303/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Drama, Romance</td>
+</tr><tr>
+  <td class="movie-title">A Fistful of Dollars (1964)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/301957/title/a_fistful_of_dollars_1964/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1967</td>
+  <td><span class="score">7.9</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0058461/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Drama, Western</td>
+</tr><tr>
+  <td class="movie-title">The Grand Budapest Hotel (2014)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/301276/title/the_grand_budapest_hotel_2014/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2014</td>
+  <td><span class="score">8.1</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt2278388/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama</td>
+</tr><tr>
+  <td class="movie-title">Hungry</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304828/title/hungry/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304153/hungry?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt34494076/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Horror, Thriller</td>
+</tr><tr>
+  <td class="movie-title">Scary Movie</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304741/title/scary_movie/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2026</td>
+  <td><span class="score">5.2</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt32093575/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Horror</td>
+</tr><tr>
+  <td class="movie-title">The Darjeeling Limited (2007)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/303950/title/the_darjeeling_limited_2007/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2007</td>
+  <td><span class="score">7.2</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0838221/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Adventure, Comedy, Drama</td>
+</tr><tr>
+  <td class="movie-title">Paw Patrol: The Dino Movie</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304012/paw_patrol_the_dino_movie?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt29356163/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Action, Adventure</td>
+</tr><tr>
+  <td class="movie-title">Princess Mononoke (1997)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304633/title/princess_mononoke_1997/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1997</td>
+  <td><span class="score">8.3</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0119698/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Adventure, Fantasy</td>
+</tr><tr>
+  <td class="movie-title">For a Few Dollars More (1965)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/301955/title/for_a_few_dollars_more_1965/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1967</td>
+  <td><span class="score">8.2</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0059578/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Drama, Western</td>
+</tr><tr>
+  <td class="movie-title">Spirited Away (2001)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304580/title/spirited_away_2001/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2003</td>
+  <td><span class="score">8.6</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0245429/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Adventure, Family</td>
+</tr><tr>
+  <td class="movie-title">Eat Pray Love (2010)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/298993/title/eat_pray_love_2010/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2010</td>
+  <td><span class="score">5.9</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0879870/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Biography, Comedy, Drama</td>
+</tr><tr>
+  <td class="movie-title">Blade Runner: The Final Cut (1982)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/301878/title/blade_runner_the_final_cut_1982/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1982</td>
+  <td><span class="score">8.1</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0083658/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Action, Drama, Sci-Fi</td>
+</tr><tr>
+  <td class="movie-title">Practical Magic (1998)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304894/title/practical_magic_1998/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1998</td>
+  <td><span class="score">6.4</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0120791/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama, Fantasy</td>
+</tr><tr>
+  <td class="movie-title">One Night Only</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304174/one_night_only?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt37853455/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama, Romance</td>
+</tr><tr>
+  <td class="movie-title">The End of Oak Street</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304869/title/the_end_of_oak_street/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304124/the_end_of_oak_street?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt27165187/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Action, Adventure, Mystery</td>
+</tr><tr>
+  <td class="movie-title">The Good, the Bad and the Ugly (1966)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/301956/title/the_good_the_bad_and_the_ugly_1966/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1967</td>
+  <td><span class="score">8.8</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0060196/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Adventure, Drama, Western</td>
+</tr><tr>
+  <td class="movie-title">My Neighbour Totoro (1988)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304579/title/my_neighbour_totoro_1988/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1988</td>
+  <td><span class="score">8.1</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0096283/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Animation, Adventure, Comedy</td>
+</tr><tr>
+  <td class="movie-title">Thelma &amp; Louise (1991)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304815/title/thelma_and_louise_1991/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1991</td>
+  <td><span class="score">7.6</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0103074/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Adventure, Crime, Drama</td>
+</tr><tr>
+  <td class="movie-title">NT LIVE: The Audience</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304804/title/nt_live_the_audience/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2013</td>
+  <td><span class="score">8.6</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt3154822/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Biography, Drama</td>
+</tr><tr>
+  <td class="movie-title">PRUSAX Shows a Movie | Tenacious D in The Pick of Destiny (2006)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304893/title/prusax_shows_a_movie_tenacious_d_in_the_pick_of_destiny_2006/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">2006</td>
+  <td><span class="score">6.8</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0365830/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Adventure, Comedy, Music</td>
+</tr><tr>
+  <td class="movie-title">The Terminator (1984)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/302224/title/the_terminator_1984/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1984</td>
+  <td><span class="score">8.1</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0088247/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Action, Adventure, Sci-Fi</td>
+</tr><tr>
+  <td class="movie-title">Spa Weekend</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304156/spa_weekend?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="empty">—</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt33305867/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy</td>
+</tr><tr>
+  <td class="movie-title">Terminator 2. Judgment Day *Extended* (1991)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/302211/title/terminator_2_judgment_day_extended_1991/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1991</td>
+  <td><span class="score">8.6</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0103064/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Action, Adventure, Sci-Fi</td>
+</tr><tr>
+  <td class="movie-title">Trainspotting (1996)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/302060/title/trainspotting_1996/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1996</td>
+  <td><span class="score">8.1</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0117951/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Crime, Drama</td>
+</tr><tr>
+  <td class="movie-title">Taxi Driver (1976)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304816/title/taxi_driver_1976/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1976</td>
+  <td><span class="score">8.2</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0075314/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Crime, Drama</td>
+</tr><tr>
+  <td class="movie-title">Ulya</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304848/title/ulya/" target="_blank" rel="noopener">Forum</a></td>
+  <td><a class="cinema-link apollo-link" href="https://www.apollokino.lv/eng/event/304170/ulya?theatreAreaID=1011#section-shows" target="_blank" rel="noopener">Apollo</a></td>
+  <td class="year">2026</td>
+  <td><span class="score">7.8</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt14173636/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Comedy, Drama, Romance</td>
+</tr><tr>
+  <td class="movie-title">Lawrence of Arabia (1962)</td>
+  <td><a class="cinema-link forum-link" href="https://www.forumcinemas.lv/eng/event/304820/title/lawrence_of_arabia_1962/" target="_blank" rel="noopener">Forum</a></td>
+  <td><span class="empty">—</span></td>
+  <td class="year">1962</td>
+  <td><span class="score">8.3</span></td>
+  <td><a class="imdb" href="https://www.imdb.com/title/tt0056172/" target="_blank" rel="noopener">IMDb</a></td>
+  <td class="genres">Adventure, Biography, Drama</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="no-results" id="no-results">No movies found. Try another search.</div>
+</section>
+</main>
+<script>
+const table=document.querySelector("#movies"),body=table.querySelector("tbody"),rows=[...body.rows];
+document.querySelectorAll("th.sortable").forEach(th=>th.addEventListener("click",()=>{
+  const n=th.cellIndex;
+  const asc=th.dataset.direction!=="asc";
+  document.querySelectorAll("th.sortable").forEach(header=>delete header.dataset.direction);
+  rows.sort((a,b)=>a.cells[n].innerText.localeCompare(b.cells[n].innerText,undefined,{numeric:true})*(asc?1:-1));
+  rows.forEach(row=>body.append(row));
+  th.dataset.direction=asc?"asc":"desc";
+}));
+document.querySelector("#search").addEventListener("input",event=>{
+  const query=event.target.value.trim().toLocaleLowerCase();
+  let visible=0;
+  rows.forEach(row=>{
+    const match=!query||row.innerText.toLocaleLowerCase().includes(query);
+    row.hidden=!match;
+    visible+=match;
+  });
+  document.querySelector("#no-results").style.display=visible?"none":"block";
+});
+</script>
+</body>
+</html>

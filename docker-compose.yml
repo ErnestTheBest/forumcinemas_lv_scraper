@@ -3,7 +3,8 @@ services:
     build: .
     env_file: .env
     environment:
-      WORKERS: 2
+      GOMAXPROCS: 1
+      WORKERS: 1
       DATA_DIR: /app/data
       REPORT_PATH: /app/index.html
     volumes:

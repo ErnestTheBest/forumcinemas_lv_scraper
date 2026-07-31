@@ -10,3 +10,4 @@ RUN apk add --no-cache ca-certificates
 WORKDIR /app
 COPY --from=build /reporter /reporter
 ENTRYPOINT ["/reporter"]
+CMD ["scrape"]

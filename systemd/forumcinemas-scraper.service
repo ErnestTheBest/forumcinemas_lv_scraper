@@ -1,0 +1,26 @@
+[Unit]
+Description=Update Riga cinema movie data
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/.local/share/forumcinemas-reporter
+EnvironmentFile=%h/.config/forumcinemas-reporter.env
+Environment=GOMAXPROCS=1
+Environment=WORKERS=1
+Environment=MIN_MOVIES=10
+ExecStart=%h/.local/share/forumcinemas-reporter/scripts/nightly-update.sh
+Nice=15
+IOSchedulingClass=idle
+CPUQuota=50%
+MemoryMax=384M
+PrivateTmp=true
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=%h/.local/share/forumcinemas-reporter
+TimeoutStartSec=2h
+
+[Install]
+WantedBy=default.target

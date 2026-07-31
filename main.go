@@ -15,7 +15,8 @@ import (
 )
 
 const (
-	defaultWorkers      = 2
+	defaultWorkers      = 1
+	defaultMinMovies    = 10
 	nowPlayingURL       = "https://www.forumcinemas.lv/eng/movies/now-playing"
 	apolloTheatreAreaID = "1011"
 	apolloMoviesURL     = "https://www.apollokino.lv/eng/movies?theatreAreaID=" + apolloTheatreAreaID
@@ -49,21 +50,49 @@ type indexedMovie struct {
 	err   error
 }
 
+type scrapeMetadata struct {
+	GeneratedAt    time.Time `json:"generatedAt"`
+	ForumMovies    int       `json:"forumMovies"`
+	EnrichedMovies int       `json:"enrichedMovies"`
+	ApolloMovies   int       `json:"apolloMovies"`
+	ApolloMatches  int       `json:"apolloMatches"`
+}
+
 func main() {
-	if err := run(); err != nil {
+	if err := execute(os.Args[1:]); err != nil {
 		log.Fatal(err)
 	}
 }
 
-func run() error {
+func execute(args []string) error {
+	if len(args) > 1 {
+		return fmt.Errorf("usage: reporter [scrape|report]")
+	}
+
+	command := "scrape"
+	if len(args) == 1 {
+		command = strings.TrimSpace(args[0])
+	}
+
+	switch command {
+	case "scrape":
+		return runScrape()
+	case "report":
+		return runReport()
+	default:
+		return fmt.Errorf("unknown command %q; usage: reporter [scrape|report]", command)
+	}
+}
+
+func runScrape() error {
 	apiKey := strings.TrimSpace(os.Getenv("OMDB_API_KEY"))
 	if apiKey == "" {
 		return errors.New("OMDB_API_KEY is not configured")
 	}
 
 	workers := envInt("WORKERS", defaultWorkers)
+	minMovies := envInt("MIN_MOVIES", defaultMinMovies)
 	dataDir := envString("DATA_DIR", "data")
-	reportPath := envString("REPORT_PATH", "index.html")
 	client := newHTTPClient()
 	ctx := context.Background()
 
@@ -72,41 +101,88 @@ func run() error {
 	if err != nil {
 		return fmt.Errorf("scrape now playing: %w", err)
 	}
+	if len(links) < minMovies {
+		return fmt.Errorf("scrape now playing: found %d movies, require at least %d; keeping previous data", len(links), minMovies)
+	}
 	log.Printf("Found %d movies; processing with %d workers", len(links), workers)
 
-	if err := os.MkdirAll(dataDir, 0o755); err != nil {
-		return fmt.Errorf("create data directory: %w", err)
+	cache := loadMovieCache(filepath.Join(dataDir, "movies_enriched.json"))
+	movies := enrichMovies(ctx, client, links, apiKey, workers, cache)
+	if len(movies) < minMovies {
+		return fmt.Errorf("enrichment produced %d movies, require at least %d; keeping previous data", len(movies), minMovies)
 	}
-	if err := writeJSON(filepath.Join(dataDir, "now_playing.json"), links); err != nil {
-		return err
-	}
-
-	movies := enrichMovies(ctx, client, links, apiKey, workers)
 
 	log.Printf("Fetching Apollo Kino Akropole movies")
-	apolloMovies, apolloErr := scrapeApolloMovies(ctx, client, apolloMoviesURL)
-	if apolloErr != nil {
-		log.Printf("Apollo Kino unavailable; continuing without Apollo links: %v", apolloErr)
-	} else {
-		matched := attachApolloLinks(movies, apolloMovies)
-		log.Printf("Matched %d of %d Forum Cinemas movies with Apollo Kino Akropole", matched, len(movies))
+	apolloMovies, err := scrapeApolloMovies(ctx, client, apolloMoviesURL)
+	if err != nil {
+		return fmt.Errorf("scrape Apollo Kino: %w; keeping previous data", err)
+	}
+	matched := attachApolloLinks(movies, apolloMovies)
+	if matched == 0 {
+		return errors.New("Apollo Kino returned movies but none matched Forum Cinemas; keeping previous data")
+	}
+	log.Printf("Matched %d of %d Forum Cinemas movies with Apollo Kino Akropole", matched, len(movies))
+
+	generatedAt := time.Now()
+	metadata := scrapeMetadata{
+		GeneratedAt:    generatedAt,
+		ForumMovies:    len(links),
+		EnrichedMovies: len(movies),
+		ApolloMovies:   len(apolloMovies),
+		ApolloMatches:  matched,
 	}
 
-	if err := writeJSON(filepath.Join(dataDir, "movies_enriched.json"), movies); err != nil {
+	if err := writeJSONAtomic(filepath.Join(dataDir, "now_playing.json"), links); err != nil {
 		return err
 	}
-	if err := os.MkdirAll(filepath.Dir(reportPath), 0o755); err != nil {
-		return fmt.Errorf("create report directory: %w", err)
+	if err := writeJSONAtomic(filepath.Join(dataDir, "movies_enriched.json"), movies); err != nil {
+		return err
 	}
-	if err := writeReport(reportPath, movies, time.Now()); err != nil {
-		return fmt.Errorf("write report: %w", err)
+	if err := writeJSONAtomic(filepath.Join(dataDir, "scrape_metadata.json"), metadata); err != nil {
+		return err
 	}
 
-	log.Printf("Done: %d movies written to %s and %s", len(movies), dataDir, reportPath)
+	log.Printf("Done: %d movies written to %s; run 'reporter report' to build the HTML report", len(movies), dataDir)
 	return nil
 }
 
-func enrichMovies(ctx context.Context, client httpClient, links []movieLink, apiKey string, workers int) []movie {
+func runReport() error {
+	dataDir := envString("DATA_DIR", "data")
+	reportPath := envString("REPORT_PATH", "index.html")
+
+	var movies []movie
+	if err := readJSON(filepath.Join(dataDir, "movies_enriched.json"), &movies); err != nil {
+		return err
+	}
+	if len(movies) == 0 {
+		return errors.New("cannot build report: movies_enriched.json contains no movies")
+	}
+
+	generatedAt := time.Now()
+	var metadata scrapeMetadata
+	if err := readJSON(filepath.Join(dataDir, "scrape_metadata.json"), &metadata); err == nil && !metadata.GeneratedAt.IsZero() {
+		generatedAt = metadata.GeneratedAt
+	}
+
+	if err := os.MkdirAll(filepath.Dir(reportPath), 0o755); err != nil {
+		return fmt.Errorf("create report directory: %w", err)
+	}
+	if err := writeReport(reportPath, movies, generatedAt); err != nil {
+		return fmt.Errorf("write report: %w", err)
+	}
+
+	log.Printf("Done: report for %d movies written to %s", len(movies), reportPath)
+	return nil
+}
+
+func enrichMovies(
+	ctx context.Context,
+	client httpClient,
+	links []movieLink,
+	apiKey string,
+	workers int,
+	cache map[string]movie,
+) []movie {
 	jobs := make(chan indexedLink)
 	results := make(chan indexedMovie)
 	var wg sync.WaitGroup
@@ -118,7 +194,11 @@ func enrichMovies(ctx context.Context, client httpClient, links []movieLink, api
 			for job := range jobs {
 				item, err := scrapeMovie(ctx, client, job.link)
 				if err == nil {
-					err = enrichFromOMDb(ctx, client, &item, apiKey)
+					if cached, ok := cache[item.IMDbID]; ok {
+						copyEnrichment(&item, cached)
+					} else {
+						err = enrichFromOMDb(ctx, client, &item, apiKey)
+					}
 				}
 				results <- indexedMovie{index: job.index, movie: item, err: err}
 			}
@@ -154,14 +234,74 @@ func enrichMovies(ctx context.Context, client httpClient, links []movieLink, api
 	return movies
 }
 
-func writeJSON(path string, value any) error {
+func copyEnrichment(target *movie, cached movie) {
+	target.OMDbTitle = cached.OMDbTitle
+	target.ReleaseYear = cached.ReleaseYear
+	target.Genres = cached.Genres
+	target.IMDbRating = cached.IMDbRating
+}
+
+func loadMovieCache(path string) map[string]movie {
+	var movies []movie
+	if err := readJSON(path, &movies); err != nil {
+		log.Printf("OMDb cache unavailable; all movies will be refreshed: %v", err)
+		return nil
+	}
+
+	cache := make(map[string]movie, len(movies))
+	for _, item := range movies {
+		if item.IMDbID != "" {
+			cache[item.IMDbID] = item
+		}
+	}
+	log.Printf("Loaded %d cached OMDb records", len(cache))
+	return cache
+}
+
+func readJSON(path string, target any) error {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return fmt.Errorf("read %s: %w", path, err)
+	}
+	if err := json.Unmarshal(data, target); err != nil {
+		return fmt.Errorf("decode %s: %w", path, err)
+	}
+	return nil
+}
+
+func writeJSONAtomic(path string, value any) error {
 	data, err := json.MarshalIndent(value, "", "  ")
 	if err != nil {
 		return fmt.Errorf("encode %s: %w", path, err)
 	}
 	data = append(data, '\n')
-	if err := os.WriteFile(path, data, 0o644); err != nil {
-		return fmt.Errorf("write %s: %w", path, err)
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return fmt.Errorf("create directory for %s: %w", path, err)
+	}
+
+	file, err := os.CreateTemp(filepath.Dir(path), "."+filepath.Base(path)+".*")
+	if err != nil {
+		return fmt.Errorf("create temporary %s: %w", path, err)
+	}
+	tempPath := file.Name()
+	defer os.Remove(tempPath)
+
+	if _, err := file.Write(data); err != nil {
+		file.Close()
+		return fmt.Errorf("write temporary %s: %w", path, err)
+	}
+	if err := file.Sync(); err != nil {
+		file.Close()
+		return fmt.Errorf("sync temporary %s: %w", path, err)
+	}
+	if err := file.Close(); err != nil {
+		return fmt.Errorf("close temporary %s: %w", path, err)
+	}
+	if err := os.Chmod(tempPath, 0o644); err != nil {
+		return fmt.Errorf("set permissions on temporary %s: %w", path, err)
+	}
+	if err := os.Rename(tempPath, path); err != nil {
+		return fmt.Errorf("replace %s: %w", path, err)
 	}
 	return nil
 }

@@ -150,3 +150,76 @@ func TestWriteReportRendersSeparateCinemaColumns(t *testing.T) {
 		t.Error("movie title is still rendered as a hyperlink")
 	}
 }
+
+func TestExecuteReportBuildsOfflineFromCommittedData(t *testing.T) {
+	dataDir := filepath.Join(t.TempDir(), "data")
+	reportPath := filepath.Join(t.TempDir(), "index.html")
+	generatedAt := time.Date(2026, time.July, 31, 4, 0, 0, 0, time.FixedZone("EEST", 3*60*60))
+
+	movies := []movie{{
+		Title:           "The Odyssey",
+		ForumCinemasURL: "https://forum/movie",
+		ApolloKinoURL:   "https://apollo/movie#section-shows",
+		IMDbURL:         "https://imdb/title",
+	}}
+	metadata := scrapeMetadata{
+		GeneratedAt:    generatedAt,
+		ForumMovies:    1,
+		EnrichedMovies: 1,
+		ApolloMovies:   1,
+		ApolloMatches:  1,
+	}
+	if err := writeJSONAtomic(filepath.Join(dataDir, "movies_enriched.json"), movies); err != nil {
+		t.Fatal(err)
+	}
+	if err := writeJSONAtomic(filepath.Join(dataDir, "scrape_metadata.json"), metadata); err != nil {
+		t.Fatal(err)
+	}
+
+	t.Setenv("DATA_DIR", dataDir)
+	t.Setenv("REPORT_PATH", reportPath)
+	if err := execute([]string{"report"}); err != nil {
+		t.Fatal(err)
+	}
+
+	content, err := os.ReadFile(reportPath)
+	if err != nil {
+		t.Fatal(err)
+	}
+	report := string(content)
+	for _, expected := range []string{
+		"Updated 31 Jul 2026",
+		`href="https://apollo/movie#section-shows"`,
+	} {
+		if !strings.Contains(report, expected) {
+			t.Errorf("report does not contain %q", expected)
+		}
+	}
+}
+
+func TestCopyEnrichmentReusesOMDbData(t *testing.T) {
+	year := 2026
+	rating := 8.4
+	target := movie{Title: "Current title", IMDbID: "tt123"}
+	cached := movie{
+		OMDbTitle:   "OMDb title",
+		ReleaseYear: &year,
+		Genres:      "Adventure",
+		IMDbRating:  &rating,
+	}
+
+	copyEnrichment(&target, cached)
+
+	if target.OMDbTitle != cached.OMDbTitle ||
+		target.ReleaseYear == nil || *target.ReleaseYear != year ||
+		target.Genres != cached.Genres ||
+		target.IMDbRating == nil || *target.IMDbRating != rating {
+		t.Fatalf("cached enrichment was not copied: %#v", target)
+	}
+}
+
+func TestDefaultWorkerCountProtectsRaspberryPi(t *testing.T) {
+	if defaultWorkers != 1 {
+		t.Fatalf("defaultWorkers = %d, want 1", defaultWorkers)
+	}
+}
