@@ -1,5 +1,16 @@
 [
   {
+    "title": "The Invite",
+    "omdbTitle": "The Invite",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama, Romance",
+    "imdbId": "tt14173636",
+    "imdbUrl": "https://www.imdb.com/title/tt14173636/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304144/the_invite?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.8
+  },
+  {
     "title": "Spider-Man: Brand New Day",
     "omdbTitle": "Spider-Man: Brand New Day",
     "releaseYear": 2026,
@@ -9,6 +20,28 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304071/spider-man_brand_new_day?theatreAreaID=1011#section-shows",
     "imdbRating": null
+  },
+  {
+    "title": "Minions \u0026 Monsters",
+    "omdbTitle": "Minions \u0026 Monsters",
+    "releaseYear": 2026,
+    "genres": "Animation, Adventure, Comedy",
+    "imdbId": "tt32890033",
+    "imdbUrl": "https://www.imdb.com/title/tt32890033/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303948/minions_and_monsters?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.6
+  },
+  {
+    "title": "Michael",
+    "omdbTitle": "Michael",
+    "releaseYear": 2026,
+    "genres": "Biography, Drama, History",
+    "imdbId": "tt11378946",
+    "imdbUrl": "https://www.imdb.com/title/tt11378946/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303990/title/michael/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303659/michael?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.5
   },
   {
     "title": "The Last Whale Singer",
@@ -33,17 +66,6 @@
     "imdbRating": 8.3
   },
   {
-    "title": "Minions \u0026 Monsters",
-    "omdbTitle": "Minions \u0026 Monsters",
-    "releaseYear": 2026,
-    "genres": "Animation, Adventure, Comedy",
-    "imdbId": "tt32890033",
-    "imdbUrl": "https://www.imdb.com/title/tt32890033/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303948/minions_and_monsters?theatreAreaID=1011#section-shows",
-    "imdbRating": 6.6
-  },
-  {
     "title": "Toy Story 5",
     "omdbTitle": "Toy Story 5",
     "releaseYear": 2026,
@@ -52,50 +74,6 @@
     "imdbUrl": "https://www.imdb.com/title/tt29355505/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304031/toy_story_5?theatreAreaID=1011#section-shows",
-    "imdbRating": 7.5
-  },
-  {
-    "title": "Moana",
-    "omdbTitle": "Moana",
-    "releaseYear": 2026,
-    "genres": "Action, Adventure, Comedy",
-    "imdbId": "tt27419466",
-    "imdbUrl": "https://www.imdb.com/title/tt27419466/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304819/title/moana/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304037/moana?theatreAreaID=1011#section-shows",
-    "imdbRating": null
-  },
-  {
-    "title": "The Devil Wears Prada 2",
-    "omdbTitle": "The Devil Wears Prada 2",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama",
-    "imdbId": "tt33612209",
-    "imdbUrl": "https://www.imdb.com/title/tt33612209/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304032/the_devil_wears_prada_2?theatreAreaID=1011#section-shows",
-    "imdbRating": 6.5
-  },
-  {
-    "title": "The Invite",
-    "omdbTitle": "The Invite",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama, Romance",
-    "imdbId": "tt14173636",
-    "imdbUrl": "https://www.imdb.com/title/tt14173636/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304144/the_invite?theatreAreaID=1011#section-shows",
-    "imdbRating": 7.8
-  },
-  {
-    "title": "Michael",
-    "omdbTitle": "Michael",
-    "releaseYear": 2026,
-    "genres": "Biography, Drama, History",
-    "imdbId": "tt11378946",
-    "imdbUrl": "https://www.imdb.com/title/tt11378946/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303990/title/michael/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303659/michael?theatreAreaID=1011#section-shows",
     "imdbRating": 7.5
   },
   {
@@ -110,6 +88,17 @@
     "imdbRating": 8
   },
   {
+    "title": "Moana",
+    "omdbTitle": "Moana",
+    "releaseYear": 2026,
+    "genres": "Action, Adventure, Comedy",
+    "imdbId": "tt27419466",
+    "imdbUrl": "https://www.imdb.com/title/tt27419466/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304819/title/moana/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304037/moana?theatreAreaID=1011#section-shows",
+    "imdbRating": null
+  },
+  {
     "title": "Mi Amor",
     "omdbTitle": "Mi Amor",
     "releaseYear": 2025,
@@ -118,6 +107,17 @@
     "imdbUrl": "https://www.imdb.com/title/tt35675616/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304874/title/mi_amor/",
     "imdbRating": null
+  },
+  {
+    "title": "The Devil Wears Prada 2",
+    "omdbTitle": "The Devil Wears Prada 2",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama",
+    "imdbId": "tt33612209",
+    "imdbUrl": "https://www.imdb.com/title/tt33612209/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304032/the_devil_wears_prada_2?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.5
   },
   {
     "title": "GoodFellas (1990)",
@@ -467,6 +467,107 @@
     "imdbUrl": "https://www.imdb.com/title/tt0117951/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/302060/title/trainspotting_1996/",
     "imdbRating": 8.1
+  },
+  {
+    "title": "Your Name. (2016)",
+    "omdbTitle": "Your Name.",
+    "releaseYear": 2016,
+    "genres": "Animation, Drama, Fantasy",
+    "imdbId": "tt5311514",
+    "imdbUrl": "https://www.imdb.com/title/tt5311514/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304895/title/your_name_2016/",
+    "imdbRating": 8.4
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone (2001)",
+    "omdbTitle": "Harry Potter and the Sorcerer's Stone",
+    "releaseYear": 2001,
+    "genres": "Adventure, Family, Fantasy",
+    "imdbId": "tt0241527",
+    "imdbUrl": "https://www.imdb.com/title/tt0241527/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303211/title/harry_potter_and_the_philosophers_stone_2001/",
+    "imdbRating": 7.7
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets (2002)",
+    "omdbTitle": "Harry Potter and the Chamber of Secrets",
+    "releaseYear": 2002,
+    "genres": "Adventure, Family, Fantasy",
+    "imdbId": "tt0295297",
+    "imdbUrl": "https://www.imdb.com/title/tt0295297/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/299908/title/harry_potter_and_the_chamber_of_secrets_2002/",
+    "imdbRating": 7.5
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban (2004)",
+    "omdbTitle": "Harry Potter and the Prisoner of Azkaban",
+    "releaseYear": 2004,
+    "genres": "Adventure, Family, Fantasy",
+    "imdbId": "tt0304141",
+    "imdbUrl": "https://www.imdb.com/title/tt0304141/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/299980/title/harry_potter_and_the_prisoner_of_azkaban_2004/",
+    "imdbRating": 7.9
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire (2005)",
+    "omdbTitle": "Harry Potter and the Goblet of Fire",
+    "releaseYear": 2005,
+    "genres": "Adventure, Family, Fantasy",
+    "imdbId": "tt0330373",
+    "imdbUrl": "https://www.imdb.com/title/tt0330373/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/300168/title/harry_potter_and_the_goblet_of_fire_2005/",
+    "imdbRating": 7.7
+  },
+  {
+    "title": "Harry Potter and the Order of Phoenix (2007)",
+    "omdbTitle": "Harry Potter and the Order of the Phoenix",
+    "releaseYear": 2007,
+    "genres": "Action, Adventure, Family",
+    "imdbId": "tt0373889",
+    "imdbUrl": "https://www.imdb.com/title/tt0373889/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/300482/title/harry_potter_and_the_order_of_phoenix_2007/",
+    "imdbRating": 7.5
+  },
+  {
+    "title": "Harry Potter and the Half-Blood Prince (2009)",
+    "omdbTitle": "Harry Potter and the Half-Blood Prince",
+    "releaseYear": 2009,
+    "genres": "Action, Adventure, Family",
+    "imdbId": "tt0417741",
+    "imdbUrl": "https://www.imdb.com/title/tt0417741/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/299619/title/harry_potter_and_the_half-blood_prince_2009/",
+    "imdbRating": 7.6
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part I (2010)",
+    "omdbTitle": "Harry Potter and the Deathly Hallows: Part 1",
+    "releaseYear": 2010,
+    "genres": "Adventure, Family, Fantasy",
+    "imdbId": "tt0926084",
+    "imdbUrl": "https://www.imdb.com/title/tt0926084/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/298988/title/harry_potter_and_the_deathly_hallows_part_i_2010/",
+    "imdbRating": 7.7
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part II (2011)",
+    "omdbTitle": "Harry Potter and the Deathly Hallows: Part 2",
+    "releaseYear": 2011,
+    "genres": "Adventure, Family, Fantasy",
+    "imdbId": "tt1201607",
+    "imdbUrl": "https://www.imdb.com/title/tt1201607/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/299731/title/harry_potter_and_the_deathly_hallows_part_ii_2011/",
+    "imdbRating": 8.1
+  },
+  {
+    "title": "Idiots",
+    "omdbTitle": "Idiots",
+    "releaseYear": 2026,
+    "genres": "Comedy, Crime",
+    "imdbId": "tt6628920",
+    "imdbUrl": "https://www.imdb.com/title/tt6628920/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304845/title/idiots/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304164/idiots?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.1
   },
   {
     "title": "Taxi Driver (1976)",
