@@ -12,14 +12,6 @@
     "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
   },
   {
-    "title": "The Last Whale Singer",
-    "url": "https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/"
-  },
-  {
-    "title": "Virginia Woolf's Night \u0026 Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/"
-  },
-  {
     "title": "Toy Story 5",
     "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
   },
@@ -28,52 +20,28 @@
     "url": "https://www.forumcinemas.lv/eng/event/304819/title/moana/"
   },
   {
+    "title": "The Last Whale Singer",
+    "url": "https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/"
+  },
+  {
     "title": "Michael",
     "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
-  },
-  {
-    "title": "Obsession",
-    "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
-  },
-  {
-    "title": "The Invite",
-    "url": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/"
-  },
-  {
-    "title": "Howl’s Moving Castle (2004)",
-    "url": "https://www.forumcinemas.lv/eng/event/304611/title/howls_moving_castle_2004/"
-  },
-  {
-    "title": "Mi Amor",
-    "url": "https://www.forumcinemas.lv/eng/event/304874/title/mi_amor/"
   },
   {
     "title": "The Devil Wears Prada 2",
     "url": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/"
   },
   {
-    "title": "La La Land (2016)",
-    "url": "https://www.forumcinemas.lv/eng/event/302012/title/la_la_land_2016/"
+    "title": "Nausicaä of the Valley of the Wind (1984)",
+    "url": "https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/"
   },
   {
-    "title": "A Good Year (2006)",
-    "url": "https://www.forumcinemas.lv/eng/event/300408/title/a_good_year_2006/"
-  },
-  {
-    "title": "Project Hail Mary",
-    "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
+    "title": "The Invite",
+    "url": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/"
   },
   {
     "title": "Backrooms: Everything Must Go",
     "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
-  },
-  {
-    "title": "Evil Dead Burn",
-    "url": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/"
-  },
-  {
-    "title": "Nausicaä of the Valley of the Wind (1984)",
-    "url": "https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/"
   },
   {
     "title": "Chocolat (2000)",
@@ -84,8 +52,28 @@
     "url": "https://www.forumcinemas.lv/eng/event/301957/title/a_fistful_of_dollars_1964/"
   },
   {
+    "title": "Mi Amor",
+    "url": "https://www.forumcinemas.lv/eng/event/304874/title/mi_amor/"
+  },
+  {
+    "title": "Obsession",
+    "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
+  },
+  {
+    "title": "Evil Dead Burn",
+    "url": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/"
+  },
+  {
+    "title": "Virginia Woolf's Night \u0026 Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/"
+  },
+  {
     "title": "Private event",
     "url": "https://www.forumcinemas.lv/eng/event/303398/title/private_event/"
+  },
+  {
+    "title": "Project Hail Mary",
+    "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
   },
   {
     "title": "NT LIVE: Hamlet (2026)",
@@ -112,8 +100,16 @@
     "url": "https://www.forumcinemas.lv/eng/event/304089/title/met_opera_aida_2025/"
   },
   {
+    "title": "Howl’s Moving Castle (2004)",
+    "url": "https://www.forumcinemas.lv/eng/event/304611/title/howls_moving_castle_2004/"
+  },
+  {
     "title": "ATEEZ : LIGHT THE WAY IN CINEMAS",
     "url": "https://www.forumcinemas.lv/eng/event/304866/title/ateez_light_the_way_in_cinemas/"
+  },
+  {
+    "title": "La La Land (2016)",
+    "url": "https://www.forumcinemas.lv/eng/event/302012/title/la_la_land_2016/"
   },
   {
     "title": "The Darjeeling Limited (2007)",
@@ -146,6 +142,10 @@
   {
     "title": "Practical Magic (1998)",
     "url": "https://www.forumcinemas.lv/eng/event/304894/title/practical_magic_1998/"
+  },
+  {
+    "title": "A Good Year (2006)",
+    "url": "https://www.forumcinemas.lv/eng/event/300408/title/a_good_year_2006/"
   },
   {
     "title": "NT LIVE: The Fifth Step",
