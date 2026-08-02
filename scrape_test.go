@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"testing"
 	"time"
@@ -200,12 +201,14 @@ func TestExecuteReportBuildsOfflineFromCommittedData(t *testing.T) {
 func TestCopyEnrichmentReusesOMDbData(t *testing.T) {
 	year := 2026
 	rating := 8.4
+	fetchedAt := time.Date(2026, time.July, 31, 4, 0, 0, 0, time.UTC)
 	target := movie{Title: "Current title", IMDbID: "tt123"}
 	cached := movie{
-		OMDbTitle:   "OMDb title",
-		ReleaseYear: &year,
-		Genres:      "Adventure",
-		IMDbRating:  &rating,
+		OMDbTitle:     "OMDb title",
+		ReleaseYear:   &year,
+		Genres:        "Adventure",
+		IMDbRating:    &rating,
+		OMDbFetchedAt: &fetchedAt,
 	}
 
 	copyEnrichment(&target, cached)
@@ -213,8 +216,83 @@ func TestCopyEnrichmentReusesOMDbData(t *testing.T) {
 	if target.OMDbTitle != cached.OMDbTitle ||
 		target.ReleaseYear == nil || *target.ReleaseYear != year ||
 		target.Genres != cached.Genres ||
-		target.IMDbRating == nil || *target.IMDbRating != rating {
+		target.IMDbRating == nil || *target.IMDbRating != rating ||
+		target.OMDbFetchedAt == nil || !target.OMDbFetchedAt.Equal(fetchedAt) {
 		t.Fatalf("cached enrichment was not copied: %#v", target)
+	}
+}
+
+func TestShouldRefreshOMDbUsesCurrentYearAndHistoricalTTL(t *testing.T) {
+	now := time.Date(2026, time.August, 2, 4, 0, 0, 0, time.UTC)
+	currentYear := 2026
+	pastYear := 2025
+	recent := now.Add(-24 * time.Hour)
+	expired := now.Add(-historicalMovieTTL)
+
+	tests := []struct {
+		name   string
+		cached movie
+		want   bool
+	}{
+		{name: "current year is always refreshed", cached: movie{ReleaseYear: &currentYear, OMDbFetchedAt: &recent}, want: true},
+		{name: "recent historical movie stays cached", cached: movie{ReleaseYear: &pastYear, OMDbFetchedAt: &recent}, want: false},
+		{name: "historical movie expires after one year", cached: movie{ReleaseYear: &pastYear, OMDbFetchedAt: &expired}, want: true},
+		{name: "legacy cache without timestamp is refreshed", cached: movie{ReleaseYear: &pastYear}, want: true},
+	}
+
+	for _, test := range tests {
+		t.Run(test.name, func(t *testing.T) {
+			if got := shouldRefreshOMDb(test.cached, now); got != test.want {
+				t.Fatalf("shouldRefreshOMDb() = %v, want %v", got, test.want)
+			}
+		})
+	}
+}
+
+func TestEnrichMoviesRefreshesCurrentYearRating(t *testing.T) {
+	currentYear := time.Now().Year()
+	oldRating := 8.3
+	fetchedAt := time.Now().Add(-24 * time.Hour)
+	omdbCalls := 0
+	client := roundTripFunc(func(request *http.Request) (*http.Response, error) {
+		body := `<h1 class="list-item-desc-title">The Odyssey</h1><a href="https://www.imdb.com/title/tt123/">IMDb</a>`
+		if request.URL.Host == "www.omdbapi.com" {
+			omdbCalls++
+			body = `{"Response":"True","Title":"The Odyssey","Year":"` + strconv.Itoa(currentYear) + `","Genre":"Adventure","imdbRating":"5.0"}`
+		}
+		return &http.Response{StatusCode: http.StatusOK, Body: io.NopCloser(strings.NewReader(body))}, nil
+	})
+
+	movies := enrichMovies(context.Background(), client, []movieLink{{Title: "The Odyssey", URL: "https://example.com/movie"}}, "secret", 1, map[string]movie{
+		"tt123": {ReleaseYear: &currentYear, IMDbRating: &oldRating, OMDbFetchedAt: &fetchedAt},
+	})
+
+	if omdbCalls != 1 || len(movies) != 1 || movies[0].IMDbRating == nil || *movies[0].IMDbRating != 5.0 {
+		t.Fatalf("current-year movie was not refreshed: calls=%d movies=%#v", omdbCalls, movies)
+	}
+	if movies[0].OMDbFetchedAt == nil || !movies[0].OMDbFetchedAt.After(fetchedAt) {
+		t.Fatalf("refresh timestamp was not updated: %#v", movies[0])
+	}
+}
+
+func TestEnrichMoviesKeepsCachedMovieWhenRefreshFails(t *testing.T) {
+	currentYear := time.Now().Year()
+	oldRating := 8.3
+	fetchedAt := time.Now().Add(-24 * time.Hour)
+	client := roundTripFunc(func(request *http.Request) (*http.Response, error) {
+		if request.URL.Host == "www.omdbapi.com" {
+			return &http.Response{StatusCode: http.StatusBadRequest, Body: io.NopCloser(strings.NewReader("bad request"))}, nil
+		}
+		body := `<h1 class="list-item-desc-title">The Odyssey</h1><a href="https://www.imdb.com/title/tt123/">IMDb</a>`
+		return &http.Response{StatusCode: http.StatusOK, Body: io.NopCloser(strings.NewReader(body))}, nil
+	})
+
+	movies := enrichMovies(context.Background(), client, []movieLink{{Title: "The Odyssey", URL: "https://example.com/movie"}}, "secret", 1, map[string]movie{
+		"tt123": {ReleaseYear: &currentYear, IMDbRating: &oldRating, OMDbFetchedAt: &fetchedAt},
+	})
+
+	if len(movies) != 1 || movies[0].IMDbRating == nil || *movies[0].IMDbRating != oldRating {
+		t.Fatalf("cached movie was lost after a failed refresh: %#v", movies)
 	}
 }
 

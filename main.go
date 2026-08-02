@@ -17,6 +17,7 @@ import (
 const (
 	defaultWorkers      = 1
 	defaultMinMovies    = 10
+	historicalMovieTTL  = 365 * 24 * time.Hour
 	nowPlayingURL       = "https://www.forumcinemas.lv/eng/movies/now-playing"
 	apolloTheatreAreaID = "1011"
 	apolloMoviesURL     = "https://www.apollokino.lv/eng/movies?theatreAreaID=" + apolloTheatreAreaID
@@ -28,15 +29,16 @@ type movieLink struct {
 }
 
 type movie struct {
-	Title           string   `json:"title"`
-	OMDbTitle       string   `json:"omdbTitle,omitempty"`
-	ReleaseYear     *int     `json:"releaseYear"`
-	Genres          string   `json:"genres"`
-	IMDbID          string   `json:"imdbId"`
-	IMDbURL         string   `json:"imdbUrl"`
-	ForumCinemasURL string   `json:"forumcinemasUrl"`
-	ApolloKinoURL   string   `json:"apolloKinoUrl,omitempty"`
-	IMDbRating      *float64 `json:"imdbRating"`
+	Title           string     `json:"title"`
+	OMDbTitle       string     `json:"omdbTitle,omitempty"`
+	ReleaseYear     *int       `json:"releaseYear"`
+	Genres          string     `json:"genres"`
+	IMDbID          string     `json:"imdbId"`
+	IMDbURL         string     `json:"imdbUrl"`
+	ForumCinemasURL string     `json:"forumcinemasUrl"`
+	ApolloKinoURL   string     `json:"apolloKinoUrl,omitempty"`
+	IMDbRating      *float64   `json:"imdbRating"`
+	OMDbFetchedAt   *time.Time `json:"omdbFetchedAt,omitempty"`
 }
 
 type indexedLink struct {
@@ -186,6 +188,7 @@ func enrichMovies(
 	jobs := make(chan indexedLink)
 	results := make(chan indexedMovie)
 	var wg sync.WaitGroup
+	now := time.Now()
 
 	for range workers {
 		wg.Add(1)
@@ -195,7 +198,16 @@ func enrichMovies(
 				item, err := scrapeMovie(ctx, client, job.link)
 				if err == nil {
 					if cached, ok := cache[item.IMDbID]; ok {
-						copyEnrichment(&item, cached)
+						if shouldRefreshOMDb(cached, now) {
+							err = enrichFromOMDb(ctx, client, &item, apiKey)
+							if err != nil {
+								log.Printf("Refresh %q failed; using cached OMDb data: %v", job.link.Title, err)
+								copyEnrichment(&item, cached)
+								err = nil
+							}
+						} else {
+							copyEnrichment(&item, cached)
+						}
 					} else {
 						err = enrichFromOMDb(ctx, client, &item, apiKey)
 					}
@@ -239,6 +251,17 @@ func copyEnrichment(target *movie, cached movie) {
 	target.ReleaseYear = cached.ReleaseYear
 	target.Genres = cached.Genres
 	target.IMDbRating = cached.IMDbRating
+	target.OMDbFetchedAt = cached.OMDbFetchedAt
+}
+
+func shouldRefreshOMDb(cached movie, now time.Time) bool {
+	if cached.ReleaseYear != nil && *cached.ReleaseYear == now.Year() {
+		return true
+	}
+	if cached.OMDbFetchedAt == nil || cached.OMDbFetchedAt.IsZero() {
+		return true
+	}
+	return !now.Before(cached.OMDbFetchedAt.Add(historicalMovieTTL))
 }
 
 func loadMovieCache(path string) map[string]movie {

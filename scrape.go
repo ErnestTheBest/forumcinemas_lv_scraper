@@ -139,6 +139,8 @@ func enrichFromOMDb(ctx context.Context, client httpClient, item *movie, apiKey 
 	if rating, err := strconv.ParseFloat(response.IMDbRating, 64); err == nil {
 		item.IMDbRating = &rating
 	}
+	fetchedAt := time.Now()
+	item.OMDbFetchedAt = &fetchedAt
 	return nil
 }
 

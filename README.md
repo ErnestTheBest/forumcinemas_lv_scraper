@@ -31,10 +31,12 @@ set +a
 ./reporter scrape
 ```
 
-The scraper uses one worker and one Go CPU by default. It reuses previously
-enriched OMDb records, so unchanged movies do not consume additional OMDb
-requests. It refuses to replace the last good data when Forum Cinemas returns
-too few movies, Apollo Kino is unavailable, or no Apollo titles match.
+The scraper uses one worker and one Go CPU by default. OMDb records for movies
+from the current year are refreshed on every scrape; older records have a
+365-day TTL. A failed refresh falls back to the last cached record. Legacy cache
+entries without a fetch timestamp are refreshed once to establish the TTL. The
+scraper refuses to replace the last good data when Forum Cinemas returns too few
+movies, Apollo Kino is unavailable, or no Apollo titles match.
 
 The scraper writes:
 
