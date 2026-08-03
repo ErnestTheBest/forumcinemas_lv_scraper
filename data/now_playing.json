@@ -1,47 +1,39 @@
 [
   {
-    "title": "Toy Story 5",
-    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
-  },
-  {
-    "title": "Moana",
-    "url": "https://www.forumcinemas.lv/eng/event/304819/title/moana/"
-  },
-  {
-    "title": "The Last Whale Singer",
-    "url": "https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/"
-  },
-  {
-    "title": "Nausicaä of the Valley of the Wind (1984)",
-    "url": "https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/"
-  },
-  {
     "title": "Spider-Man: Brand New Day",
     "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
-  },
-  {
-    "title": "Backrooms: Everything Must Go",
-    "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
-  },
-  {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
   },
   {
     "title": "Minions \u0026 Monsters",
     "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
   },
   {
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
+  },
+  {
+    "title": "The Last Whale Singer",
+    "url": "https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/"
+  },
+  {
+    "title": "Toy Story 5",
+    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
+  },
+  {
+    "title": "Virginia Woolf's Night \u0026 Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/"
+  },
+  {
     "title": "Michael",
     "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
   },
   {
-    "title": "Chocolat (2000)",
-    "url": "https://www.forumcinemas.lv/eng/event/304863/title/chocolat_2000/"
+    "title": "Moana",
+    "url": "https://www.forumcinemas.lv/eng/event/304819/title/moana/"
   },
   {
-    "title": "A Fistful of Dollars (1964)",
-    "url": "https://www.forumcinemas.lv/eng/event/301957/title/a_fistful_of_dollars_1964/"
+    "title": "Private event",
+    "url": "https://www.forumcinemas.lv/eng/event/303398/title/private_event/"
   },
   {
     "title": "The Devil Wears Prada 2",
@@ -52,28 +44,24 @@
     "url": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/"
   },
   {
-    "title": "Mi Amor",
-    "url": "https://www.forumcinemas.lv/eng/event/304874/title/mi_amor/"
+    "title": "Backrooms: Everything Must Go",
+    "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
   },
   {
     "title": "Obsession",
     "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
   },
   {
-    "title": "Evil Dead Burn",
-    "url": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/"
-  },
-  {
-    "title": "Virginia Woolf's Night \u0026 Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/"
-  },
-  {
-    "title": "Private event",
-    "url": "https://www.forumcinemas.lv/eng/event/303398/title/private_event/"
+    "title": "Mi Amor",
+    "url": "https://www.forumcinemas.lv/eng/event/304874/title/mi_amor/"
   },
   {
     "title": "Project Hail Mary",
     "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
+  },
+  {
+    "title": "Evil Dead Burn",
+    "url": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/"
   },
   {
     "title": "NT LIVE: Hamlet (2026)",
@@ -98,6 +86,14 @@
   {
     "title": "MET Opera: Aida (2025)",
     "url": "https://www.forumcinemas.lv/eng/event/304089/title/met_opera_aida_2025/"
+  },
+  {
+    "title": "Nausicaä of the Valley of the Wind (1984)",
+    "url": "https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/"
+  },
+  {
+    "title": "A Fistful of Dollars (1964)",
+    "url": "https://www.forumcinemas.lv/eng/event/301957/title/a_fistful_of_dollars_1964/"
   },
   {
     "title": "Howl’s Moving Castle (2004)",
@@ -150,6 +146,10 @@
   {
     "title": "NT LIVE: The Fifth Step",
     "url": "https://www.forumcinemas.lv/eng/event/304465/title/nt_live_the_fifth_step/"
+  },
+  {
+    "title": "Chocolat (2000)",
+    "url": "https://www.forumcinemas.lv/eng/event/304863/title/chocolat_2000/"
   },
   {
     "title": "One Night Only",
