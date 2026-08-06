@@ -1,15 +1,15 @@
 [
   {
-    "title": "The Invite",
-    "url": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/"
-  },
-  {
     "title": "Spider-Man: Brand New Day",
     "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
   },
   {
     "title": "The Last Whale Singer",
     "url": "https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/"
+  },
+  {
+    "title": "Virginia Woolf's Night \u0026 Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/"
   },
   {
     "title": "Moana",
@@ -24,48 +24,28 @@
     "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
   },
   {
-    "title": "Obsession",
-    "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
+    "title": "The Invite",
+    "url": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/"
   },
   {
     "title": "Toy Story 5",
     "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
   },
   {
-    "title": "Michael",
-    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
-  },
-  {
     "title": "The Devil Wears Prada 2",
     "url": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/"
   },
   {
-    "title": "MET Opera: Aida (2025)",
-    "url": "https://www.forumcinemas.lv/eng/event/304089/title/met_opera_aida_2025/"
-  },
-  {
-    "title": "Nausicaä of the Valley of the Wind (1984)",
-    "url": "https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/"
-  },
-  {
-    "title": "A Fistful of Dollars (1964)",
-    "url": "https://www.forumcinemas.lv/eng/event/301957/title/a_fistful_of_dollars_1964/"
-  },
-  {
-    "title": "Backrooms: Everything Must Go",
-    "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
-  },
-  {
-    "title": "Evil Dead Burn",
-    "url": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/"
-  },
-  {
-    "title": "Virginia Woolf's Night \u0026 Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304830/title/virginia_woolfs_night_and_day/"
+    "title": "Obsession",
+    "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
   },
   {
     "title": "Howl’s Moving Castle (2004)",
     "url": "https://www.forumcinemas.lv/eng/event/304611/title/howls_moving_castle_2004/"
+  },
+  {
+    "title": "Michael",
+    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
   },
   {
     "title": "ATEEZ : LIGHT THE WAY IN CINEMAS",
@@ -78,6 +58,10 @@
   {
     "title": "Project Hail Mary",
     "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
+  },
+  {
+    "title": "Backrooms: Everything Must Go",
+    "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
   },
   {
     "title": "Disclosure Day",
@@ -94,6 +78,10 @@
   {
     "title": "The Darjeeling Limited (2007)",
     "url": "https://www.forumcinemas.lv/eng/event/303950/title/the_darjeeling_limited_2007/"
+  },
+  {
+    "title": "Evil Dead Burn",
+    "url": "https://www.forumcinemas.lv/eng/event/304827/title/evil_dead_burn/"
   },
   {
     "title": "Paw Patrol: The Dino Movie",
@@ -200,12 +188,24 @@
     "url": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/"
   },
   {
+    "title": "Insidious: Out Of The Further",
+    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
+  },
+  {
     "title": "Terminator 2. Judgment Day *Extended* (1991)",
     "url": "https://www.forumcinemas.lv/eng/event/302211/title/terminator_2_judgment_day_extended_1991/"
   },
   {
     "title": "Trainspotting (1996)",
     "url": "https://www.forumcinemas.lv/eng/event/302060/title/trainspotting_1996/"
+  },
+  {
+    "title": "Met Opera: Aida (2025)",
+    "url": "https://www.forumcinemas.lv/eng/event/304089/title/met_opera_aida_2025/"
+  },
+  {
+    "title": "Nausicaä of the Valley of the Wind (1984)",
+    "url": "https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/"
   },
   {
     "title": "Your Name. (2016)",
@@ -282,6 +282,10 @@
   {
     "title": "Lawrence of Arabia (1962)",
     "url": "https://www.forumcinemas.lv/eng/event/304820/title/lawrence_of_arabia_1962/"
+  },
+  {
+    "title": "NT LIVE: The Misanthrope",
+    "url": "https://www.forumcinemas.lv/eng/event/304897/title/nt_live_the_misanthrope/"
   },
   {
     "title": "Met Opera: Macbeth",
