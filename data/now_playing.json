@@ -1,23 +1,11 @@
 [
   {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
-  },
-  {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
-  },
-  {
-    "title": "Minions \u0026 Monsters",
-    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
-  },
-  {
     "title": "Spider-Man: Brand New Day",
     "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
   },
   {
-    "title": "Toy Story 5",
-    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
   },
   {
     "title": "The Last Whale Singer",
@@ -28,12 +16,32 @@
     "url": "https://www.forumcinemas.lv/eng/event/304819/title/moana/"
   },
   {
+    "title": "Toy Story 5",
+    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
+  },
+  {
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
+  },
+  {
+    "title": "Minions \u0026 Monsters",
+    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
+  },
+  {
     "title": "The End of Oak Street",
     "url": "https://www.forumcinemas.lv/eng/event/304869/title/the_end_of_oak_street/"
   },
   {
     "title": "One Night Only",
     "url": "https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/"
+  },
+  {
+    "title": "Ice Cream Man",
+    "url": "https://www.forumcinemas.lv/eng/event/304847/title/ice_cream_man/"
+  },
+  {
+    "title": "Michael",
+    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
   },
   {
     "title": "The Invite",
@@ -44,40 +52,16 @@
     "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
   },
   {
-    "title": "Michael",
-    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
-  },
-  {
-    "title": "My Neighbour Totoro (1988)",
-    "url": "https://www.forumcinemas.lv/eng/event/304579/title/my_neighbour_totoro_1988/"
-  },
-  {
-    "title": "Met Opera: The Merry Widow (2015)",
-    "url": "https://www.forumcinemas.lv/eng/event/301380/title/met_opera_the_merry_widow_2015/"
-  },
-  {
-    "title": "Thelma \u0026 Louise (1991)",
-    "url": "https://www.forumcinemas.lv/eng/event/304815/title/thelma_and_louise_1991/"
-  },
-  {
     "title": "The Devil Wears Prada 2",
     "url": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/"
   },
   {
-    "title": "Backrooms: Everything Must Go",
-    "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
-  },
-  {
-    "title": "Ice Cream Man",
-    "url": "https://www.forumcinemas.lv/eng/event/304847/title/ice_cream_man/"
-  },
-  {
-    "title": "Scary Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304741/title/scary_movie/"
-  },
-  {
     "title": "Project Hail Mary",
     "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
+  },
+  {
+    "title": "Backrooms: Everything Must Go",
+    "url": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/"
   },
   {
     "title": "NT LIVE: The Audience",
@@ -110,6 +94,10 @@
   {
     "title": "Spa Weekend",
     "url": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/"
+  },
+  {
+    "title": "My Neighbour Totoro (1988)",
+    "url": "https://www.forumcinemas.lv/eng/event/304579/title/my_neighbour_totoro_1988/"
   },
   {
     "title": "ATEEZ : LIGHT THE WAY IN CINEMAS",
@@ -158,6 +146,10 @@
   {
     "title": "Met Opera: Aida (2025)",
     "url": "https://www.forumcinemas.lv/eng/event/304089/title/met_opera_aida_2025/"
+  },
+  {
+    "title": "Thelma \u0026 Louise (1991)",
+    "url": "https://www.forumcinemas.lv/eng/event/304815/title/thelma_and_louise_1991/"
   },
   {
     "title": "Nausicaä of the Valley of the Wind (1984)",
