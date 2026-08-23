@@ -1,35 +1,31 @@
 [
   {
-    "title": "Spa Weekend",
-    "url": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/"
-  },
-  {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
-  },
-  {
-    "title": "Born In The Jungle",
-    "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
-  },
-  {
     "title": "Minions \u0026 Monsters",
     "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
-  },
-  {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
   },
   {
     "title": "Spider-Man: Brand New Day",
     "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
   },
   {
+    "title": "Spa Weekend",
+    "url": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/"
+  },
+  {
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
+  },
+  {
+    "title": "Born In The Jungle",
+    "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
+  },
+  {
     "title": "Toy Story 5",
     "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
   },
   {
-    "title": "One Night Only",
-    "url": "https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/"
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
   },
   {
     "title": "Moana",
@@ -44,40 +40,16 @@
     "url": "https://www.forumcinemas.lv/eng/event/304867/title/mutiny/"
   },
   {
-    "title": "Michael",
-    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
-  },
-  {
-    "title": "Obsession",
-    "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
-  },
-  {
-    "title": "Private event",
-    "url": "https://www.forumcinemas.lv/eng/event/303398/title/private_event/"
-  },
-  {
     "title": "Insidious: Out of the Further",
     "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
   },
   {
-    "title": "Princess Mononoke (1997)",
-    "url": "https://www.forumcinemas.lv/eng/event/304633/title/princess_mononoke_1997/"
-  },
-  {
-    "title": "KATSEYE: WILD HEARTS",
-    "url": "https://www.forumcinemas.lv/eng/event/304875/title/katseye_wild_hearts/"
-  },
-  {
-    "title": "A Good Year (2006)",
-    "url": "https://www.forumcinemas.lv/eng/event/300408/title/a_good_year_2006/"
-  },
-  {
-    "title": "Trainspotting (1996)",
-    "url": "https://www.forumcinemas.lv/eng/event/302060/title/trainspotting_1996/"
-  },
-  {
     "title": "Flow (2024)",
     "url": "https://www.forumcinemas.lv/eng/event/304076/title/flow_2024/"
+  },
+  {
+    "title": "One Night Only",
+    "url": "https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/"
   },
   {
     "title": "Spirited Away (2001)",
@@ -88,12 +60,24 @@
     "url": "https://www.forumcinemas.lv/eng/event/304089/title/met_opera_aida_2025/"
   },
   {
+    "title": "KATSEYE: WILD HEARTS",
+    "url": "https://www.forumcinemas.lv/eng/event/304875/title/katseye_wild_hearts/"
+  },
+  {
     "title": "Thelma \u0026 Louise (1991)",
     "url": "https://www.forumcinemas.lv/eng/event/304815/title/thelma_and_louise_1991/"
   },
   {
+    "title": "Michael",
+    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
+  },
+  {
     "title": "The Invite",
     "url": "https://www.forumcinemas.lv/eng/event/304784/title/the_invite/"
+  },
+  {
+    "title": "Obsession",
+    "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
   },
   {
     "title": "The Devil Wears Prada 2",
@@ -222,6 +206,10 @@
   {
     "title": "Blade Runner: The Final Cut (1982)",
     "url": "https://www.forumcinemas.lv/eng/event/301878/title/blade_runner_the_final_cut_1982/"
+  },
+  {
+    "title": "Trainspotting (1996)",
+    "url": "https://www.forumcinemas.lv/eng/event/302060/title/trainspotting_1996/"
   },
   {
     "title": "NT LIVE: The Importance of Being Earnest",
