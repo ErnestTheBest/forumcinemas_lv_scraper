@@ -1,91 +1,31 @@
 [
   {
-    "title": "Born In The Jungle",
-    "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
   },
   {
-    "title": "Spider-Man: Brand New Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
+    "title": "Born In The Jungle",
+    "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
   },
   {
     "title": "Minions \u0026 Monsters",
     "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
   },
   {
+    "title": "Spider-Man: Brand New Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
+  },
+  {
     "title": "The Odyssey",
     "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
   },
   {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
-  },
-  {
-    "title": "Spa Weekend",
-    "url": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/"
-  },
-  {
-    "title": "The Dog Stars",
-    "url": "https://www.forumcinemas.lv/eng/event/304842/title/the_dog_stars/"
-  },
-  {
-    "title": "Harry Potter and the Prisoner of Azkaban (2004)",
-    "url": "https://www.forumcinemas.lv/eng/event/299980/title/harry_potter_and_the_prisoner_of_azkaban_2004/"
-  },
-  {
-    "title": "Tony",
-    "url": "https://www.forumcinemas.lv/eng/event/304882/title/tony/"
-  },
-  {
-    "title": "Mutiny",
-    "url": "https://www.forumcinemas.lv/eng/event/304867/title/mutiny/"
+    "title": "Toy Story 5",
+    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
   },
   {
     "title": "The Birthday Party",
     "url": "https://www.forumcinemas.lv/eng/event/304876/title/the_birthday_party/"
-  },
-  {
-    "title": "Insidious: Out of the Further",
-    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
-  },
-  {
-    "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
-    "url": "https://www.forumcinemas.lv/eng/event/304822/title/andr%C3%A9_rieus_2026_summer_concert_viva_maastricht/"
-  },
-  {
-    "title": "Harry Potter and the Goblet of Fire (2005)",
-    "url": "https://www.forumcinemas.lv/eng/event/300168/title/harry_potter_and_the_goblet_of_fire_2005/"
-  },
-  {
-    "title": "Michael",
-    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
-  },
-  {
-    "title": "The American Dream",
-    "url": "https://www.forumcinemas.lv/eng/event/304890/title/the_american_dream/"
-  },
-  {
-    "title": "One Night Only",
-    "url": "https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/"
-  },
-  {
-    "title": "GHOST: 2 Big To Rig",
-    "url": "https://www.forumcinemas.lv/eng/event/304891/title/ghost_2_big_to_rig/"
-  },
-  {
-    "title": "Harry Potter and the Order of Phoenix (2007)",
-    "url": "https://www.forumcinemas.lv/eng/event/300482/title/harry_potter_and_the_order_of_phoenix_2007/"
-  },
-  {
-    "title": "Practical Magic (1998)",
-    "url": "https://www.forumcinemas.lv/eng/event/304894/title/practical_magic_1998/"
-  },
-  {
-    "title": "The End of Oak Street",
-    "url": "https://www.forumcinemas.lv/eng/event/304869/title/the_end_of_oak_street/"
-  },
-  {
-    "title": "Toy Story 5",
-    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
   },
   {
     "title": "Zootopia 2",
@@ -104,20 +44,60 @@
     "url": "https://www.forumcinemas.lv/eng/event/304829/title/the_last_whale_singer/"
   },
   {
+    "title": "Tony",
+    "url": "https://www.forumcinemas.lv/eng/event/304882/title/tony/"
+  },
+  {
+    "title": "André Rieu's 2026 Summer Concert: Viva Maastricht!",
+    "url": "https://www.forumcinemas.lv/eng/event/304822/title/andr%C3%A9_rieus_2026_summer_concert_viva_maastricht/"
+  },
+  {
+    "title": "Mutiny",
+    "url": "https://www.forumcinemas.lv/eng/event/304867/title/mutiny/"
+  },
+  {
     "title": "Harry Potter and the Deathly Hallows: Part I (2010)",
     "url": "https://www.forumcinemas.lv/eng/event/298988/title/harry_potter_and_the_deathly_hallows_part_i_2010/"
+  },
+  {
+    "title": "The Dog Stars",
+    "url": "https://www.forumcinemas.lv/eng/event/304842/title/the_dog_stars/"
   },
   {
     "title": "Your Name. (2016)",
     "url": "https://www.forumcinemas.lv/eng/event/304895/title/your_name_2016/"
   },
   {
+    "title": "Insidious: Out of the Further",
+    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
+  },
+  {
+    "title": "One Night Only",
+    "url": "https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/"
+  },
+  {
     "title": "Harry Potter and the Deathly Hallows: Part II (2011)",
     "url": "https://www.forumcinemas.lv/eng/event/299731/title/harry_potter_and_the_deathly_hallows_part_ii_2011/"
   },
   {
+    "title": "The End of Oak Street",
+    "url": "https://www.forumcinemas.lv/eng/event/304869/title/the_end_of_oak_street/"
+  },
+  {
+    "title": "Spa Weekend",
+    "url": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/"
+  },
+  {
+    "title": "Michael",
+    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
+  },
+  {
     "title": "Obsession",
     "url": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/"
+  },
+  {
+    "title": "The American Dream",
+    "url": "https://www.forumcinemas.lv/eng/event/304890/title/the_american_dream/"
   },
   {
     "title": "The Invite",
