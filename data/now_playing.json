@@ -1,27 +1,7 @@
 [
   {
-    "title": "Pressure",
-    "url": "https://www.forumcinemas.lv/eng/event/304905/title/pressure/"
-  },
-  {
-    "title": "Tony",
-    "url": "https://www.forumcinemas.lv/eng/event/304882/title/tony/"
-  },
-  {
     "title": "Girl in the Clouds",
     "url": "https://www.forumcinemas.lv/eng/event/304907/title/girl_in_the_clouds/"
-  },
-  {
-    "title": "Santiago: The Camino Therapy",
-    "url": "https://www.forumcinemas.lv/eng/event/304909/title/santiago_the_camino_therapy/"
-  },
-  {
-    "title": "The Dog Stars",
-    "url": "https://www.forumcinemas.lv/eng/event/304842/title/the_dog_stars/"
-  },
-  {
-    "title": "Onslaught",
-    "url": "https://www.forumcinemas.lv/eng/event/304878/title/onslaught/"
   },
   {
     "title": "Fall 2: Deadpoint",
@@ -32,20 +12,32 @@
     "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
   },
   {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
-  },
-  {
-    "title": "Coyote vs. ACME",
-    "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
+    "title": "Practical Magic 2",
+    "url": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/"
   },
   {
     "title": "Born In The Jungle",
     "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
   },
   {
-    "title": "Practical Magic 2",
-    "url": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/"
+    "title": "Coyote vs. ACME",
+    "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
+  },
+  {
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
+  },
+  {
+    "title": "Tony",
+    "url": "https://www.forumcinemas.lv/eng/event/304882/title/tony/"
+  },
+  {
+    "title": "Pressure",
+    "url": "https://www.forumcinemas.lv/eng/event/304905/title/pressure/"
+  },
+  {
+    "title": "Insidious: Out of the Further",
+    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
   },
   {
     "title": "Minions \u0026 Monsters",
@@ -56,52 +48,36 @@
     "url": "https://www.forumcinemas.lv/eng/event/304845/title/idiots/"
   },
   {
-    "title": "Insidious: Out of the Further",
-    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
-  },
-  {
-    "title": "One Night Only",
-    "url": "https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/"
-  },
-  {
     "title": "Runner",
     "url": "https://www.forumcinemas.lv/eng/event/304873/title/runner/"
   },
   {
-    "title": "Princess Mononoke (1997)",
-    "url": "https://www.forumcinemas.lv/eng/event/304633/title/princess_mononoke_1997/"
-  },
-  {
-    "title": "NT LIVE: The Fifth Step",
-    "url": "https://www.forumcinemas.lv/eng/event/304465/title/nt_live_the_fifth_step/"
-  },
-  {
-    "title": "Interview with the Vampire: The Vampire Chronicles (1994)",
-    "url": "https://www.forumcinemas.lv/eng/event/304123/title/interview_with_the_vampire_the_vampire_chronicles_1994/"
-  },
-  {
-    "title": "The American Dream",
-    "url": "https://www.forumcinemas.lv/eng/event/304890/title/the_american_dream/"
-  },
-  {
-    "title": "The Birthday Party",
-    "url": "https://www.forumcinemas.lv/eng/event/304876/title/the_birthday_party/"
-  },
-  {
-    "title": "Mutiny",
-    "url": "https://www.forumcinemas.lv/eng/event/304867/title/mutiny/"
+    "title": "Santiago: The Camino Therapy",
+    "url": "https://www.forumcinemas.lv/eng/event/304909/title/santiago_the_camino_therapy/"
   },
   {
     "title": "Ulya",
     "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
   },
   {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
+    "title": "The Dog Stars",
+    "url": "https://www.forumcinemas.lv/eng/event/304842/title/the_dog_stars/"
   },
   {
-    "title": "Spa Weekend",
-    "url": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/"
+    "title": "Onslaught",
+    "url": "https://www.forumcinemas.lv/eng/event/304878/title/onslaught/"
+  },
+  {
+    "title": "The American Dream",
+    "url": "https://www.forumcinemas.lv/eng/event/304890/title/the_american_dream/"
+  },
+  {
+    "title": "Mutiny",
+    "url": "https://www.forumcinemas.lv/eng/event/304867/title/mutiny/"
+  },
+  {
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
   },
   {
     "title": "Resident Evil",
@@ -116,8 +92,28 @@
     "url": "https://www.forumcinemas.lv/eng/event/304816/title/taxi_driver_1976/"
   },
   {
+    "title": "Animal Farm",
+    "url": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/"
+  },
+  {
+    "title": "Spa Weekend",
+    "url": "https://www.forumcinemas.lv/eng/event/304871/title/spa_weekend/"
+  },
+  {
+    "title": "Private event",
+    "url": "https://www.forumcinemas.lv/eng/event/303398/title/private_event/"
+  },
+  {
     "title": "Oasis: Don't Look Back in Anger",
     "url": "https://www.forumcinemas.lv/eng/event/304888/title/oasis_dont_look_back_in_anger/"
+  },
+  {
+    "title": "Toy Story 5",
+    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
+  },
+  {
+    "title": "One Night Only",
+    "url": "https://www.forumcinemas.lv/eng/event/304841/title/one_night_only/"
   },
   {
     "title": "Magnolia (1999)",
@@ -134,6 +130,14 @@
   {
     "title": "Trainspotting (1996)",
     "url": "https://www.forumcinemas.lv/eng/event/302060/title/trainspotting_1996/"
+  },
+  {
+    "title": "Michael",
+    "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
+  },
+  {
+    "title": "Project Hail Mary",
+    "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
   },
   {
     "title": "NT LIVE: The Importance of Being Earnest",
@@ -204,12 +208,20 @@
     "url": "https://www.forumcinemas.lv/eng/event/304921/title/exhibition_on_screen_james_mcneill_whistler/"
   },
   {
+    "title": "Interview with the Vampire: The Vampire Chronicles (1994)",
+    "url": "https://www.forumcinemas.lv/eng/event/304123/title/interview_with_the_vampire_the_vampire_chronicles_1994/"
+  },
+  {
     "title": "The Silence of the Lambs (1991)",
     "url": "https://www.forumcinemas.lv/eng/event/304343/title/the_silence_of_the_lambs_1991/"
   },
   {
     "title": "Casino Royale (2006)",
     "url": "https://www.forumcinemas.lv/eng/event/304509/title/casino_royale_2006/"
+  },
+  {
+    "title": "NT LIVE: The Fifth Step",
+    "url": "https://www.forumcinemas.lv/eng/event/304465/title/nt_live_the_fifth_step/"
   },
   {
     "title": "Queen Budapest",
@@ -280,12 +292,20 @@
     "url": "https://www.forumcinemas.lv/eng/event/304900/title/riga_iff_papaya/"
   },
   {
+    "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
+    "url": "https://www.forumcinemas.lv/eng/event/304931/title/bts_world_tour_arirang_in_buenos_aires_live_viewing/"
+  },
+  {
     "title": "Extraordinary",
     "url": "https://www.forumcinemas.lv/eng/event/304896/title/extraordinary/"
   },
   {
     "title": "Carrie (1976)",
     "url": "https://www.forumcinemas.lv/eng/event/304927/title/carrie_1976/"
+  },
+  {
+    "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE VIEWING",
+    "url": "https://www.forumcinemas.lv/eng/event/304932/title/bts_world_tour_arirang_in_s%C3%A3o_paulo_live_viewing/"
   },
   {
     "title": "A Nightmare on Elm Street (1984)",
