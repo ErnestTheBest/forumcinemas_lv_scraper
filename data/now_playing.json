@@ -1,55 +1,7 @@
 [
   {
-    "title": "Girl in the Clouds",
-    "url": "https://www.forumcinemas.lv/eng/event/304907/title/girl_in_the_clouds/"
-  },
-  {
-    "title": "Fall 2: Deadpoint",
-    "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
-  },
-  {
-    "title": "Spider-Man: Brand New Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
-  },
-  {
-    "title": "Practical Magic 2",
-    "url": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/"
-  },
-  {
     "title": "Born In The Jungle",
     "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
-  },
-  {
-    "title": "Coyote vs. ACME",
-    "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
-  },
-  {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
-  },
-  {
-    "title": "Tony",
-    "url": "https://www.forumcinemas.lv/eng/event/304882/title/tony/"
-  },
-  {
-    "title": "Pressure",
-    "url": "https://www.forumcinemas.lv/eng/event/304905/title/pressure/"
-  },
-  {
-    "title": "Insidious: Out of the Further",
-    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
-  },
-  {
-    "title": "Minions \u0026 Monsters",
-    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
-  },
-  {
-    "title": "Idiots",
-    "url": "https://www.forumcinemas.lv/eng/event/304845/title/idiots/"
-  },
-  {
-    "title": "Runner",
-    "url": "https://www.forumcinemas.lv/eng/event/304873/title/runner/"
   },
   {
     "title": "Santiago: The Camino Therapy",
@@ -60,24 +12,52 @@
     "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
   },
   {
-    "title": "The Dog Stars",
-    "url": "https://www.forumcinemas.lv/eng/event/304842/title/the_dog_stars/"
+    "title": "Tony",
+    "url": "https://www.forumcinemas.lv/eng/event/304882/title/tony/"
   },
   {
-    "title": "Onslaught",
-    "url": "https://www.forumcinemas.lv/eng/event/304878/title/onslaught/"
+    "title": "Girl in the Clouds",
+    "url": "https://www.forumcinemas.lv/eng/event/304907/title/girl_in_the_clouds/"
   },
   {
-    "title": "The American Dream",
-    "url": "https://www.forumcinemas.lv/eng/event/304890/title/the_american_dream/"
+    "title": "Pressure",
+    "url": "https://www.forumcinemas.lv/eng/event/304905/title/pressure/"
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
+  },
+  {
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
+  },
+  {
+    "title": "Fall 2: Deadpoint",
+    "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
+  },
+  {
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
+  },
+  {
+    "title": "Coyote vs. ACME",
+    "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
+  },
+  {
+    "title": "Insidious: Out of the Further",
+    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
+  },
+  {
+    "title": "Practical Magic 2",
+    "url": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/"
   },
   {
     "title": "Mutiny",
     "url": "https://www.forumcinemas.lv/eng/event/304867/title/mutiny/"
   },
   {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
+    "title": "Runner",
+    "url": "https://www.forumcinemas.lv/eng/event/304873/title/runner/"
   },
   {
     "title": "Resident Evil",
@@ -92,8 +72,20 @@
     "url": "https://www.forumcinemas.lv/eng/event/304816/title/taxi_driver_1976/"
   },
   {
+    "title": "Idiots",
+    "url": "https://www.forumcinemas.lv/eng/event/304845/title/idiots/"
+  },
+  {
+    "title": "The Dog Stars",
+    "url": "https://www.forumcinemas.lv/eng/event/304842/title/the_dog_stars/"
+  },
+  {
     "title": "Animal Farm",
     "url": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/"
+  },
+  {
+    "title": "Minions \u0026 Monsters",
+    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
   },
   {
     "title": "Spa Weekend",
@@ -132,12 +124,20 @@
     "url": "https://www.forumcinemas.lv/eng/event/302060/title/trainspotting_1996/"
   },
   {
+    "title": "Flow (2024)",
+    "url": "https://www.forumcinemas.lv/eng/event/304076/title/flow_2024/"
+  },
+  {
     "title": "Michael",
     "url": "https://www.forumcinemas.lv/eng/event/303990/title/michael/"
   },
   {
     "title": "Project Hail Mary",
     "url": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/"
+  },
+  {
+    "title": "The American Dream",
+    "url": "https://www.forumcinemas.lv/eng/event/304890/title/the_american_dream/"
   },
   {
     "title": "NT LIVE: The Importance of Being Earnest",
@@ -248,6 +248,10 @@
     "url": "https://www.forumcinemas.lv/eng/event/304897/title/nt_live_the_misanthrope/"
   },
   {
+    "title": "RIGA IFF: Wolves",
+    "url": "https://www.forumcinemas.lv/eng/event/304933/title/riga_iff_wolves/"
+  },
+  {
     "title": "Labyrinth (1986)",
     "url": "https://www.forumcinemas.lv/eng/event/304714/title/labyrinth_1986/"
   },
@@ -260,8 +264,28 @@
     "url": "https://www.forumcinemas.lv/eng/event/304899/title/riga_iff_iron_boy/"
   },
   {
+    "title": "RIGA IFF: The Unknown",
+    "url": "https://www.forumcinemas.lv/eng/event/304936/title/riga_iff_the_unknown/"
+  },
+  {
+    "title": "RIGA IFF: Nightborn",
+    "url": "https://www.forumcinemas.lv/eng/event/304938/title/riga_iff_nightborn/"
+  },
+  {
     "title": "The Shining (1980)",
     "url": "https://www.forumcinemas.lv/eng/event/302244/title/the_shining_1980/"
+  },
+  {
+    "title": "RIGA IFF: Low Expectations",
+    "url": "https://www.forumcinemas.lv/eng/event/304939/title/riga_iff_low_expectations/"
+  },
+  {
+    "title": "RIGA IFF: Everybody Digs Bill Evans",
+    "url": "https://www.forumcinemas.lv/eng/event/304940/title/riga_iff_everybody_digs_bill_evans/"
+  },
+  {
+    "title": "RIGA IFF: Rose",
+    "url": "https://www.forumcinemas.lv/eng/event/304941/title/riga_iff_rose/"
   },
   {
     "title": "RIGA IFF: Fjord",
@@ -272,8 +296,20 @@
     "url": "https://www.forumcinemas.lv/eng/event/304926/title/riga_iff_pains_trains_and_other_mobiles/"
   },
   {
+    "title": "RIGA IFF: Fatherland",
+    "url": "https://www.forumcinemas.lv/eng/event/304943/title/riga_iff_fatherland/"
+  },
+  {
+    "title": "RIGA IFF: Gentle Monster",
+    "url": "https://www.forumcinemas.lv/eng/event/304944/title/riga_iff_gentle_monster/"
+  },
+  {
     "title": "RIGA IFF: No Utopia is a Utopia",
     "url": "https://www.forumcinemas.lv/eng/event/304923/title/riga_iff_no_utopia_is_a_utopia/"
+  },
+  {
+    "title": "RIGA IFF: Golden Age",
+    "url": "https://www.forumcinemas.lv/eng/event/304935/title/riga_iff_golden_age/"
   },
   {
     "title": "RIGA IFF: Take Two",
@@ -286,6 +322,14 @@
   {
     "title": "RIGA IFF: KIDS' REEL animated shorts",
     "url": "https://www.forumcinemas.lv/eng/event/304902/title/riga_iff_kids_reel_animated_shorts/"
+  },
+  {
+    "title": "RIGA IFF: Dirt In Your Face",
+    "url": "https://www.forumcinemas.lv/eng/event/304945/title/riga_iff_dirt_in_your_face/"
+  },
+  {
+    "title": "RIGA IFF: Adult Supervision",
+    "url": "https://www.forumcinemas.lv/eng/event/304934/title/riga_iff_adult_supervision/"
   },
   {
     "title": "RIGA IFF: Papaya",
