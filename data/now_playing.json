@@ -1,11 +1,7 @@
 [
   {
-    "title": "Kingpins",
-    "url": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/"
-  },
-  {
-    "title": "Smartie and Me",
-    "url": "https://www.forumcinemas.lv/eng/event/304928/title/smartie_and_me/"
+    "title": "Ulya",
+    "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
   },
   {
     "title": "Paw Patrol: The Dino Movie",
@@ -16,28 +12,12 @@
     "url": "https://www.forumcinemas.lv/eng/event/304868/title/evolution/"
   },
   {
-    "title": "Coyote vs. ACME",
-    "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
+    "title": "Born In The Jungle",
+    "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
   },
   {
-    "title": "Ulya",
-    "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
-  },
-  {
-    "title": "Primetime",
-    "url": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/"
-  },
-  {
-    "title": "Resident Evil",
-    "url": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/"
-  },
-  {
-    "title": "Spider-Man: Brand New Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
-  },
-  {
-    "title": "Animal Farm",
-    "url": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/"
+    "title": "Toy Story 5",
+    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
   },
   {
     "title": "Verity",
@@ -48,12 +28,36 @@
     "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
   },
   {
+    "title": "Smartie and Me",
+    "url": "https://www.forumcinemas.lv/eng/event/304928/title/smartie_and_me/"
+  },
+  {
     "title": "Digger",
     "url": "https://www.forumcinemas.lv/eng/event/304885/title/digger/"
   },
   {
-    "title": "Born In The Jungle",
-    "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
+    "title": "Private event",
+    "url": "https://www.forumcinemas.lv/eng/event/303398/title/private_event/"
+  },
+  {
+    "title": "Animal Farm",
+    "url": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/"
+  },
+  {
+    "title": "Resident Evil",
+    "url": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/"
+  },
+  {
+    "title": "Kingpins",
+    "url": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/"
+  },
+  {
+    "title": "Arnie \u0026 Barney",
+    "url": "https://www.forumcinemas.lv/eng/event/304906/title/arnie_and_barney/"
+  },
+  {
+    "title": "Primetime",
+    "url": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/"
   },
   {
     "title": "Heart of the Beast",
@@ -64,36 +68,12 @@
     "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
   },
   {
+    "title": "Spider-Man: Brand New Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
+  },
+  {
     "title": "The Odyssey",
     "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
-  },
-  {
-    "title": "Leviticus",
-    "url": "https://www.forumcinemas.lv/eng/event/304883/title/leviticus/"
-  },
-  {
-    "title": "LINKIN PARK: UNSHATTER",
-    "url": "https://www.forumcinemas.lv/eng/event/304901/title/linkin_park_unshatter/"
-  },
-  {
-    "title": "Met Opera: Così fan tutte",
-    "url": "https://www.forumcinemas.lv/eng/event/304836/title/met_opera_cos%C3%AC_fan_tutte/"
-  },
-  {
-    "title": "Taxi Driver (1976)",
-    "url": "https://www.forumcinemas.lv/eng/event/304816/title/taxi_driver_1976/"
-  },
-  {
-    "title": "Toy Story 5",
-    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
-  },
-  {
-    "title": "Private event",
-    "url": "https://www.forumcinemas.lv/eng/event/303398/title/private_event/"
-  },
-  {
-    "title": "Arnie \u0026 Barney",
-    "url": "https://www.forumcinemas.lv/eng/event/304906/title/arnie_and_barney/"
   },
   {
     "title": "Exhibition On Screen | James McNeill Whistler",
@@ -106,6 +86,10 @@
   {
     "title": "Interview with the Vampire: The Vampire Chronicles (1994)",
     "url": "https://www.forumcinemas.lv/eng/event/304123/title/interview_with_the_vampire_the_vampire_chronicles_1994/"
+  },
+  {
+    "title": "Leviticus",
+    "url": "https://www.forumcinemas.lv/eng/event/304883/title/leviticus/"
   },
   {
     "title": "The Silence of the Lambs (1991)",
@@ -136,12 +120,20 @@
     "url": "https://www.forumcinemas.lv/eng/event/304947/title/hope/"
   },
   {
+    "title": "Met Opera: Così fan tutte",
+    "url": "https://www.forumcinemas.lv/eng/event/304836/title/met_opera_cos%C3%AC_fan_tutte/"
+  },
+  {
     "title": "Queen Budapest",
     "url": "https://www.forumcinemas.lv/eng/event/304918/title/queen_budapest/"
   },
   {
     "title": "Eyes Wide Shut (1999)",
     "url": "https://www.forumcinemas.lv/eng/event/304213/title/eyes_wide_shut_1999/"
+  },
+  {
+    "title": "Coyote vs. ACME",
+    "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
   },
   {
     "title": "Magnolia (1999)",
@@ -154,6 +146,10 @@
   {
     "title": "Other Mommy",
     "url": "https://www.forumcinemas.lv/eng/event/304889/title/other_mommy/"
+  },
+  {
+    "title": "LINKIN PARK: UNSHATTER",
+    "url": "https://www.forumcinemas.lv/eng/event/304901/title/linkin_park_unshatter/"
   },
   {
     "title": "Scream (1996)",
