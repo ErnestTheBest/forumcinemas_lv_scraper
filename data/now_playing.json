@@ -1,11 +1,15 @@
 [
   {
-    "title": "Verity",
-    "url": "https://www.forumcinemas.lv/eng/event/304910/title/verity/"
+    "title": "Smartie and Me",
+    "url": "https://www.forumcinemas.lv/eng/event/304928/title/smartie_and_me/"
   },
   {
-    "title": "Minions \u0026 Monsters",
-    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
+    "title": "Ulya",
+    "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
+  },
+  {
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
   },
   {
     "title": "Evolution",
@@ -16,24 +20,24 @@
     "url": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/"
   },
   {
-    "title": "Ulya",
-    "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
-  },
-  {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
-  },
-  {
-    "title": "Heart of the Beast",
-    "url": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/"
-  },
-  {
-    "title": "Smartie and Me",
-    "url": "https://www.forumcinemas.lv/eng/event/304928/title/smartie_and_me/"
+    "title": "Kingpins",
+    "url": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/"
   },
   {
     "title": "Digger",
     "url": "https://www.forumcinemas.lv/eng/event/304885/title/digger/"
+  },
+  {
+    "title": "Verity",
+    "url": "https://www.forumcinemas.lv/eng/event/304910/title/verity/"
+  },
+  {
+    "title": "Minions \u0026 Monsters",
+    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
+  },
+  {
+    "title": "Arnie \u0026 Barney",
+    "url": "https://www.forumcinemas.lv/eng/event/304906/title/arnie_and_barney/"
   },
   {
     "title": "Resident Evil",
@@ -44,48 +48,24 @@
     "url": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/"
   },
   {
-    "title": "Kingpins",
-    "url": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/"
+    "title": "Heart of the Beast",
+    "url": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/"
   },
   {
-    "title": "I Want Your Sex",
-    "url": "https://www.forumcinemas.lv/eng/event/304903/title/i_want_your_sex/"
-  },
-  {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
-  },
-  {
-    "title": "Leviticus",
-    "url": "https://www.forumcinemas.lv/eng/event/304883/title/leviticus/"
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
   },
   {
     "title": "Practical Magic 2",
     "url": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/"
   },
   {
-    "title": "Casino Royale (2006)",
-    "url": "https://www.forumcinemas.lv/eng/event/304509/title/casino_royale_2006/"
-  },
-  {
-    "title": "Avengers: Endgame Encore (2019)",
-    "url": "https://www.forumcinemas.lv/eng/event/302659/title/avengers_endgame_encore_2019/"
-  },
-  {
     "title": "Spider-Man: Brand New Day",
     "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
   },
   {
-    "title": "Fall 2: Deadpoint",
-    "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
-  },
-  {
-    "title": "Insidious: Out of the Further",
-    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
-  },
-  {
-    "title": "Arnie \u0026 Barney",
-    "url": "https://www.forumcinemas.lv/eng/event/304906/title/arnie_and_barney/"
+    "title": "Leviticus",
+    "url": "https://www.forumcinemas.lv/eng/event/304883/title/leviticus/"
   },
   {
     "title": "Born In The Jungle",
@@ -100,6 +80,14 @@
     "url": "https://www.forumcinemas.lv/eng/event/304947/title/hope/"
   },
   {
+    "title": "Avengers: Endgame Encore (2019)",
+    "url": "https://www.forumcinemas.lv/eng/event/302659/title/avengers_endgame_encore_2019/"
+  },
+  {
+    "title": "Fall 2: Deadpoint",
+    "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
+  },
+  {
     "title": "Met Opera: Così fan tutte",
     "url": "https://www.forumcinemas.lv/eng/event/304836/title/met_opera_cos%C3%AC_fan_tutte/"
   },
@@ -112,6 +100,10 @@
     "url": "https://www.forumcinemas.lv/eng/event/304213/title/eyes_wide_shut_1999/"
   },
   {
+    "title": "Insidious: Out of the Further",
+    "url": "https://www.forumcinemas.lv/eng/event/304870/title/insidious_out_of_the_further/"
+  },
+  {
     "title": "Coyote vs. ACME",
     "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
   },
@@ -122,6 +114,14 @@
   {
     "title": "Tiger Martindale's Survival Experts",
     "url": "https://www.forumcinemas.lv/eng/event/304911/title/tiger_martindales_survival_experts/"
+  },
+  {
+    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "url": "https://www.forumcinemas.lv/eng/event/304844/title/shaun_the_sheep_the_beast_of_mossy_bottom/"
+  },
+  {
+    "title": "Sacrifice",
+    "url": "https://www.forumcinemas.lv/eng/event/304912/title/sacrifice/"
   },
   {
     "title": "Other Mommy",
@@ -140,6 +140,14 @@
     "url": "https://www.forumcinemas.lv/eng/event/302814/title/the_godfather_1972/"
   },
   {
+    "title": "Toy Story 5",
+    "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
+  },
+  {
+    "title": "Girl in the Clouds",
+    "url": "https://www.forumcinemas.lv/eng/event/304907/title/girl_in_the_clouds/"
+  },
+  {
     "title": "Lawrence of Arabia (1962)",
     "url": "https://www.forumcinemas.lv/eng/event/304820/title/lawrence_of_arabia_1962/"
   },
@@ -154,6 +162,10 @@
   {
     "title": "Exhibition On Screen | James McNeill Whistler",
     "url": "https://www.forumcinemas.lv/eng/event/304921/title/exhibition_on_screen_james_mcneill_whistler/"
+  },
+  {
+    "title": "Casino Royale (2006)",
+    "url": "https://www.forumcinemas.lv/eng/event/304509/title/casino_royale_2006/"
   },
   {
     "title": "The Silence of the Lambs (1991)",
@@ -176,8 +188,16 @@
     "url": "https://www.forumcinemas.lv/eng/event/304840/title/street_fighter/"
   },
   {
+    "title": "Forgotten Island",
+    "url": "https://www.forumcinemas.lv/eng/event/304843/title/forgotten_island/"
+  },
+  {
     "title": "RIGA IFF: Adult Supervision",
     "url": "https://www.forumcinemas.lv/eng/event/304934/title/riga_iff_adult_supervision/"
+  },
+  {
+    "title": "The Addams Family (1991)",
+    "url": "https://www.forumcinemas.lv/eng/event/304953/title/the_addams_family_1991/"
   },
   {
     "title": "Labyrinth (1986)",
@@ -194,10 +214,6 @@
   {
     "title": "RIGA IFF: Iron Boy",
     "url": "https://www.forumcinemas.lv/eng/event/304899/title/riga_iff_iron_boy/"
-  },
-  {
-    "title": "The Addams Family (1991)",
-    "url": "https://www.forumcinemas.lv/eng/event/304953/title/the_addams_family_1991/"
   },
   {
     "title": "RIGA IFF: The Unknown",
@@ -268,12 +284,32 @@
     "url": "https://www.forumcinemas.lv/eng/event/304945/title/riga_iff_dirt_in_your_face/"
   },
   {
+    "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
+    "url": "https://www.forumcinemas.lv/eng/event/304965/title/tomorrow_x_together_world_tour_act_tomorrow/"
+  },
+  {
+    "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+    "url": "https://www.forumcinemas.lv/eng/event/304966/title/enhypen_world_tour_blood_saga/"
+  },
+  {
     "title": "RIGA IFF: Papaya",
     "url": "https://www.forumcinemas.lv/eng/event/304900/title/riga_iff_papaya/"
   },
   {
     "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
     "url": "https://www.forumcinemas.lv/eng/event/304931/title/bts_world_tour_arirang_in_buenos_aires_live_viewing/"
+  },
+  {
+    "title": "HYBE CHEERING PARTY",
+    "url": "https://www.forumcinemas.lv/eng/event/304967/title/hybe_cheering_party/"
+  },
+  {
+    "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+    "url": "https://www.forumcinemas.lv/eng/event/304964/title/seventeen_world_tour_new/"
+  },
+  {
+    "title": "Ozzy \u0026 Black Sabbath: Back to the Beginning",
+    "url": "https://www.forumcinemas.lv/eng/event/304975/title/ozzy_and_black_sabbath_back_to_the_beginning/"
   },
   {
     "title": "Extraordinary",
@@ -294,6 +330,10 @@
   {
     "title": "Rammstein - Live in Mexico City",
     "url": "https://www.forumcinemas.lv/eng/event/304942/title/rammstein_-_live_in_mexico_city/"
+  },
+  {
+    "title": "Dark Border",
+    "url": "https://www.forumcinemas.lv/eng/event/304752/title/dark_border/"
   },
   {
     "title": "Some Like it Hot (1959)",
