@@ -1,95 +1,19 @@
 [
   {
-    "title": "Minions \u0026 Monsters",
-    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
-  },
-  {
-    "title": "Verity",
-    "url": "https://www.forumcinemas.lv/eng/event/304910/title/verity/"
-  },
-  {
-    "title": "Smartie and Me",
-    "url": "https://www.forumcinemas.lv/eng/event/304928/title/smartie_and_me/"
-  },
-  {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
-  },
-  {
-    "title": "Evolution",
-    "url": "https://www.forumcinemas.lv/eng/event/304868/title/evolution/"
-  },
-  {
-    "title": "Animal Farm",
-    "url": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/"
-  },
-  {
-    "title": "Kingpins",
-    "url": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/"
+    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "url": "https://www.forumcinemas.lv/eng/event/304844/title/shaun_the_sheep_the_beast_of_mossy_bottom/"
   },
   {
     "title": "Ulya",
     "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
   },
   {
-    "title": "Digger",
-    "url": "https://www.forumcinemas.lv/eng/event/304885/title/digger/"
-  },
-  {
-    "title": "Born In The Jungle",
-    "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
-  },
-  {
-    "title": "Arnie \u0026 Barney",
-    "url": "https://www.forumcinemas.lv/eng/event/304906/title/arnie_and_barney/"
-  },
-  {
-    "title": "Resident Evil",
-    "url": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/"
-  },
-  {
-    "title": "Heart of the Beast",
-    "url": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/"
+    "title": "Evolution",
+    "url": "https://www.forumcinemas.lv/eng/event/304868/title/evolution/"
   },
   {
     "title": "Primetime",
     "url": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/"
-  },
-  {
-    "title": "Coyote vs. ACME",
-    "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
-  },
-  {
-    "title": "Fall 2: Deadpoint",
-    "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
-  },
-  {
-    "title": "Hope",
-    "url": "https://www.forumcinemas.lv/eng/event/304947/title/hope/"
-  },
-  {
-    "title": "Magnolia (1999)",
-    "url": "https://www.forumcinemas.lv/eng/event/304919/title/magnolia_1999/"
-  },
-  {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
-  },
-  {
-    "title": "Tiger Martindale's Survival Experts",
-    "url": "https://www.forumcinemas.lv/eng/event/304911/title/tiger_martindales_survival_experts/"
-  },
-  {
-    "title": "Leviticus",
-    "url": "https://www.forumcinemas.lv/eng/event/304883/title/leviticus/"
-  },
-  {
-    "title": "Spider-Man: Brand New Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
-  },
-  {
-    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-    "url": "https://www.forumcinemas.lv/eng/event/304844/title/shaun_the_sheep_the_beast_of_mossy_bottom/"
   },
   {
     "title": "Sacrifice",
@@ -98,6 +22,50 @@
   {
     "title": "Other Mommy",
     "url": "https://www.forumcinemas.lv/eng/event/304889/title/other_mommy/"
+  },
+  {
+    "title": "Minions \u0026 Monsters",
+    "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
+  },
+  {
+    "title": "Digger",
+    "url": "https://www.forumcinemas.lv/eng/event/304885/title/digger/"
+  },
+  {
+    "title": "Tiger Martindale's Survival Experts",
+    "url": "https://www.forumcinemas.lv/eng/event/304911/title/tiger_martindales_survival_experts/"
+  },
+  {
+    "title": "Verity",
+    "url": "https://www.forumcinemas.lv/eng/event/304910/title/verity/"
+  },
+  {
+    "title": "Hope",
+    "url": "https://www.forumcinemas.lv/eng/event/304947/title/hope/"
+  },
+  {
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
+  },
+  {
+    "title": "Heart of the Beast",
+    "url": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/"
+  },
+  {
+    "title": "Resident Evil",
+    "url": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/"
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
+  },
+  {
+    "title": "Fall 2: Deadpoint",
+    "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
+  },
+  {
+    "title": "Kingpins",
+    "url": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/"
   },
   {
     "title": "LINKIN PARK: UNSHATTER",
@@ -112,6 +80,18 @@
     "url": "https://www.forumcinemas.lv/eng/event/302659/title/avengers_endgame_encore_2019/"
   },
   {
+    "title": "Born In The Jungle",
+    "url": "https://www.forumcinemas.lv/eng/event/304813/title/born_in_the_jungle/"
+  },
+  {
+    "title": "Animal Farm",
+    "url": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/"
+  },
+  {
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
+  },
+  {
     "title": "Queen Budapest",
     "url": "https://www.forumcinemas.lv/eng/event/304918/title/queen_budapest/"
   },
@@ -120,12 +100,28 @@
     "url": "https://www.forumcinemas.lv/eng/event/302814/title/the_godfather_1972/"
   },
   {
+    "title": "Leviticus",
+    "url": "https://www.forumcinemas.lv/eng/event/304883/title/leviticus/"
+  },
+  {
     "title": "Toy Story 5",
     "url": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/"
   },
   {
+    "title": "Arnie \u0026 Barney",
+    "url": "https://www.forumcinemas.lv/eng/event/304906/title/arnie_and_barney/"
+  },
+  {
     "title": "Girl in the Clouds",
     "url": "https://www.forumcinemas.lv/eng/event/304907/title/girl_in_the_clouds/"
+  },
+  {
+    "title": "Smartie and Me",
+    "url": "https://www.forumcinemas.lv/eng/event/304928/title/smartie_and_me/"
+  },
+  {
+    "title": "Coyote vs. ACME",
+    "url": "https://www.forumcinemas.lv/eng/event/304886/title/coyote_vs_acme/"
   },
   {
     "title": "Lawrence of Arabia (1962)",
@@ -244,6 +240,10 @@
     "url": "https://www.forumcinemas.lv/eng/event/304915/title/riga_iff_fjord/"
   },
   {
+    "title": "Clayface",
+    "url": "https://www.forumcinemas.lv/eng/event/304783/title/clayface/"
+  },
+  {
     "title": "RIGA IFF: Pains, Trains and Other Mobiles",
     "url": "https://www.forumcinemas.lv/eng/event/304926/title/riga_iff_pains_trains_and_other_mobiles/"
   },
@@ -358,6 +358,10 @@
   {
     "title": "Gentlemen Prefer Blondes (1953)",
     "url": "https://www.forumcinemas.lv/eng/event/304960/title/gentlemen_prefer_blondes_1953/"
+  },
+  {
+    "title": "League of Legends Worlds 26 | Finals in Cinema",
+    "url": "https://www.forumcinemas.lv/eng/event/304952/title/league_of_legends_worlds_26_finals_in_cinema/"
   },
   {
     "title": "Met Opera: Carmen (2010)",
