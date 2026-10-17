@@ -1,107 +1,87 @@
 [
   {
-    "title": "Evolution",
-    "url": "https://www.forumcinemas.lv/eng/event/304868/title/evolution/"
-  },
-  {
     "title": "Forgotten Island",
     "url": "https://www.forumcinemas.lv/eng/event/304843/title/forgotten_island/"
-  },
-  {
-    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-    "url": "https://www.forumcinemas.lv/eng/event/304844/title/shaun_the_sheep_the_beast_of_mossy_bottom/"
-  },
-  {
-    "title": "Street Fighter",
-    "url": "https://www.forumcinemas.lv/eng/event/304840/title/street_fighter/"
-  },
-  {
-    "title": "Practical Magic 2",
-    "url": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/"
-  },
-  {
-    "title": "Spider-Man: Brand New Day",
-    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
-  },
-  {
-    "title": "Ulya",
-    "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
-  },
-  {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
-  },
-  {
-    "title": "Primetime",
-    "url": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/"
-  },
-  {
-    "title": "Verity",
-    "url": "https://www.forumcinemas.lv/eng/event/304910/title/verity/"
-  },
-  {
-    "title": "Christopher and the Key of Two Worlds",
-    "url": "https://www.forumcinemas.lv/eng/event/304872/title/christopher_and_the_key_of_two_worlds/"
-  },
-  {
-    "title": "Heart of the Beast",
-    "url": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/"
-  },
-  {
-    "title": "Parallel Tales",
-    "url": "https://www.forumcinemas.lv/eng/event/304973/title/parallel_tales/"
-  },
-  {
-    "title": "The Odyssey",
-    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
-  },
-  {
-    "title": "Digger",
-    "url": "https://www.forumcinemas.lv/eng/event/304885/title/digger/"
-  },
-  {
-    "title": "Tiger Martindale's Survival Experts",
-    "url": "https://www.forumcinemas.lv/eng/event/304911/title/tiger_martindales_survival_experts/"
-  },
-  {
-    "title": "Minotaur",
-    "url": "https://www.forumcinemas.lv/eng/event/304937/title/minotaur/"
-  },
-  {
-    "title": "Kingpins",
-    "url": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/"
-  },
-  {
-    "title": "Whalefall",
-    "url": "https://www.forumcinemas.lv/eng/event/304881/title/whalefall/"
-  },
-  {
-    "title": "Other Mommy",
-    "url": "https://www.forumcinemas.lv/eng/event/304889/title/other_mommy/"
-  },
-  {
-    "title": "Resident Evil",
-    "url": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/"
-  },
-  {
-    "title": "RIGA IFF: Wolves",
-    "url": "https://www.forumcinemas.lv/eng/event/304933/title/riga_iff_wolves/"
-  },
-  {
-    "title": "Fall 2: Deadpoint",
-    "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
-  },
-  {
-    "title": "Sacrifice",
-    "url": "https://www.forumcinemas.lv/eng/event/304912/title/sacrifice/"
   },
   {
     "title": "Minions \u0026 Monsters",
     "url": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/"
   },
   {
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
+  },
+  {
+    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "url": "https://www.forumcinemas.lv/eng/event/304844/title/shaun_the_sheep_the_beast_of_mossy_bottom/"
+  },
+  {
     "title": "Animal Farm",
     "url": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/"
+  },
+  {
+    "title": "Ulya",
+    "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
+  },
+  {
+    "title": "Street Fighter",
+    "url": "https://www.forumcinemas.lv/eng/event/304840/title/street_fighter/"
+  },
+  {
+    "title": "Christopher and the Key of Two Worlds",
+    "url": "https://www.forumcinemas.lv/eng/event/304872/title/christopher_and_the_key_of_two_worlds/"
+  },
+  {
+    "title": "Digger",
+    "url": "https://www.forumcinemas.lv/eng/event/304885/title/digger/"
+  },
+  {
+    "title": "Evolution",
+    "url": "https://www.forumcinemas.lv/eng/event/304868/title/evolution/"
+  },
+  {
+    "title": "The Odyssey",
+    "url": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/"
+  },
+  {
+    "title": "Parallel Tales",
+    "url": "https://www.forumcinemas.lv/eng/event/304973/title/parallel_tales/"
+  },
+  {
+    "title": "Other Mommy",
+    "url": "https://www.forumcinemas.lv/eng/event/304889/title/other_mommy/"
+  },
+  {
+    "title": "Tiger Martindale's Survival Experts",
+    "url": "https://www.forumcinemas.lv/eng/event/304911/title/tiger_martindales_survival_experts/"
+  },
+  {
+    "title": "Heart of the Beast",
+    "url": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/"
+  },
+  {
+    "title": "Kingpins",
+    "url": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/"
+  },
+  {
+    "title": "Spider-Man: Brand New Day",
+    "url": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/"
+  },
+  {
+    "title": "Verity",
+    "url": "https://www.forumcinemas.lv/eng/event/304910/title/verity/"
+  },
+  {
+    "title": "Minotaur",
+    "url": "https://www.forumcinemas.lv/eng/event/304937/title/minotaur/"
+  },
+  {
+    "title": "Whalefall",
+    "url": "https://www.forumcinemas.lv/eng/event/304881/title/whalefall/"
+  },
+  {
+    "title": "Resident Evil",
+    "url": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/"
   },
   {
     "title": "RIGA IFF: Adult Supervision",
@@ -116,6 +96,10 @@
     "url": "https://www.forumcinemas.lv/eng/event/304714/title/labyrinth_1986/"
   },
   {
+    "title": "Primetime",
+    "url": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/"
+  },
+  {
     "title": "ALWAYS LALISA",
     "url": "https://www.forumcinemas.lv/eng/event/304922/title/always_lalisa/"
   },
@@ -128,12 +112,16 @@
     "url": "https://www.forumcinemas.lv/eng/event/304935/title/riga_iff_golden_age/"
   },
   {
-    "title": "VIKRAM",
-    "url": "https://www.forumcinemas.lv/eng/event/303346/title/vikram/"
-  },
-  {
     "title": "Avengers: Endgame Encore (2019)",
     "url": "https://www.forumcinemas.lv/eng/event/302659/title/avengers_endgame_encore_2019/"
+  },
+  {
+    "title": "Fall 2: Deadpoint",
+    "url": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/"
+  },
+  {
+    "title": "Sacrifice",
+    "url": "https://www.forumcinemas.lv/eng/event/304912/title/sacrifice/"
   },
   {
     "title": "Born In The Jungle",
@@ -186,6 +174,10 @@
   {
     "title": "RIGA IFF: Low Expectations",
     "url": "https://www.forumcinemas.lv/eng/event/304939/title/riga_iff_low_expectations/"
+  },
+  {
+    "title": "Practical Magic 2",
+    "url": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/"
   },
   {
     "title": "Toy Story 5",
@@ -266,6 +258,10 @@
   {
     "title": "RIGA IFF: Hard Truths",
     "url": "https://www.forumcinemas.lv/eng/event/304925/title/riga_iff_hard_truths/"
+  },
+  {
+    "title": "RIGA IFF: Wolves",
+    "url": "https://www.forumcinemas.lv/eng/event/304933/title/riga_iff_wolves/"
   },
   {
     "title": "RIGA IFF: KIDS' REEL animated shorts",
@@ -370,6 +366,10 @@
   {
     "title": "Dark Border",
     "url": "https://www.forumcinemas.lv/eng/event/304752/title/dark_border/"
+  },
+  {
+    "title": "Ramayana: Rise of a Legend",
+    "url": "https://www.forumcinemas.lv/eng/event/304972/title/ramayana_rise_of_a_legend/"
   },
   {
     "title": "George Michael: The Faith Tour",
