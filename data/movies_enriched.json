@@ -1,5 +1,17 @@
 [
   {
+    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "omdbTitle": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "releaseYear": 2026,
+    "genres": "Animation, Comedy, Family",
+    "imdbId": "tt36841161",
+    "imdbUrl": "https://www.imdb.com/title/tt36841161/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304844/title/shaun_the_sheep_the_beast_of_mossy_bottom/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304163/shaun_the_sheep_the_beast_of_mossy_bottom?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:02.9744819+03:00"
+  },
+  {
     "title": "Stitch Head",
     "omdbTitle": "Stitch Head",
     "releaseYear": 2025,
@@ -10,6 +22,18 @@
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304236/stitch_head?theatreAreaID=1011#section-shows",
     "imdbRating": 5.8,
     "omdbFetchedAt": "2026-10-15T04:00:52.488929368+03:00"
+  },
+  {
+    "title": "Paw Patrol: The Dino Movie",
+    "omdbTitle": "PAW Patrol: The Dino Movie",
+    "releaseYear": 2026,
+    "genres": "Animation, Action, Adventure",
+    "imdbId": "tt29356163",
+    "imdbUrl": "https://www.imdb.com/title/tt29356163/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304012/paw_patrol_the_dino_movie?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.1,
+    "omdbFetchedAt": "2026-10-24T04:01:03.937668983+03:00"
   },
   {
     "title": "Evolution",
@@ -24,42 +48,6 @@
     "omdbFetchedAt": "2026-09-29T04:01:52.357043039+03:00"
   },
   {
-    "title": "Ulya",
-    "omdbTitle": "The Invite",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama, Romance",
-    "imdbId": "tt14173636",
-    "imdbUrl": "https://www.imdb.com/title/tt14173636/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304170/ulya?theatreAreaID=1011#section-shows",
-    "imdbRating": 7.5,
-    "omdbFetchedAt": "2026-10-23T04:01:06.738644929+03:00"
-  },
-  {
-    "title": "Sense and Sensibility",
-    "omdbTitle": "Sense and Sensibility",
-    "releaseYear": 2026,
-    "genres": "Drama, Romance",
-    "imdbId": "tt13609648",
-    "imdbUrl": "https://www.imdb.com/title/tt13609648/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304930/title/sense_and_sensibility/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304206/sense_and_sensibility?theatreAreaID=1011#section-shows",
-    "imdbRating": 7.2,
-    "omdbFetchedAt": "2026-10-23T04:01:17.714110447+03:00"
-  },
-  {
-    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-    "omdbTitle": "Shaun the Sheep: The Beast of Mossy Bottom",
-    "releaseYear": 2026,
-    "genres": "Animation, Comedy, Family",
-    "imdbId": "tt36841161",
-    "imdbUrl": "https://www.imdb.com/title/tt36841161/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304844/title/shaun_the_sheep_the_beast_of_mossy_bottom/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304163/shaun_the_sheep_the_beast_of_mossy_bottom?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:23.286997516+03:00"
-  },
-  {
     "title": "Minotaur",
     "omdbTitle": "Minotaur",
     "releaseYear": 2026,
@@ -69,90 +57,7 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304937/title/minotaur/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304232/minotaur?theatreAreaID=1011#section-shows",
     "imdbRating": 7.6,
-    "omdbFetchedAt": "2026-10-23T04:01:24.3840811+03:00"
-  },
-  {
-    "title": "Paw Patrol: The Dino Movie",
-    "omdbTitle": "PAW Patrol: The Dino Movie",
-    "releaseYear": 2026,
-    "genres": "Animation, Action, Adventure",
-    "imdbId": "tt29356163",
-    "imdbUrl": "https://www.imdb.com/title/tt29356163/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304012/paw_patrol_the_dino_movie?theatreAreaID=1011#section-shows",
-    "imdbRating": 6.1,
-    "omdbFetchedAt": "2026-10-23T04:01:24.872186046+03:00"
-  },
-  {
-    "title": "Tiger Martindale's Survival Experts",
-    "omdbTitle": "Tiger Martindale's Survival Experts",
-    "releaseYear": 2026,
-    "genres": "Family",
-    "imdbId": "tt33503839",
-    "imdbUrl": "https://www.imdb.com/title/tt33503839/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304911/title/tiger_martindales_survival_experts/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304208/tiger_martindales_survival_experts?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:25.298857277+03:00"
-  },
-  {
-    "title": "Forgotten Island",
-    "omdbTitle": "Forgotten Island",
-    "releaseYear": 2026,
-    "genres": "Animation, Action, Adventure",
-    "imdbId": "tt36583977",
-    "imdbUrl": "https://www.imdb.com/title/tt36583977/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304843/title/forgotten_island/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304133/forgotten_island?theatreAreaID=1011#section-shows",
-    "imdbRating": 7.7,
-    "omdbFetchedAt": "2026-10-23T04:01:26.016260456+03:00"
-  },
-  {
-    "title": "Animal Farm",
-    "omdbTitle": "Animal Farm",
-    "releaseYear": 2026,
-    "genres": "Animation, Adventure, Comedy",
-    "imdbId": "tt2467700",
-    "imdbUrl": "https://www.imdb.com/title/tt2467700/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:26.426697821+03:00"
-  },
-  {
-    "title": "Street Fighter",
-    "omdbTitle": "Street Fighter",
-    "releaseYear": 2026,
-    "genres": "Action",
-    "imdbId": "tt27419420",
-    "imdbUrl": "https://www.imdb.com/title/tt27419420/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304840/title/street_fighter/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304121/street_fighter?theatreAreaID=1011#section-shows",
-    "imdbRating": 6.2,
-    "omdbFetchedAt": "2026-10-23T04:01:27.021897681+03:00"
-  },
-  {
-    "title": "Heart of the Beast",
-    "omdbTitle": "Heart of the Beast",
-    "releaseYear": 2026,
-    "genres": "Action, Adventure, Drama",
-    "imdbId": "tt7526136",
-    "imdbUrl": "https://www.imdb.com/title/tt7526136/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304183/heart_of_the_beast?theatreAreaID=1011#section-shows",
-    "imdbRating": 7.5,
-    "omdbFetchedAt": "2026-10-23T04:01:27.442897954+03:00"
-  },
-  {
-    "title": "Whalefall",
-    "omdbTitle": "Whalefall",
-    "releaseYear": 2026,
-    "genres": "Adventure, Drama, Horror",
-    "imdbId": "tt28535715",
-    "imdbUrl": "https://www.imdb.com/title/tt28535715/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304881/title/whalefall/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304217/whalefall?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:27.852258762+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:05.103138014+03:00"
   },
   {
     "title": "Verity",
@@ -164,192 +69,19 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304910/title/verity/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304165/verity?theatreAreaID=1011#section-shows",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:28.515076312+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:07.926622731+03:00"
   },
   {
-    "title": "Resident Evil",
-    "omdbTitle": "Resident Evil",
+    "title": "Ulya",
+    "omdbTitle": "The Invite",
     "releaseYear": 2026,
-    "genres": "Action, Horror, Sci-Fi",
-    "imdbId": "tt35538033",
-    "imdbUrl": "https://www.imdb.com/title/tt35538033/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304162/resident_evil?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:29.044856229+03:00"
-  },
-  {
-    "title": "The Beast",
-    "omdbTitle": "The Beast",
-    "releaseYear": 2026,
-    "genres": "Action, Drama, Thriller",
-    "imdbId": "tt29256561",
-    "imdbUrl": "https://www.imdb.com/title/tt29256561/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304968/title/the_beast/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304271/the_beast?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:29.571306998+03:00"
-  },
-  {
-    "title": "Minions \u0026 Monsters",
-    "omdbTitle": "Minions \u0026 Monsters",
-    "releaseYear": 2026,
-    "genres": "Animation, Adventure, Comedy",
-    "imdbId": "tt32890033",
-    "imdbUrl": "https://www.imdb.com/title/tt32890033/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303948/minions_and_monsters?theatreAreaID=1011#section-shows",
-    "imdbRating": 6.3,
-    "omdbFetchedAt": "2026-10-23T04:01:30.787211572+03:00"
-  },
-  {
-    "title": "Clayface",
-    "omdbTitle": "Clayface",
-    "releaseYear": 2026,
-    "genres": "Horror, Sci-Fi, Thriller",
-    "imdbId": "tt34890576",
-    "imdbUrl": "https://www.imdb.com/title/tt34890576/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304783/title/clayface/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304167/clayface?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:31.243170136+03:00"
-  },
-  {
-    "title": "Kingpins",
-    "omdbTitle": "Kingpins",
-    "releaseYear": 2026,
-    "genres": "Comedy, Crime",
-    "imdbId": "tt38770018",
-    "imdbUrl": "https://www.imdb.com/title/tt38770018/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304201/kingpins?theatreAreaID=1011#section-shows",
-    "imdbRating": 8.5,
-    "omdbFetchedAt": "2026-10-23T04:01:31.640085024+03:00"
-  },
-  {
-    "title": "Other Mommy",
-    "omdbTitle": "Other Mommy",
-    "releaseYear": 2026,
-    "genres": "Horror",
-    "imdbId": "tt36586020",
-    "imdbUrl": "https://www.imdb.com/title/tt36586020/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304889/title/other_mommy/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304209/other_mommy?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:32.180596598+03:00"
-  },
-  {
-    "title": "Primetime",
-    "omdbTitle": "Primetime",
-    "releaseYear": 2026,
-    "genres": "Action, Biography, Crime",
-    "imdbId": "tt34206385",
-    "imdbUrl": "https://www.imdb.com/title/tt34206385/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/",
-    "imdbRating": 8.7,
-    "omdbFetchedAt": "2026-10-23T04:01:32.630338166+03:00"
-  },
-  {
-    "title": "The Odyssey",
-    "omdbTitle": "The Odyssey",
-    "releaseYear": 2026,
-    "genres": "Action, Adventure, Fantasy",
-    "imdbId": "tt33764258",
-    "imdbUrl": "https://www.imdb.com/title/tt33764258/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303993/the_odyssey?theatreAreaID=1011#section-shows",
-    "imdbRating": 8.4,
-    "omdbFetchedAt": "2026-10-23T04:01:33.327176407+03:00"
-  },
-  {
-    "title": "Nausicaä of the Valley of the Wind (1984)",
-    "omdbTitle": "Nausicaä of the Valley of the Wind",
-    "releaseYear": 1987,
-    "genres": "Animation, Adventure, Sci-Fi",
-    "imdbId": "tt0087544",
-    "imdbUrl": "https://www.imdb.com/title/tt0087544/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/",
-    "imdbRating": 8,
-    "omdbFetchedAt": "2026-10-10T04:01:54.304691069+03:00"
-  },
-  {
-    "title": "Labyrinth (1986)",
-    "omdbTitle": "Labyrinth",
-    "releaseYear": 1986,
-    "genres": "Adventure, Family, Fantasy",
-    "imdbId": "tt0091369",
-    "imdbUrl": "https://www.imdb.com/title/tt0091369/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304714/title/labyrinth_1986/",
-    "imdbRating": 7.3,
-    "omdbFetchedAt": "2026-09-05T04:02:14.530682619+03:00"
-  },
-  {
-    "title": "Practical Magic 2",
-    "omdbTitle": "Practical Magic 2",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama, Fantasy",
-    "imdbId": "tt32588798",
-    "imdbUrl": "https://www.imdb.com/title/tt32588798/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:34.51513322+03:00"
-  },
-  {
-    "title": "The Bog",
-    "omdbTitle": "The Bog",
-    "releaseYear": 2026,
-    "genres": "Crime",
-    "imdbId": "tt39716823",
-    "imdbUrl": "https://www.imdb.com/title/tt39716823/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304920/title/the_bog/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304228/the_bog?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:35.010074218+03:00"
-  },
-  {
-    "title": "RIGA IFF: Golden Age",
-    "omdbTitle": "L'âge d'or",
-    "releaseYear": 2026,
-    "genres": "Drama",
-    "imdbId": "tt42191881",
-    "imdbUrl": "https://www.imdb.com/title/tt42191881/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304935/title/riga_iff_golden_age/",
-    "imdbRating": 5.5,
-    "omdbFetchedAt": "2026-10-23T04:01:35.362030402+03:00"
-  },
-  {
-    "title": "Digger",
-    "omdbTitle": "Digger",
-    "releaseYear": 2026,
-    "genres": "Comedy, Drama",
-    "imdbId": "tt31450459",
-    "imdbUrl": "https://www.imdb.com/title/tt31450459/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304885/title/digger/",
-    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304114/digger?theatreAreaID=1011#section-shows",
-    "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:35.936490793+03:00"
-  },
-  {
-    "title": "The Shining (1980)",
-    "omdbTitle": "The Shining",
-    "releaseYear": 1980,
-    "genres": "Drama, Horror",
-    "imdbId": "tt0081505",
-    "imdbUrl": "https://www.imdb.com/title/tt0081505/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/302244/title/the_shining_1980/",
-    "imdbRating": 8.4,
-    "omdbFetchedAt": "2026-09-05T04:02:15.908444636+03:00"
-  },
-  {
-    "title": "RIGA IFF: Wolves",
-    "omdbTitle": "Wolves",
-    "releaseYear": 2026,
-    "genres": "Drama",
-    "imdbId": "tt34700274",
-    "imdbUrl": "https://www.imdb.com/title/tt34700274/",
-    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304933/title/riga_iff_wolves/",
-    "imdbRating": 7.2,
-    "omdbFetchedAt": "2026-10-23T04:01:36.898308833+03:00"
+    "genres": "Comedy, Drama, Romance",
+    "imdbId": "tt14173636",
+    "imdbUrl": "https://www.imdb.com/title/tt14173636/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304170/ulya?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.5,
+    "omdbFetchedAt": "2026-10-24T04:01:08.446548515+03:00"
   },
   {
     "title": "Spider-Man: Brand New Day",
@@ -361,7 +93,139 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304817/title/spider-man_brand_new_day/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304071/spider-man_brand_new_day?theatreAreaID=1011#section-shows",
     "imdbRating": 8,
-    "omdbFetchedAt": "2026-10-23T04:01:37.658444579+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:08.997818248+03:00"
+  },
+  {
+    "title": "Tiger Martindale's Survival Experts",
+    "omdbTitle": "Tiger Martindale's Survival Experts",
+    "releaseYear": 2026,
+    "genres": "Family",
+    "imdbId": "tt33503839",
+    "imdbUrl": "https://www.imdb.com/title/tt33503839/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304911/title/tiger_martindales_survival_experts/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304208/tiger_martindales_survival_experts?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:09.598304177+03:00"
+  },
+  {
+    "title": "Sense and Sensibility",
+    "omdbTitle": "Sense and Sensibility",
+    "releaseYear": 2026,
+    "genres": "Drama, Romance",
+    "imdbId": "tt13609648",
+    "imdbUrl": "https://www.imdb.com/title/tt13609648/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304930/title/sense_and_sensibility/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304206/sense_and_sensibility?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.2,
+    "omdbFetchedAt": "2026-10-24T04:01:10.303212208+03:00"
+  },
+  {
+    "title": "Heart of the Beast",
+    "omdbTitle": "Heart of the Beast",
+    "releaseYear": 2026,
+    "genres": "Action, Adventure, Drama",
+    "imdbId": "tt7526136",
+    "imdbUrl": "https://www.imdb.com/title/tt7526136/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304183/heart_of_the_beast?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.5,
+    "omdbFetchedAt": "2026-10-24T04:01:11.207272047+03:00"
+  },
+  {
+    "title": "Forgotten Island",
+    "omdbTitle": "Forgotten Island",
+    "releaseYear": 2026,
+    "genres": "Animation, Action, Adventure",
+    "imdbId": "tt36583977",
+    "imdbUrl": "https://www.imdb.com/title/tt36583977/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304843/title/forgotten_island/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304133/forgotten_island?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.7,
+    "omdbFetchedAt": "2026-10-24T04:01:11.791576135+03:00"
+  },
+  {
+    "title": "Minions \u0026 Monsters",
+    "omdbTitle": "Minions \u0026 Monsters",
+    "releaseYear": 2026,
+    "genres": "Animation, Adventure, Comedy",
+    "imdbId": "tt32890033",
+    "imdbUrl": "https://www.imdb.com/title/tt32890033/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304684/title/minions_and_monsters/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303948/minions_and_monsters?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.3,
+    "omdbFetchedAt": "2026-10-24T04:01:12.305022941+03:00"
+  },
+  {
+    "title": "Other Mommy",
+    "omdbTitle": "Other Mommy",
+    "releaseYear": 2026,
+    "genres": "Horror",
+    "imdbId": "tt36586020",
+    "imdbUrl": "https://www.imdb.com/title/tt36586020/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304889/title/other_mommy/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304209/other_mommy?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:12.812052282+03:00"
+  },
+  {
+    "title": "The Bog",
+    "omdbTitle": "The Bog",
+    "releaseYear": 2026,
+    "genres": "Crime",
+    "imdbId": "tt39716823",
+    "imdbUrl": "https://www.imdb.com/title/tt39716823/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304920/title/the_bog/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304228/the_bog?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:13.299481049+03:00"
+  },
+  {
+    "title": "Whalefall",
+    "omdbTitle": "Whalefall",
+    "releaseYear": 2026,
+    "genres": "Adventure, Drama, Horror",
+    "imdbId": "tt28535715",
+    "imdbUrl": "https://www.imdb.com/title/tt28535715/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304881/title/whalefall/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304217/whalefall?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:13.775223993+03:00"
+  },
+  {
+    "title": "Clayface",
+    "omdbTitle": "Clayface",
+    "releaseYear": 2026,
+    "genres": "Horror, Sci-Fi, Thriller",
+    "imdbId": "tt34890576",
+    "imdbUrl": "https://www.imdb.com/title/tt34890576/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304783/title/clayface/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304167/clayface?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:14.290205061+03:00"
+  },
+  {
+    "title": "The Odyssey",
+    "omdbTitle": "The Odyssey",
+    "releaseYear": 2026,
+    "genres": "Action, Adventure, Fantasy",
+    "imdbId": "tt33764258",
+    "imdbUrl": "https://www.imdb.com/title/tt33764258/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304807/title/the_odyssey/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/303993/the_odyssey?theatreAreaID=1011#section-shows",
+    "imdbRating": 8.4,
+    "omdbFetchedAt": "2026-10-24T04:01:14.747869611+03:00"
+  },
+  {
+    "title": "Resident Evil",
+    "omdbTitle": "Resident Evil",
+    "releaseYear": 2026,
+    "genres": "Action, Horror, Sci-Fi",
+    "imdbId": "tt35538033",
+    "imdbUrl": "https://www.imdb.com/title/tt35538033/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304162/resident_evil?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:15.239163566+03:00"
   },
   {
     "title": "Howl’s Moving Castle (2004)",
@@ -375,6 +239,40 @@
     "omdbFetchedAt": "2026-10-10T04:01:55.385376189+03:00"
   },
   {
+    "title": "Kingpins",
+    "omdbTitle": "Kingpins",
+    "releaseYear": 2026,
+    "genres": "Comedy, Crime",
+    "imdbId": "tt38770018",
+    "imdbUrl": "https://www.imdb.com/title/tt38770018/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304904/title/kingpins/",
+    "imdbRating": 8.5,
+    "omdbFetchedAt": "2026-10-24T04:01:15.990321192+03:00"
+  },
+  {
+    "title": "The Beast",
+    "omdbTitle": "The Beast",
+    "releaseYear": 2026,
+    "genres": "Action, Drama, Thriller",
+    "imdbId": "tt29256561",
+    "imdbUrl": "https://www.imdb.com/title/tt29256561/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304968/title/the_beast/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304271/the_beast?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:16.483147169+03:00"
+  },
+  {
+    "title": "Labyrinth (1986)",
+    "omdbTitle": "Labyrinth",
+    "releaseYear": 1986,
+    "genres": "Adventure, Family, Fantasy",
+    "imdbId": "tt0091369",
+    "imdbUrl": "https://www.imdb.com/title/tt0091369/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304714/title/labyrinth_1986/",
+    "imdbRating": 7.3,
+    "omdbFetchedAt": "2026-09-05T04:02:14.530682619+03:00"
+  },
+  {
     "title": "RIGA IFF: Dirt In Your Face",
     "omdbTitle": "Dirt in Your Face",
     "releaseYear": 2026,
@@ -383,7 +281,18 @@
     "imdbUrl": "https://www.imdb.com/title/tt31925812/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304945/title/riga_iff_dirt_in_your_face/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:38.398465594+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:17.189716074+03:00"
+  },
+  {
+    "title": "Primetime",
+    "omdbTitle": "Primetime",
+    "releaseYear": 2026,
+    "genres": "Action, Biography, Crime",
+    "imdbId": "tt34206385",
+    "imdbUrl": "https://www.imdb.com/title/tt34206385/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/",
+    "imdbRating": 8.7,
+    "omdbFetchedAt": "2026-10-24T04:01:17.887984709+03:00"
   },
   {
     "title": "RIGA IFF: Adult Supervision",
@@ -394,7 +303,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt36462731/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304934/title/riga_iff_adult_supervision/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:39.291036421+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:18.331151835+03:00"
   },
   {
     "title": "The Addams Family (1991)",
@@ -408,6 +317,18 @@
     "omdbFetchedAt": "2026-09-24T04:01:59.392297116+03:00"
   },
   {
+    "title": "Digger",
+    "omdbTitle": "Digger",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama",
+    "imdbId": "tt31450459",
+    "imdbUrl": "https://www.imdb.com/title/tt31450459/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304885/title/digger/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304114/digger?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:19.067694641+03:00"
+  },
+  {
     "title": "RIGA IFF: Gentle Monster",
     "omdbTitle": "Gentle Monster",
     "releaseYear": 2026,
@@ -416,7 +337,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt37020296/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304944/title/riga_iff_gentle_monster/",
     "imdbRating": 5.5,
-    "omdbFetchedAt": "2026-10-23T04:01:39.92694688+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:19.410936151+03:00"
   },
   {
     "title": "RIGA IFF: No Rest For the Wicked",
@@ -427,7 +348,19 @@
     "imdbUrl": "https://www.imdb.com/title/tt35669487/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304946/title/riga_iff_no_rest_for_the_wicked/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:40.782914685+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:20.210952735+03:00"
+  },
+  {
+    "title": "Street Fighter",
+    "omdbTitle": "Street Fighter",
+    "releaseYear": 2026,
+    "genres": "Action",
+    "imdbId": "tt27419420",
+    "imdbUrl": "https://www.imdb.com/title/tt27419420/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304840/title/street_fighter/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304121/street_fighter?theatreAreaID=1011#section-shows",
+    "imdbRating": 6.2,
+    "omdbFetchedAt": "2026-10-24T04:01:20.698609936+03:00"
   },
   {
     "title": "RIGA IFF: Papaya",
@@ -441,6 +374,17 @@
     "omdbFetchedAt": "2026-08-05T04:02:30.746686614+03:00"
   },
   {
+    "title": "Animal Farm",
+    "omdbTitle": "Animal Farm",
+    "releaseYear": 2026,
+    "genres": "Animation, Adventure, Comedy",
+    "imdbId": "tt2467700",
+    "imdbUrl": "https://www.imdb.com/title/tt2467700/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304908/title/animal_farm/",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:21.49905261+03:00"
+  },
+  {
     "title": "Toy Story 5",
     "omdbTitle": "Toy Story 5",
     "releaseYear": 2026,
@@ -449,7 +393,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt29355505/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304667/title/toy_story_5/",
     "imdbRating": 7.4,
-    "omdbFetchedAt": "2026-10-23T04:01:41.520140871+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:21.978892872+03:00"
   },
   {
     "title": "RIGA IFF: Iron Boy",
@@ -460,7 +404,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt36639956/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304899/title/riga_iff_iron_boy/",
     "imdbRating": 7.6,
-    "omdbFetchedAt": "2026-10-23T04:01:42.015451917+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:22.442906552+03:00"
   },
   {
     "title": "Ponyo (2008)",
@@ -482,7 +426,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt34347792/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304940/title/riga_iff_everybody_digs_bill_evans/",
     "imdbRating": 7,
-    "omdbFetchedAt": "2026-10-23T04:01:43.872677691+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:26.481214565+03:00"
   },
   {
     "title": "RIGA IFF: The Unknown",
@@ -507,6 +451,17 @@
     "omdbFetchedAt": "2026-08-26T04:00:56.318783367+03:00"
   },
   {
+    "title": "Practical Magic 2",
+    "omdbTitle": "Practical Magic 2",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama, Fantasy",
+    "imdbId": "tt32588798",
+    "imdbUrl": "https://www.imdb.com/title/tt32588798/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304812/title/practical_magic_2/",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:27.820997544+03:00"
+  },
+  {
     "title": "Parallel Tales",
     "omdbTitle": "Parallel Tales",
     "releaseYear": 2026,
@@ -515,7 +470,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt36646880/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304973/title/parallel_tales/",
     "imdbRating": 5.9,
-    "omdbFetchedAt": "2026-10-23T04:01:45.216919027+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:28.290719421+03:00"
   },
   {
     "title": "Spirited Away (2001)",
@@ -548,7 +503,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt42715304/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304897/title/nt_live_the_misanthrope/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:46.454394979+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:29.678466154+03:00"
   },
   {
     "title": "Scream (1996)",
@@ -571,7 +526,7 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304879/title/fall_2_deadpoint/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304188/fall_2_deadpoint?theatreAreaID=1011#section-shows",
     "imdbRating": 5.7,
-    "omdbFetchedAt": "2026-10-23T04:01:47.199224922+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:30.401148194+03:00"
   },
   {
     "title": "A Nightmare on Elm Street (1984)",
@@ -593,7 +548,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt32268992/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304912/title/sacrifice/",
     "imdbRating": 5.7,
-    "omdbFetchedAt": "2026-10-23T04:01:48.611178685+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:31.563506801+03:00"
   },
   {
     "title": "Extraordinary",
@@ -604,7 +559,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt33049085/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304896/title/extraordinary/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:49.107040768+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:32.297122533+03:00"
   },
   {
     "title": "Carrie (1976)",
@@ -627,6 +582,107 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304073/title/the_crow_1994/",
     "imdbRating": 7.5,
     "omdbFetchedAt": "2026-09-04T04:00:35.787599697+03:00"
+  },
+  {
+    "title": "Michael",
+    "omdbTitle": "Michael",
+    "releaseYear": 2026,
+    "genres": "Biography, Drama, History",
+    "imdbId": "tt11378946",
+    "imdbUrl": "https://www.imdb.com/title/tt11378946/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303990/title/michael/",
+    "imdbRating": 7.4,
+    "omdbFetchedAt": "2026-10-24T04:01:33.594045214+03:00"
+  },
+  {
+    "title": "Erik Stoneheart",
+    "omdbTitle": "Erik Kivisüda",
+    "releaseYear": 2022,
+    "genres": "Adventure, Family",
+    "imdbId": "tt20247118",
+    "imdbUrl": "https://www.imdb.com/title/tt20247118/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303807/title/erik_stoneheart/",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:34.043483082+03:00"
+  },
+  {
+    "title": "Backrooms: Everything Must Go",
+    "omdbTitle": "Backrooms",
+    "releaseYear": 2026,
+    "genres": "Horror, Sci-Fi, Thriller",
+    "imdbId": "tt26657236",
+    "imdbUrl": "https://www.imdb.com/title/tt26657236/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304736/title/backrooms_everything_must_go/",
+    "imdbRating": 6.7,
+    "omdbFetchedAt": "2026-10-24T04:01:34.496094058+03:00"
+  },
+  {
+    "title": "Obsession",
+    "omdbTitle": "Obsession",
+    "releaseYear": 2026,
+    "genres": "Horror, Thriller",
+    "imdbId": "tt37287335",
+    "imdbUrl": "https://www.imdb.com/title/tt37287335/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304809/title/obsession/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304149/obsession?theatreAreaID=1011#section-shows",
+    "imdbRating": 7.8,
+    "omdbFetchedAt": "2026-10-24T04:01:34.998053574+03:00"
+  },
+  {
+    "title": "A Talent for Murder",
+    "omdbTitle": "A Talent for Murder",
+    "releaseYear": 2026,
+    "genres": "Biography, Crime, Drama",
+    "imdbId": "tt14129116",
+    "imdbUrl": "https://www.imdb.com/title/tt14129116/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304963/title/a_talent_for_murder/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304242/a_talent_for_murder?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:35.527106799+03:00"
+  },
+  {
+    "title": "The Devil Wears Prada 2",
+    "omdbTitle": "The Devil Wears Prada 2",
+    "releaseYear": 2026,
+    "genres": "Comedy, Drama",
+    "imdbId": "tt33612209",
+    "imdbUrl": "https://www.imdb.com/title/tt33612209/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304665/title/the_devil_wears_prada_2/",
+    "imdbRating": 6.3,
+    "omdbFetchedAt": "2026-10-24T04:01:35.983031663+03:00"
+  },
+  {
+    "title": "California Schemin'",
+    "omdbTitle": "California Schemin'",
+    "releaseYear": 2026,
+    "genres": "Biography, Drama, History",
+    "imdbId": "tt29549490",
+    "imdbUrl": "https://www.imdb.com/title/tt29549490/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304748/title/california_schemin/",
+    "imdbRating": 6.6,
+    "omdbFetchedAt": "2026-10-24T04:01:36.431196933+03:00"
+  },
+  {
+    "title": "Project Hail Mary",
+    "omdbTitle": "Project Hail Mary",
+    "releaseYear": 2026,
+    "genres": "Adventure, Comedy, Sci-Fi",
+    "imdbId": "tt12042730",
+    "imdbUrl": "https://www.imdb.com/title/tt12042730/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304518/title/project_hail_mary/",
+    "imdbRating": 8.2,
+    "omdbFetchedAt": "2026-10-24T04:01:36.888168666+03:00"
+  },
+  {
+    "title": "Red Code Blue",
+    "omdbTitle": "Red Code Blue",
+    "releaseYear": 2025,
+    "genres": "Action, Crime, Drama",
+    "imdbId": "tt38573816",
+    "imdbUrl": "https://www.imdb.com/title/tt38573816/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304493/title/red_code_blue/",
+    "imdbRating": 8.5,
+    "omdbFetchedAt": "2026-10-24T04:01:37.379000584+03:00"
   },
   {
     "title": "Princess Mononoke (1997)",
@@ -662,6 +718,17 @@
     "omdbFetchedAt": "2026-08-02T17:01:23.650325503+03:00"
   },
   {
+    "title": "The Shining (1980)",
+    "omdbTitle": "The Shining",
+    "releaseYear": 1980,
+    "genres": "Drama, Horror",
+    "imdbId": "tt0081505",
+    "imdbUrl": "https://www.imdb.com/title/tt0081505/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/302244/title/the_shining_1980/",
+    "imdbRating": 8.4,
+    "omdbFetchedAt": "2026-09-05T04:02:15.908444636+03:00"
+  },
+  {
     "title": "NT LIVE: The Audience",
     "omdbTitle": "The Audience",
     "releaseYear": 2013,
@@ -682,7 +749,7 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304877/title/godzilla_minus_zero/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304190/godzilla_minus_zero?theatreAreaID=1011#section-shows",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:51.813400415+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:39.655082159+03:00"
   },
   {
     "title": "Wild Horse Nine",
@@ -693,7 +760,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt15799564/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304971/title/wild_horse_nine/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:53.218410307+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:41.093089706+03:00"
   },
   {
     "title": "George Michael: The Faith Tour",
@@ -705,7 +772,7 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304954/title/george_michael_the_faith_tour/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304235/george_michael_the_faith_tour?theatreAreaID=1011#section-shows",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:53.609214027+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:41.586217339+03:00"
   },
   {
     "title": "Ramayana: Rise of a Legend",
@@ -716,7 +783,19 @@
     "imdbUrl": "https://www.imdb.com/title/tt27988879/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304972/title/ramayana_rise_of_a_legend/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:54.211088268+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:42.054295261+03:00"
+  },
+  {
+    "title": "The Cat in the Hat",
+    "omdbTitle": "The Cat in the Hat",
+    "releaseYear": 2026,
+    "genres": "Animation, Adventure, Comedy",
+    "imdbId": "tt2321555",
+    "imdbUrl": "https://www.imdb.com/title/tt2321555/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304689/title/the_cat_in_the_hat/",
+    "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304030/the_cat_in_the_hat?theatreAreaID=1011#section-shows",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:42.489833096+03:00"
   },
   {
     "title": "My Neighbour Totoro (1988)",
@@ -730,6 +809,17 @@
     "omdbFetchedAt": "2026-10-10T04:01:50.141254475+03:00"
   },
   {
+    "title": "Nausicaä of the Valley of the Wind (1984)",
+    "omdbTitle": "Nausicaä of the Valley of the Wind",
+    "releaseYear": 1987,
+    "genres": "Animation, Adventure, Sci-Fi",
+    "imdbId": "tt0087544",
+    "imdbUrl": "https://www.imdb.com/title/tt0087544/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304581/title/nausica%C3%A4_of_the_valley_of_the_wind_1984/",
+    "imdbRating": 8,
+    "omdbFetchedAt": "2026-10-10T04:01:54.304691069+03:00"
+  },
+  {
     "title": "Some Like it Hot (1959)",
     "omdbTitle": "Some Like It Hot",
     "releaseYear": 1959,
@@ -739,6 +829,17 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/303619/title/some_like_it_hot_1959/",
     "imdbRating": 8.2,
     "omdbFetchedAt": "2026-10-02T04:00:50.285400955+03:00"
+  },
+  {
+    "title": "Rocky (1976)",
+    "omdbTitle": "Rocky",
+    "releaseYear": 1976,
+    "genres": "Drama, Sport",
+    "imdbId": "tt0075148",
+    "imdbUrl": "https://www.imdb.com/title/tt0075148/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304989/title/rocky_1976/",
+    "imdbRating": 8.1,
+    "omdbFetchedAt": "2026-10-24T04:01:44.195201611+03:00"
   },
   {
     "title": "How to Marry a Millionaire (1953)",
@@ -782,7 +883,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt38607784/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304958/title/good_vibes_only/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:58.124272619+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:47.286841378+03:00"
   },
   {
     "title": "Club kid",
@@ -793,7 +894,7 @@
     "imdbUrl": "https://www.imdb.com/title/tt38058097/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304990/title/club_kid/",
     "imdbRating": 8.1,
-    "omdbFetchedAt": "2026-10-23T04:01:58.815166978+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:47.99906633+03:00"
   },
   {
     "title": "The Phantom of the Opera",
@@ -804,7 +905,18 @@
     "imdbUrl": "https://www.imdb.com/title/tt37740990/",
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304981/title/the_phantom_of_the_opera/",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:01:59.314627424+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:48.355826354+03:00"
+  },
+  {
+    "title": "I Play Rocky",
+    "omdbTitle": "I Play Rocky",
+    "releaseYear": 2026,
+    "genres": "Biography, Drama",
+    "imdbId": "tt11995650",
+    "imdbUrl": "https://www.imdb.com/title/tt11995650/",
+    "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304976/title/i_play_rocky/",
+    "imdbRating": null,
+    "omdbFetchedAt": "2026-10-24T04:01:48.879443562+03:00"
   },
   {
     "title": "Pan's Labyrinth (2006) | With an introduction by Dita Rietuma",
@@ -827,7 +939,7 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304692/title/dune_part_three/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304072/dune_part_three?theatreAreaID=1011#section-shows",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:02:01.458022128+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:50.926200508+03:00"
   },
   {
     "title": "Avengers: Doomsday",
@@ -839,6 +951,6 @@
     "forumcinemasUrl": "https://www.forumcinemas.lv/eng/event/304696/title/avengers_doomsday/",
     "apolloKinoUrl": "https://www.apollokino.lv/eng/event/304118/avengers_doomsday?theatreAreaID=1011#section-shows",
     "imdbRating": null,
-    "omdbFetchedAt": "2026-10-23T04:02:02.006933334+03:00"
+    "omdbFetchedAt": "2026-10-24T04:01:51.387103049+03:00"
   }
 ]
