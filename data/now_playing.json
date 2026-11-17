@@ -1,11 +1,27 @@
 [
   {
+    "title": "Paw Patrol: The Dino Movie",
+    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
+  },
+  {
     "title": "Les Misérables",
     "url": "https://www.forumcinemas.lv/eng/event/304957/title/les_mis%C3%A9rables/"
   },
   {
-    "title": "Heart of the Beast",
-    "url": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/"
+    "title": "Ebenezer",
+    "url": "https://www.forumcinemas.lv/eng/event/304970/title/ebenezer/"
+  },
+  {
+    "title": "George Michael: The Faith Tour",
+    "url": "https://www.forumcinemas.lv/eng/event/304954/title/george_michael_the_faith_tour/"
+  },
+  {
+    "title": "Minotaur",
+    "url": "https://www.forumcinemas.lv/eng/event/304937/title/minotaur/"
+  },
+  {
+    "title": "Dark Border",
+    "url": "https://www.forumcinemas.lv/eng/event/304752/title/dark_border/"
   },
   {
     "title": "You Can See Everything",
@@ -16,24 +32,8 @@
     "url": "https://www.forumcinemas.lv/eng/event/304848/title/ulya/"
   },
   {
-    "title": "Dark Border",
-    "url": "https://www.forumcinemas.lv/eng/event/304752/title/dark_border/"
-  },
-  {
-    "title": "How to Rob a Bank",
-    "url": "https://www.forumcinemas.lv/eng/event/304969/title/how_to_rob_a_bank/"
-  },
-  {
-    "title": "Sense and Sensibility",
-    "url": "https://www.forumcinemas.lv/eng/event/304930/title/sense_and_sensibility/"
-  },
-  {
     "title": "The Cat in the Hat",
     "url": "https://www.forumcinemas.lv/eng/event/304689/title/the_cat_in_the_hat/"
-  },
-  {
-    "title": "Ebenezer",
-    "url": "https://www.forumcinemas.lv/eng/event/304970/title/ebenezer/"
   },
   {
     "title": "Godzilla Minus Zero",
@@ -44,72 +44,48 @@
     "url": "https://www.forumcinemas.lv/eng/event/304961/title/the_road_never_ends/"
   },
   {
-    "title": "Clayface",
-    "url": "https://www.forumcinemas.lv/eng/event/304783/title/clayface/"
-  },
-  {
-    "title": "Wild Horse Nine",
-    "url": "https://www.forumcinemas.lv/eng/event/304971/title/wild_horse_nine/"
-  },
-  {
-    "title": "Yugly",
-    "url": "https://www.forumcinemas.lv/eng/event/304988/title/yugly/"
-  },
-  {
-    "title": "The Bog",
-    "url": "https://www.forumcinemas.lv/eng/event/304920/title/the_bog/"
-  },
-  {
-    "title": "George Michael: The Faith Tour",
-    "url": "https://www.forumcinemas.lv/eng/event/304954/title/george_michael_the_faith_tour/"
-  },
-  {
-    "title": "A Talent for Murder",
-    "url": "https://www.forumcinemas.lv/eng/event/304963/title/a_talent_for_murder/"
-  },
-  {
-    "title": "Resident Evil",
-    "url": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/"
-  },
-  {
-    "title": "Primetime",
-    "url": "https://www.forumcinemas.lv/eng/event/304917/title/primetime/"
-  },
-  {
-    "title": "Low Expectations",
-    "url": "https://www.forumcinemas.lv/eng/event/304994/title/low_expectations/"
-  },
-  {
-    "title": "Ramayana: Rise of a Legend",
-    "url": "https://www.forumcinemas.lv/eng/event/304972/title/ramayana_rise_of_a_legend/"
-  },
-  {
-    "title": "Digger",
-    "url": "https://www.forumcinemas.lv/eng/event/304885/title/digger/"
-  },
-  {
-    "title": "Minotaur",
-    "url": "https://www.forumcinemas.lv/eng/event/304937/title/minotaur/"
-  },
-  {
-    "title": "Verity",
-    "url": "https://www.forumcinemas.lv/eng/event/304910/title/verity/"
+    "title": "Christopher and the Key of Two Worlds",
+    "url": "https://www.forumcinemas.lv/eng/event/304872/title/christopher_and_the_key_of_two_worlds/"
   },
   {
     "title": "Other Mommy",
     "url": "https://www.forumcinemas.lv/eng/event/304889/title/other_mommy/"
   },
   {
-    "title": "Paw Patrol: The Dino Movie",
-    "url": "https://www.forumcinemas.lv/eng/event/304685/title/paw_patrol_the_dino_movie/"
+    "title": "Wild Horse Nine",
+    "url": "https://www.forumcinemas.lv/eng/event/304971/title/wild_horse_nine/"
   },
   {
-    "title": "Christopher and the Key of Two Worlds",
-    "url": "https://www.forumcinemas.lv/eng/event/304872/title/christopher_and_the_key_of_two_worlds/"
+    "title": "How to Rob a Bank",
+    "url": "https://www.forumcinemas.lv/eng/event/304969/title/how_to_rob_a_bank/"
+  },
+  {
+    "title": "Heart of the Beast",
+    "url": "https://www.forumcinemas.lv/eng/event/304880/title/heart_of_the_beast/"
+  },
+  {
+    "title": "Yugly",
+    "url": "https://www.forumcinemas.lv/eng/event/304988/title/yugly/"
+  },
+  {
+    "title": "Sense and Sensibility",
+    "url": "https://www.forumcinemas.lv/eng/event/304930/title/sense_and_sensibility/"
+  },
+  {
+    "title": "Resident Evil",
+    "url": "https://www.forumcinemas.lv/eng/event/304887/title/resident_evil/"
   },
   {
     "title": "Shaun the Sheep: The Beast of Mossy Bottom",
     "url": "https://www.forumcinemas.lv/eng/event/304844/title/shaun_the_sheep_the_beast_of_mossy_bottom/"
+  },
+  {
+    "title": "Clayface",
+    "url": "https://www.forumcinemas.lv/eng/event/304783/title/clayface/"
+  },
+  {
+    "title": "Low Expectations",
+    "url": "https://www.forumcinemas.lv/eng/event/304994/title/low_expectations/"
   },
   {
     "title": "NT LIVE: The Importance of Being Earnest",
@@ -126,6 +102,22 @@
   {
     "title": "The Mummy (1999)",
     "url": "https://www.forumcinemas.lv/eng/event/303561/title/the_mummy_1999/"
+  },
+  {
+    "title": "The Bog",
+    "url": "https://www.forumcinemas.lv/eng/event/304920/title/the_bog/"
+  },
+  {
+    "title": "Ramayana: Rise of a Legend",
+    "url": "https://www.forumcinemas.lv/eng/event/304972/title/ramayana_rise_of_a_legend/"
+  },
+  {
+    "title": "A Talent for Murder",
+    "url": "https://www.forumcinemas.lv/eng/event/304963/title/a_talent_for_murder/"
+  },
+  {
+    "title": "Verity",
+    "url": "https://www.forumcinemas.lv/eng/event/304910/title/verity/"
   },
   {
     "title": "The Hunger Games: Sunrise on the Reaping",
@@ -176,8 +168,24 @@
     "url": "https://www.forumcinemas.lv/eng/event/304958/title/good_vibes_only/"
   },
   {
+    "title": "Digger",
+    "url": "https://www.forumcinemas.lv/eng/event/304885/title/digger/"
+  },
+  {
+    "title": "Rally from Paris to the Pyramids",
+    "url": "https://www.forumcinemas.lv/eng/event/304977/title/rally_from_paris_to_the_pyramids/"
+  },
+  {
     "title": "Gentlemen Prefer Blondes (1953)",
     "url": "https://www.forumcinemas.lv/eng/event/304960/title/gentlemen_prefer_blondes_1953/"
+  },
+  {
+    "title": "Golden Age",
+    "url": "https://www.forumcinemas.lv/eng/event/304935/title/golden_age/"
+  },
+  {
+    "title": "Heysel 85",
+    "url": "https://www.forumcinemas.lv/eng/event/305001/title/heysel_85/"
   },
   {
     "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE VIEWING",
@@ -230,6 +238,10 @@
   {
     "title": "NT LIVE: The Audience",
     "url": "https://www.forumcinemas.lv/eng/event/304804/title/nt_live_the_audience/"
+  },
+  {
+    "title": "Marie Antoinette (2006) | With an Introduction by Dārta Ceriņa",
+    "url": "https://www.forumcinemas.lv/eng/event/305002/title/marie_antoinette_2006_with_an_introduction_by_d%C4%81rta_ceri%C5%86a/"
   },
   {
     "title": "I Play Rocky",
